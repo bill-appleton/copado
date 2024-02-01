@@ -4,16 +4,29 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
-    <tabs>standard-Chatter</tabs>
-    <tabs>standard-UserProfile</tabs>
-    <tabs>standard-CollaborationGroup</tabs>
-    <tabs>standard-File</tabs>
-    <tabs>standard-Lead</tabs>
-    <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Lead</tabs>
     <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Forecasting3</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-File</tabs>
     <tabs>standard-Product2</tabs>
-    <tabs>standard-Forecasting3</tabs>
+    <tabs>Billobj__c</tabs>
+    <tabs>bill_vf_tab</tabs>
+    <tabs>Fredobj__c</tabs>
+    <tabs>testobj__c</tabs>
+    <tabs>monarch_tester__c</tabs>
+    <tabs>child123__c</tabs>
+    <tabs>criteria_visible__c</tabs>
+    <tabs>manual_visible__c</tabs>
+    <tabs>role_visible__c</tabs>
+    <tabs>childabc__c</tabs>
+    <tabs>rectype_example__c</tabs>
+    <tabs>autonamer__c</tabs>
+    <tabs>Book__c</tabs>
+    <tabs>parent_one__c</tabs>
+    <tabs>parent_two__c</tabs>
 </CustomApplication>

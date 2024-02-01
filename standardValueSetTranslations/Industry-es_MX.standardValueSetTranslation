@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Advertising Label</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Aerospace &amp; Defense</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Airlines</masterLabel>
+        <translation>La Aeroliners</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Appliance &amp; Tool</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Audio &amp; Video Equipment</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Auto &amp; Truck Manufacturers</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Beverages (Alcoholic)</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Biotechnology &amp; Drugs</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Business Services</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Chemical Manufacturing</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Commercial Banks</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Communications Equipment</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Communications Services</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Computer Peripherals</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consumer Financial Services</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electric Utilities</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Electronic Instr. &amp; Controls</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Food Processing2</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Healthcare Facilities</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Insurance (Accident &amp; Health)</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Insurance (Life)</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Insurance (Miscellaneous)</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Insurance (Property &amp; Casualty)</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Manufacturing</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Metal Mining</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Misc. Capital Goods</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Misc. Financial Services</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Oil &amp; Gas Operations</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Oil Well Services &amp; Equipment</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Paper &amp; Paper Products</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Personal &amp; Household Prods.</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Personal Services</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Photography</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail (Grocery)</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail (Home Improvement)</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail (Specialty Non-Apparel)</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>S&amp;Ls/Savings Banks</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Scientific &amp; Technical Instr.</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tobacco</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Water Utilities</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

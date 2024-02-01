@@ -2,21 +2,21 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Draft</fullName>
-        <default>true</default>
-        <label>Borrador</label>
-        <reviewed>false</reviewed>
-    </standardValue>
-    <standardValue>
         <fullName>Reviewed</fullName>
         <default>false</default>
-        <label>Revisada</label>
+        <label>Reviewed</label>
         <reviewed>true</reviewed>
     </standardValue>
     <standardValue>
         <fullName>Duplicate</fullName>
         <default>false</default>
-        <label>Duplicado</label>
+        <label>Duplicate</label>
+        <reviewed>false</reviewed>
+    </standardValue>
+    <standardValue>
+        <fullName>Draft</fullName>
+        <default>true</default>
+        <label>Draft</label>
         <reviewed>false</reviewed>
     </standardValue>
 </StandardValueSet>

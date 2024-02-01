@@ -4,21 +4,21 @@
     <standardValue>
         <fullName>In Progress</fullName>
         <default>false</default>
-        <label>En curso</label>
+        <label>In Progress</label>
     </standardValue>
     <standardValue>
         <fullName>Completed</fullName>
         <default>false</default>
-        <label>Completada</label>
+        <label>Completed</label>
     </standardValue>
     <standardValue>
         <fullName>Aborted</fullName>
         <default>false</default>
-        <label>Abortada</label>
+        <label>Aborted</label>
     </standardValue>
     <standardValue>
         <fullName>Planned</fullName>
         <default>true</default>
-        <label>Planificada</label>
+        <label>Planned</label>
     </standardValue>
 </StandardValueSet>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>My New Queue</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>All_Users</publicGroup>
+            <publicGroup>Some_users</publicGroup>
+        </publicGroups>
+        <roles>
+            <role>CEO</role>
+        </roles>
+        <users>
+            <user>person1@metazoa.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>hhggggg</fullName>
+        <ccEmails>bill@metazoa.com</ccEmails>
+        <description>hhggg</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>person1@metazoa.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/CommunityForgotPasswordEmailTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>hhhhhg</fullName>
+        <description>hhhhhg</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>billnewss88@mz.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>person2@metazoa.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>person3@metazoa.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/CommunityVerificationEmailTemplate</template>
+    </alerts>
+</Workflow>

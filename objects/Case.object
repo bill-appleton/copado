@@ -214,6 +214,18 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>BugNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>Bug Number</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>BusinessHoursId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -277,9 +289,21 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>IsSelfServiceClosed</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
         <fullName>IsStopped</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsVisibleInSelfService</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
@@ -326,6 +350,31 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Product__c</fullName>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Product A</fullName>
+                    <default>false</default>
+                    <label>Product A</label>
+                </value>
+                <value>
+                    <fullName>Product C</fullName>
+                    <default>false</default>
+                    <label>Product C</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Reason</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -358,7 +407,7 @@
     </fields>
     <fields>
         <fullName>Status</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+        <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -396,6 +445,41 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
+    <fields>
+        <fullName>Version__c</fullName>
+        <externalId>false</externalId>
+        <label>Version</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>3.5</fullName>
+                    <default>false</default>
+                    <label>3.5</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <listViews>
         <fullName>AllOpenCases</fullName>
         <filterScope>Everything</filterScope>
@@ -405,6 +489,18 @@
             <value>0</value>
         </filters>
         <label>All Open Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>FeatureRequestsBugs</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Feature Requests/Bugs</label>
+        <queue>FeatureRequestsBugs</queue>
+    </listViews>
+    <listViews>
+        <fullName>Inboundinquiries</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Inbound inquiries</label>
+        <queue>Inboundinquiries</queue>
     </listViews>
     <listViews>
         <fullName>MyCases</fullName>
@@ -420,6 +516,33 @@
             <value>0</value>
         </filters>
         <label>My Open Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>My_New_Queue_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>My New Queue</label>
+        <queue>My_New_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>casequeuecasequeue_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>casequeue</label>
+        <queue>casequeuecasequeue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>nothingq_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>nothingq</label>
+        <queue>nothingq</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
@@ -442,5 +565,5 @@
         <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWriteTransfer</sharingModel>
+    <sharingModel>Read</sharingModel>
 </CustomObject>

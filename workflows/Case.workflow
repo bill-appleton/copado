@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fieldUpdates>
-        <fullName>ChangePriorityToHigh</fullName>
-        <field>Priority</field>
-        <literalValue>High</literalValue>
-        <name>Cambia la prioridad del caso a alta.</name>
+    <tasks>
+        <fullName>ggg</fullName>
+        <assignedTo>person1@metazoa.com</assignedTo>
+        <assignedToType>user</assignedToType>
+        <dueDateOffset>0</dueDateOffset>
         <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
+        <priority>Normal</priority>
         <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
+        <status>Not Started</status>
+        <subject>ggg</subject>
+    </tasks>
 </Workflow>

@@ -3,13 +3,13 @@
     <enableComplianceBcc>false</enableComplianceBcc>
     <enableEmailConsentManagement>false</enableEmailConsentManagement>
     <enableEmailSenderIdCompliance>false</enableEmailSenderIdCompliance>
-    <enableEmailSpfCompliance>true</enableEmailSpfCompliance>
+    <enableEmailSpfCompliance>false</enableEmailSpfCompliance>
     <enableEmailToSalesforce>false</enableEmailToSalesforce>
     <enableEmailTrackingIPBlocklist>false</enableEmailTrackingIPBlocklist>
-    <enableEmailWorkflowApproval>false</enableEmailWorkflowApproval>
+    <enableEmailWorkflowApproval>true</enableEmailWorkflowApproval>
     <enableEnhancedEmailEnabled>true</enableEnhancedEmailEnabled>
-    <enableHandleBouncedEmails>true</enableHandleBouncedEmails>
-    <enableHtmlEmail>false</enableHtmlEmail>
+    <enableHandleBouncedEmails>false</enableHandleBouncedEmails>
+    <enableHtmlEmail>true</enableHtmlEmail>
     <enableInternationalEmailAddresses>false</enableInternationalEmailAddresses>
     <enableListEmailLogActivities>true</enableListEmailLogActivities>
     <enableResendBouncedEmails>false</enableResendBouncedEmails>
@@ -18,7 +18,7 @@
     <enableSendViaGmailPref>false</enableSendViaGmailPref>
     <enableUseOrgFootersForExtTrans>false</enableUseOrgFootersForExtTrans>
     <enableVerifyEmailDomainByDkim>false</enableVerifyEmailDomainByDkim>
-    <sendEmailsEvenWhenAutomationUpdatesSameRecord>false</sendEmailsEvenWhenAutomationUpdatesSameRecord>
-    <sendMassEmailNotification>true</sendMassEmailNotification>
+    <sendEmailsEvenWhenAutomationUpdatesSameRecord>true</sendEmailsEvenWhenAutomationUpdatesSameRecord>
+    <sendMassEmailNotification>false</sendMassEmailNotification>
     <sendTextOnlySystemEmails>false</sendTextOnlySystemEmails>
 </EmailAdministrationSettings>

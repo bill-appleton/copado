@@ -1,1 +1,7 @@
-Estimado {!Lead.Name}: agradecemos su interés por {!Organization.Name}.  En breve nos pondremos en contacto con usted.      Atentamente, el equipo de {!Organization.Name}
+Dear {!Lead.Name}, 
+
+Thank you for your interest in {!Organization.Name}.  We will be contacting your shortly.  
+
+Sincerely, 
+
+The Team at {!Organization.Name}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Another one...</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>light_another</name>
+    <relatedEntityType>Account</relatedEntityType>
+    <style>none</style>
+    <subject>another</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

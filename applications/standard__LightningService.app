@@ -7,6 +7,23 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Service Console</label>
     <navType>Console</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Billrecordobj1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Billobj__c</pageOrSobjectType>
+        <recordType>Billobj__c.rec2</recordType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Billrecordobj2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Billobj__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
     <setupExperience>service</setupExperience>
     <tabs>standard-Case</tabs>
     <tabs>standard-Contact</tabs>
@@ -14,20 +31,71 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-home</tabs>
-    <tabs>standard-Incident</tabs>
-    <tabs>standard-Problem</tabs>
-    <tabs>standard-ChangeRequest</tabs>
+    <tabs>A_DX_Object__c</tabs>
+    <tabs>approve_me__c</tabs>
+    <tabs>childxyz__c</tabs>
+    <tabs>nameless__c</tabs>
+    <tabs>testobj__c</tabs>
+    <tabs>monarch_tester__c</tabs>
+    <tabs>criteria_visible__c</tabs>
+    <tabs>manual_visible__c</tabs>
+    <tabs>role_visible__c</tabs>
+    <tabs>childabc__c</tabs>
+    <tabs>rectype_example__c</tabs>
+    <tabs>autonamer__c</tabs>
+    <tabs>Book__c</tabs>
+    <tabs>parent_one__c</tabs>
+    <tabs>parent_two__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>A_DX_Object__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Book__c</tab>
+        </mappings>
+        <mappings>
+            <tab>approve_me__c</tab>
+        </mappings>
+        <mappings>
+            <tab>autonamer__c</tab>
+        </mappings>
+        <mappings>
+            <tab>childabc__c</tab>
+        </mappings>
+        <mappings>
+            <tab>childxyz__c</tab>
+        </mappings>
+        <mappings>
+            <tab>criteria_visible__c</tab>
+        </mappings>
+        <mappings>
+            <tab>manual_visible__c</tab>
+        </mappings>
+        <mappings>
+            <tab>monarch_tester__c</tab>
+        </mappings>
+        <mappings>
+            <tab>nameless__c</tab>
+        </mappings>
+        <mappings>
+            <tab>parent_one__c</tab>
+        </mappings>
+        <mappings>
+            <tab>parent_two__c</tab>
+        </mappings>
+        <mappings>
+            <tab>rectype_example__c</tab>
+        </mappings>
+        <mappings>
+            <tab>role_visible__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
         <mappings>
             <tab>standard-Case</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-ChangeRequest</tab>
         </mappings>
         <mappings>
             <tab>standard-Contact</tab>
@@ -36,16 +104,13 @@
             <tab>standard-Dashboard</tab>
         </mappings>
         <mappings>
-            <tab>standard-Incident</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Problem</tab>
-        </mappings>
-        <mappings>
             <tab>standard-home</tab>
         </mappings>
         <mappings>
             <tab>standard-report</tab>
+        </mappings>
+        <mappings>
+            <tab>testobj__c</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>

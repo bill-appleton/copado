@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>bad_label</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>A DX Objects</value>
+    </caseValues>
+    <fields>
+        <help><!-- My Help Text is here --></help>
+        <label><!-- A Nice Text Field --></label>
+        <name>A_New_Text_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- A new Date Field --></label>
+        <name>A_new_Date_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Percent --></label>
+        <name>Additional_Percent__c</name>
+    </fields>
+    <fields>
+        <help><!-- and Help --></help>
+        <label><!-- test_text --></label>
+        <name>Last_text__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Date Field --></label>
+        <name>New_Date_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- checktest --></label>
+        <name>checktest__c</name>
+    </fields>
+    <fields>
+        <label><!-- glob_picky --></label>
+        <name>glob_picky__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>linkacct__c</name>
+        <relationshipLabel><!-- A DX Objects --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- new help text --></help>
+        <label><!-- checktest --></label>
+        <name>my_checktest__c</name>
+    </fields>
+    <fields>
+        <label><!-- myfield --></label>
+        <name>myfield__c</name>
+    </fields>
+    <fields>
+        <label><!-- newone --></label>
+        <name>newone__c</name>
+    </fields>
+    <fields>
+        <label><!-- parentabc --></label>
+        <name>parentabc__c</name>
+        <relationshipLabel><!-- A DX Objects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- required_example --></label>
+        <name>required_example__c</name>
+    </fields>
+    <fields>
+        <label><!-- test formula --></label>
+        <name>test_formula__c</name>
+    </fields>
+    <fields>
+        <help><!-- and help text --></help>
+        <label><!-- zelastone --></label>
+        <name>zelastone__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

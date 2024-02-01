@@ -236,11 +236,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Pricebook2Id</fullName>
-        <trackHistory>true</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>ShippingAddress</fullName>
         <trackHistory>true</trackHistory>
     </fields>
@@ -341,5 +336,5 @@
         <searchResultsAdditionalFields>CONTRACT.END_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CONTRACT_TERM</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Read</sharingModel>
 </CustomObject>

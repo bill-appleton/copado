@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>childabc</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>childabcs</value>
+    </caseValues>
+    <fields>
+        <label><!-- bbbb --></label>
+        <name>bbbb__c</name>
+    </fields>
+    <fields>
+        <help><!-- helpful --></help>
+        <label><!-- gggg --></label>
+        <name>gggg__c</name>
+    </fields>
+    <fields>
+        <label><!-- junkjunk --></label>
+        <name>junkjunk__c</name>
+    </fields>
+    <fields>
+        <label><!-- newfield --></label>
+        <name>newfield__c</name>
+    </fields>
+    <fields>
+        <label><!-- parentabc --></label>
+        <name>parentabc__c</name>
+        <relationshipLabel><!-- parentabc (parentabc) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- test1 --></label>
+        <name>test1__c</name>
+    </fields>
+    <fields>
+        <label><!-- test2 --></label>
+        <name>test2__c</name>
+        <picklistValues>
+            <masterLabel>first</masterLabel>
+            <translation><!-- first --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>second</masterLabel>
+            <translation><!-- second --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>third</masterLabel>
+            <translation><!-- third --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- test3 --></label>
+        <name>test3__c</name>
+    </fields>
+    <fields>
+        <label><!-- test4 --></label>
+        <name>test4__c</name>
+    </fields>
+    <fields>
+        <label><!-- test5 --></label>
+        <name>test5__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

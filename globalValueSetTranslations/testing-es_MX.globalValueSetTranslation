@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Bob Label</masterLabel>
+        <translation>
+			
+		</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fred Label</masterLabel>
+        <translation>Frederico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Joe Label</masterLabel>
+        <translation><!-- Joe Label --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ringo Label</masterLabel>
+        <translation><!-- Ringo Label --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tim Label</masterLabel>
+        <translation><!-- Tim Label --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

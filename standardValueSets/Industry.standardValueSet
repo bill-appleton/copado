@@ -2,109 +2,119 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Agriculture</fullName>
+        <fullName>Advertising</fullName>
         <default>false</default>
-        <label>Agriculture</label>
+        <label>Advertising Label</label>
     </standardValue>
     <standardValue>
-        <fullName>Apparel</fullName>
+        <fullName>Aerospace &amp; Defense</fullName>
         <default>false</default>
-        <label>Apparel</label>
+        <label>Aerospace &amp; Defense</label>
     </standardValue>
     <standardValue>
-        <fullName>Banking</fullName>
+        <fullName>Airlines</fullName>
         <default>false</default>
-        <label>Banking</label>
+        <label>Airlines</label>
     </standardValue>
     <standardValue>
-        <fullName>Biotechnology</fullName>
+        <fullName>Appliance &amp; Tool</fullName>
         <default>false</default>
-        <label>Biotechnology</label>
+        <label>Appliance &amp; Tool</label>
     </standardValue>
     <standardValue>
-        <fullName>Chemicals</fullName>
+        <fullName>Audio &amp; Video Equipment</fullName>
         <default>false</default>
-        <label>Chemicals</label>
+        <label>Audio &amp; Video Equipment</label>
     </standardValue>
     <standardValue>
-        <fullName>Communications</fullName>
+        <fullName>Auto &amp; Truck Manufacturers</fullName>
         <default>false</default>
-        <label>Communications</label>
+        <label>Auto &amp; Truck Manufacturers</label>
     </standardValue>
     <standardValue>
-        <fullName>Construction</fullName>
+        <fullName>Beverages (Alcoholic)</fullName>
         <default>false</default>
-        <label>Construction</label>
+        <label>Beverages (Alcoholic)</label>
     </standardValue>
     <standardValue>
-        <fullName>Consulting</fullName>
+        <fullName>Biotechnology &amp; Drugs</fullName>
         <default>false</default>
-        <label>Consulting</label>
+        <label>Biotechnology &amp; Drugs</label>
     </standardValue>
     <standardValue>
-        <fullName>Education</fullName>
+        <fullName>Business Services</fullName>
         <default>false</default>
-        <label>Education</label>
+        <label>Business Services</label>
     </standardValue>
     <standardValue>
-        <fullName>Electronics</fullName>
+        <fullName>Chemical Manufacturing</fullName>
         <default>false</default>
-        <label>Electronics</label>
+        <label>Chemical Manufacturing</label>
     </standardValue>
     <standardValue>
-        <fullName>Energy</fullName>
+        <fullName>Commercial Banks</fullName>
         <default>false</default>
-        <label>Energy</label>
+        <label>Commercial Banks</label>
     </standardValue>
     <standardValue>
-        <fullName>Engineering</fullName>
+        <fullName>Communications Equipment</fullName>
         <default>false</default>
-        <label>Engineering</label>
+        <label>Communications Equipment</label>
     </standardValue>
     <standardValue>
-        <fullName>Entertainment</fullName>
+        <fullName>Communications Services</fullName>
         <default>false</default>
-        <label>Entertainment</label>
+        <label>Communications Services</label>
     </standardValue>
     <standardValue>
-        <fullName>Environmental</fullName>
+        <fullName>Computer Peripherals</fullName>
         <default>false</default>
-        <label>Environmental</label>
+        <label>Computer Peripherals</label>
     </standardValue>
     <standardValue>
-        <fullName>Finance</fullName>
+        <fullName>Consumer Financial Services</fullName>
         <default>false</default>
-        <label>Finance</label>
+        <label>Consumer Financial Services</label>
     </standardValue>
     <standardValue>
-        <fullName>Food &amp; Beverage</fullName>
+        <fullName>Electric Utilities</fullName>
         <default>false</default>
-        <label>Food &amp; Beverage</label>
+        <label>Electric Utilities</label>
     </standardValue>
     <standardValue>
-        <fullName>Government</fullName>
+        <fullName>Electronic Instr. &amp; Controls</fullName>
         <default>false</default>
-        <label>Government</label>
+        <label>Electronic Instr. &amp; Controls</label>
     </standardValue>
     <standardValue>
-        <fullName>Healthcare</fullName>
-        <default>false</default>
-        <label>Healthcare</label>
+        <fullName>Food Processing2</fullName>
+        <default>true</default>
+        <label>Food Processing2</label>
     </standardValue>
     <standardValue>
-        <fullName>Hospitality</fullName>
+        <fullName>Healthcare Facilities</fullName>
         <default>false</default>
-        <label>Hospitality</label>
+        <label>Healthcare Facilities</label>
     </standardValue>
     <standardValue>
-        <fullName>Insurance</fullName>
+        <fullName>Insurance (Accident &amp; Health)</fullName>
         <default>false</default>
-        <label>Insurance</label>
+        <label>Insurance (Accident &amp; Health)</label>
     </standardValue>
     <standardValue>
-        <fullName>Machinery</fullName>
+        <fullName>Insurance (Life)</fullName>
         <default>false</default>
-        <label>Machinery</label>
+        <label>Insurance (Life)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Insurance (Miscellaneous)</fullName>
+        <default>false</default>
+        <label>Insurance (Miscellaneous)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Insurance (Property &amp; Casualty)</fullName>
+        <default>false</default>
+        <label>Insurance (Property &amp; Casualty)</label>
     </standardValue>
     <standardValue>
         <fullName>Manufacturing</fullName>
@@ -112,53 +122,83 @@
         <label>Manufacturing</label>
     </standardValue>
     <standardValue>
-        <fullName>Media</fullName>
+        <fullName>Metal Mining</fullName>
         <default>false</default>
-        <label>Media</label>
+        <label>Metal Mining</label>
     </standardValue>
     <standardValue>
-        <fullName>Not For Profit</fullName>
+        <fullName>Misc. Capital Goods</fullName>
         <default>false</default>
-        <label>Not For Profit</label>
+        <label>Misc. Capital Goods</label>
     </standardValue>
     <standardValue>
-        <fullName>Other</fullName>
+        <fullName>Misc. Financial Services</fullName>
         <default>false</default>
-        <label>Other</label>
+        <label>Misc. Financial Services</label>
     </standardValue>
     <standardValue>
-        <fullName>Recreation</fullName>
+        <fullName>Oil &amp; Gas Operations</fullName>
         <default>false</default>
-        <label>Recreation</label>
+        <label>Oil &amp; Gas Operations</label>
     </standardValue>
     <standardValue>
-        <fullName>Retail</fullName>
+        <fullName>Oil Well Services &amp; Equipment</fullName>
         <default>false</default>
-        <label>Retail</label>
+        <label>Oil Well Services &amp; Equipment</label>
     </standardValue>
     <standardValue>
-        <fullName>Shipping</fullName>
+        <fullName>Paper &amp; Paper Products</fullName>
         <default>false</default>
-        <label>Shipping</label>
+        <label>Paper &amp; Paper Products</label>
     </standardValue>
     <standardValue>
-        <fullName>Technology</fullName>
+        <fullName>Personal &amp; Household Prods.</fullName>
         <default>false</default>
-        <label>Technology</label>
+        <label>Personal &amp; Household Prods.</label>
     </standardValue>
     <standardValue>
-        <fullName>Telecommunications</fullName>
+        <fullName>Personal Services</fullName>
         <default>false</default>
-        <label>Telecommunications</label>
+        <label>Personal Services</label>
     </standardValue>
     <standardValue>
-        <fullName>Transportation</fullName>
+        <fullName>Photography</fullName>
         <default>false</default>
-        <label>Transportation</label>
+        <label>Photography</label>
     </standardValue>
     <standardValue>
-        <fullName>Utilities</fullName>
+        <fullName>Retail (Grocery)</fullName>
         <default>false</default>
-        <label>Utilities</label>
+        <label>Retail (Grocery)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retail (Home Improvement)</fullName>
+        <default>false</default>
+        <label>Retail (Home Improvement)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retail (Specialty Non-Apparel)</fullName>
+        <default>false</default>
+        <label>Retail (Specialty Non-Apparel)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>S&amp;Ls/Savings Banks</fullName>
+        <default>false</default>
+        <label>S&amp;Ls/Savings Banks</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Scientific &amp; Technical Instr.</fullName>
+        <default>false</default>
+        <label>Scientific &amp; Technical Instr.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tobacco</fullName>
+        <default>false</default>
+        <label>Tobacco</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Water Utilities</fullName>
+        <default>false</default>
+        <label>Water Utilities</label>
     </standardValue>
 </StandardValueSet>

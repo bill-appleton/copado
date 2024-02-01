@@ -1,19 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Billhome3</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Billrecordobj3</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Billobj__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>Billrecordobj4</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Billobj__c</pageOrSobjectType>
+    </actionOverrides>
     <formFactors>Small</formFactors>
-    <formFactors>Medium</formFactors>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Sales</label>
     <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Billrecordobj2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Billobj__c</pageOrSobjectType>
+        <recordType>Billobj__c.rec1</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
     <tabs>standard-home</tabs>
+    <tabs>standard-WaveHomeLightning</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Task</tabs>
     <tabs>standard-File</tabs>
-    <tabs>standard-ContentNote</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Campaign</tabs>
@@ -25,6 +58,21 @@
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-Case</tabs>
     <tabs>standard-Forecasting3</tabs>
+    <tabs>standard-EmailTemplate</tabs>
+    <tabs>childxyz__c</tabs>
+    <tabs>always_visible__c</tabs>
+    <tabs>nameless__c</tabs>
+    <tabs>testobj__c</tabs>
+    <tabs>monarch_tester__c</tabs>
+    <tabs>parentabc__c</tabs>
+    <tabs>criteria_visible__c</tabs>
+    <tabs>manual_visible__c</tabs>
+    <tabs>role_visible__c</tabs>
+    <tabs>childabc__c</tabs>
+    <tabs>rectype_example__c</tabs>
+    <tabs>autonamer__c</tabs>
+    <tabs>Book__c</tabs>
+    <tabs>parent_one__c</tabs>
+    <tabs>parent_two__c</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>LightningSales_UtilityBar</utilityBar>
 </CustomApplication>

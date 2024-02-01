@@ -15,15 +15,63 @@
     <tabs>standard-Campaign</tabs>
     <tabs>standard-Task</tabs>
     <tabs>standard-Event</tabs>
-    <tabs>standard-ContentNote</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>bill_vf_tab</tabs>
+    <tabs>Fredobj__c</tabs>
+    <tabs>testobj__c</tabs>
+    <tabs>monarch_tester__c</tabs>
+    <tabs>criteria_visible__c</tabs>
+    <tabs>manual_visible__c</tabs>
+    <tabs>role_visible__c</tabs>
+    <tabs>childabc__c</tabs>
+    <tabs>rectype_example__c</tabs>
+    <tabs>autonamer__c</tabs>
+    <tabs>Book__c</tabs>
+    <tabs>parent_one__c</tabs>
+    <tabs>parent_two__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Book__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Fredobj__c</tab>
+        </mappings>
+        <mappings>
+            <tab>autonamer__c</tab>
+        </mappings>
+        <mappings>
+            <tab>bill_vf_tab</tab>
+        </mappings>
+        <mappings>
+            <tab>childabc__c</tab>
+        </mappings>
+        <mappings>
+            <tab>criteria_visible__c</tab>
+        </mappings>
+        <mappings>
+            <tab>manual_visible__c</tab>
+        </mappings>
+        <mappings>
+            <tab>monarch_tester__c</tab>
+        </mappings>
+        <mappings>
+            <tab>parent_one__c</tab>
+        </mappings>
+        <mappings>
+            <tab>parent_two__c</tab>
+        </mappings>
+        <mappings>
+            <tab>rectype_example__c</tab>
+        </mappings>
+        <mappings>
+            <tab>role_visible__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
@@ -35,9 +83,6 @@
         </mappings>
         <mappings>
             <tab>standard-Contact</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-ContentNote</tab>
         </mappings>
         <mappings>
             <tab>standard-Dashboard</tab>
@@ -65,6 +110,9 @@
         </mappings>
         <mappings>
             <tab>standard-report</tab>
+        </mappings>
+        <mappings>
+            <tab>testobj__c</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>

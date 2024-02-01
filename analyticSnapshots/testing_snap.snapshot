@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupColumn>GRAND_SUMMARY</groupColumn>
+    <mappings>
+        <sourceField>JobName</sourceField>
+        <sourceType>snapshot</sourceType>
+        <targetField>A_DX_Object__c.myfield__c</targetField>
+    </mappings>
+    <name>testing_snap</name>
+    <runningUser>person5@metazoa.com</runningUser>
+    <sourceReport>Field_Trip__Field_Trip_Reports/inactive_owner</sourceReport>
+    <targetObject>A_DX_Object__c</targetObject>
+</AnalyticSnapshot>

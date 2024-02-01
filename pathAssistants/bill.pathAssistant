@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Campaign</entityName>
+    <fieldName>DB_Campaign_Tactic__c</fieldName>
+    <masterLabel>bill</masterLabel>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

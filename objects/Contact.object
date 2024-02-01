@@ -322,7 +322,18 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>testout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>testout</fullName>
+        <fields>AssistantPhone</fields>
+        <fields>Birthdate</fields>
+        <fields>OwnerId</fields>
+        <fields>CreatedById</fields>
+        <fields>Fax</fields>
+        <fields>HasOptedOutOfFax</fields>
+        <fields>HomePhone</fields>
+        <label>testout</label>
+    </compactLayouts>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <externalSharingModel>ControlledByParent</externalSharingModel>
@@ -364,11 +375,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>GenderIdentity</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
         <fullName>HasOptedOutOfEmail</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -384,6 +390,49 @@
         <fullName>IndividualId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Influence_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Influence Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>power_five</fullName>
+                    <default>false</default>
+                    <label>power_five</label>
+                </value>
+                <value>
+                    <fullName>power_four</fullName>
+                    <default>false</default>
+                    <label>power_four</label>
+                </value>
+                <value>
+                    <fullName>power_three</fullName>
+                    <default>true</default>
+                    <label>power_three</label>
+                </value>
+                <value>
+                    <fullName>power_two</fullName>
+                    <default>false</default>
+                    <label>power_two</label>
+                </value>
+                <value>
+                    <fullName>power_one</fullName>
+                    <default>false</default>
+                    <label>power_one</label>
+                </value>
+                <value>
+                    <fullName>power_none</fullName>
+                    <default>false</default>
+                    <label>power_none</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Jigsaw</fullName>
@@ -430,14 +479,52 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Pronouns</fullName>
+        <fullName>PreviousCompany__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous Company</label>
+        <length>100</length>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>ReportsToId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Support_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Support Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>face_happy</fullName>
+                    <default>true</default>
+                    <label>face_happy</label>
+                </value>
+                <value>
+                    <fullName>face_neutral</fullName>
+                    <default>false</default>
+                    <label>face_neutral</label>
+                </value>
+                <value>
+                    <fullName>face_sad</fullName>
+                    <default>false</default>
+                    <label>face_sad</label>
+                </value>
+                <value>
+                    <fullName>face_unknown</fullName>
+                    <default>false</default>
+                    <label>face_unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Title</fullName>
@@ -453,7 +540,6 @@
         <columns>CORE.USERS.ALIAS</columns>
         <filterScope>Everything</filterScope>
         <label>All Contacts</label>
-        <language>en_US</language>
     </listViews>
     <listViews>
         <fullName>BirthdaysThisMonth</fullName>
@@ -471,6 +557,22 @@
             <value>THIS_MONTH</value>
         </filters>
         <label>Birthdays This Month</label>
+    </listViews>
+    <listViews>
+        <fullName>NewLastWeek</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTACT.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_WEEK</value>
+        </filters>
+        <label>New Last Week</label>
     </listViews>
     <listViews>
         <fullName>NewThisWeek</fullName>
@@ -513,9 +615,9 @@
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <webLinks>
-        <fullName>GoogleMaps</fullName>
+        <fullName>Contact_Hierarchy</fullName>
         <availability>online</availability>
-        <displayType>link</displayType>
+        <displayType>button</displayType>
         <encodingKey>UTF-8</encodingKey>
         <hasMenubar>false</hasMenubar>
         <hasScrollbars>true</hasScrollbars>
@@ -523,88 +625,37 @@
         <height>600</height>
         <isResizable>true</isResizable>
         <linkType>url</linkType>
-        <masterLabel>Mapas de Google</masterLabel>
+        <masterLabel>Contact Hierarchy</masterLabel>
         <openType>newWindow</openType>
-        <position>none</position>
+        <position>fullScreen</position>
         <protected>false</protected>
         <showsLocation>false</showsLocation>
         <showsStatus>false</showsStatus>
-        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Contact.MailingStreet}+{!Contact.MailingCity}+{!Contact.MailingState}&amp;om=1</url>
+        <url>https://www.dreamfactory.net/sforce/gameplan/gameplan.html?
+sforce_session_id={!API.Session_ID}&amp;
+sforce_server_url={!API.Partner_Server_URL_120}&amp;
+sforce_user_name={!User.Username}&amp;
+sforce_full_name={!User.Name}&amp;
+sforce_user_id={!User.Id}&amp;
+custom_link_flags=Contact Hierarchy Map&amp;
+custom_link_id={!Contact.Id}</url>
     </webLinks>
     <webLinks>
-        <fullName>GoogleSearch</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Búsqueda en Google</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>http://www.google.com/search?q={!Contact.FirstName} {!Contact.LastName}</url>
-    </webLinks>
-    <webLinks>
-        <fullName>SendGmail</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Enviar a Gmail</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>https://mail.google.com/mail?view=cm&amp;tf=0&amp;to={!Contact.Email}&lt;{!Contact.LastName}, {!Contact.FirstName}&gt;&amp;tf=1</url>
-    </webLinks>
-    <webLinks>
-        <fullName>YahooMaps</fullName>
+        <fullName>map</fullName>
         <availability>online</availability>
         <displayType>link</displayType>
         <encodingKey>UTF-8</encodingKey>
         <hasMenubar>true</hasMenubar>
         <hasScrollbars>true</hasScrollbars>
         <hasToolbar>true</hasToolbar>
-        <height>600</height>
         <isResizable>true</isResizable>
         <linkType>url</linkType>
-        <masterLabel>Mapas de Yahoo!</masterLabel>
+        <masterLabel>map</masterLabel>
         <openType>newWindow</openType>
         <position>none</position>
         <protected>false</protected>
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
-        <url>http://maps.yahoo.com/py/maps.py?cn={!Contact.MailingCountry}&amp;csz={!Contact.MailingCity}+{!Contact.MailingState}+{!Contact.MailingPostalCode}+&amp;addr={!Contact.MailingStreet}</url>
-    </webLinks>
-    <webLinks>
-        <fullName>YahooWeather</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Yahoo! Tiempo</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>http://weather.yahoo.com/search/weather2?p={!Contact.MailingPostalCode}</url>
+        <url>http://maps.yahoo.com/py/maps.py?cn={!Contact_MailingCountry}&amp;csz={!Contact_MailingCity}+{!Contact_MailingState}+{!Contact_MailingPostalCode}+&amp;addr={!Contact_MailingAddress}</url>
     </webLinks>
 </CustomObject>

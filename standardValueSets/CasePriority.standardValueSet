@@ -2,18 +2,28 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>High</fullName>
+        <fullName>P1</fullName>
         <default>false</default>
-        <label>Alta</label>
+        <label>P1</label>
     </standardValue>
     <standardValue>
-        <fullName>Medium</fullName>
+        <fullName>P2</fullName>
+        <default>false</default>
+        <label>P2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>P3</fullName>
+        <default>false</default>
+        <label>P3</label>
+    </standardValue>
+    <standardValue>
+        <fullName>P4</fullName>
+        <default>false</default>
+        <label>P4</label>
+    </standardValue>
+    <standardValue>
+        <fullName>P5</fullName>
         <default>true</default>
-        <label>Media</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Low</fullName>
-        <default>false</default>
-        <label>Baja</label>
+        <label>P5</label>
     </standardValue>
 </StandardValueSet>

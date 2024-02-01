@@ -8,22 +8,21 @@
     <caseFeedReadUnreadLtng>false</caseFeedReadUnreadLtng>
     <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
-    <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
+    <defaultCaseFeedLayoutOn>false</defaultCaseFeedLayoutOn>
+    <defaultCaseOwner>billnewss88@mz.com</defaultCaseOwner>
+    <defaultCaseOwnerType>User</defaultCaseOwnerType>
+    <defaultCaseUser>billnewss88@mz.com</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
-    <enableCaseFeed>true</enableCaseFeed>
-    <enableCaseSwarming>false</enableCaseSwarming>
-    <enableCollapseEmailThread>true</enableCollapseEmailThread>
+    <enableCaseFeed>false</enableCaseFeed>
+    <enableCollapseEmailThread>false</enableCollapseEmailThread>
     <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
-    <enableEscalateQfiToCaseInternal>false</enableEscalateQfiToCaseInternal>
-    <enableEscalateQfiToCaseNetworks>false</enableEscalateQfiToCaseNetworks>
-    <enableExtNetworksCaseFeedEnabled>false</enableExtNetworksCaseFeedEnabled>
     <enableMultiLangSolnSrchCSS>false</enableMultiLangSolnSrchCSS>
     <enableMultiLangSolnSrchPKB>false</enableMultiLangSolnSrchPKB>
     <enableMultiLangSolution>false</enableMultiLangSolution>
     <enableSolutionCategory>false</enableSolutionCategory>
-    <enableSolutionInlineCategory>true</enableSolutionInlineCategory>
+    <enableSolutionInlineCategory>false</enableSolutionInlineCategory>
     <enableSolutionShortSummary>true</enableSolutionShortSummary>
     <enableSuggestedSolutions>true</enableSuggestedSolutions>
     <escalateCaseBefore>false</escalateCaseBefore>
@@ -32,7 +31,9 @@
     <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>
     <notifyOwnerOnCaseOwnerChange>false</notifyOwnerOnCaseOwnerChange>
     <showEmailAttachmentsInCaseAttachmentsRL>true</showEmailAttachmentsInCaseAttachmentsRL>
-    <useSystemEmailAddress>true</useSystemEmailAddress>
+    <systemUserEmail>automatedcase@00d300000000vueeaa.ext</systemUserEmail>
+    <useSystemEmailAddress>false</useSystemEmailAddress>
+    <useSystemUserAsDefaultCaseUser>false</useSystemUserAsDefaultCaseUser>
     <visibleInCssCheckbox>false</visibleInCssCheckbox>
     <webToCase>
         <enableWebToCase>false</enableWebToCase>

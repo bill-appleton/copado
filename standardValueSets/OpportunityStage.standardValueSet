@@ -11,21 +11,21 @@
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>Qualification</fullName>
-        <default>false</default>
-        <label>Qualification</label>
-        <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
-        <probability>10</probability>
-        <won>false</won>
-    </standardValue>
-    <standardValue>
         <fullName>Needs Analysis</fullName>
         <default>false</default>
         <label>Needs Analysis</label>
         <closed>false</closed>
         <forecastCategory>Pipeline</forecastCategory>
         <probability>20</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Presentation/Demo</fullName>
+        <default>false</default>
+        <label>Presentation/Demo</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>35</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
@@ -38,27 +38,18 @@
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>Id. Decision Makers</fullName>
+        <fullName>Proposal/Price Quote</fullName>
         <default>false</default>
-        <label>Id. Decision Makers</label>
+        <label>Proposal/Price Quote</label>
         <closed>false</closed>
         <forecastCategory>Pipeline</forecastCategory>
         <probability>60</probability>
         <won>false</won>
     </standardValue>
     <standardValue>
-        <fullName>Perception Analysis</fullName>
+        <fullName>Selected</fullName>
         <default>false</default>
-        <label>Perception Analysis</label>
-        <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
-        <probability>70</probability>
-        <won>false</won>
-    </standardValue>
-    <standardValue>
-        <fullName>Proposal/Price Quote</fullName>
-        <default>false</default>
-        <label>Proposal/Price Quote</label>
+        <label>Selected</label>
         <closed>false</closed>
         <forecastCategory>Pipeline</forecastCategory>
         <probability>75</probability>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>follow up on meeting</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>StandardLetterheadSample</letterhead>
+    <name>Contact: Follow Up (Bill)</name>
+    <style>freeForm</style>
+    <subject>Following up on our discussion today</subject>
+    <textOnly>Dear {!Contact.FirstName}, 
+
+I really enjoyed speaking with you today. I think that {!Organization.Name} has a lot to offer {!Account.Name} and I look forward to our next meeting. 
+
+Regards, 
+
+{!User.FirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

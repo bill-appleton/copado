@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Initiatives Object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Initiatives Objects</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Initiatives Objects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Initiatives Objects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initiatives Object --></label>
+        <name>Initiatives_Object__c</name>
+        <relationshipLabel><!-- Initiatives Objects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Goal</masterLabel>
+            <translation><!-- Goal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initiative</masterLabel>
+            <translation><!-- Initiative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulation</masterLabel>
+            <translation><!-- Regulation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requirement</masterLabel>
+            <translation><!-- Requirement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategy</masterLabel>
+            <translation><!-- Strategy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tactic</masterLabel>
+            <translation><!-- Tactic --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

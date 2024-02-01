@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Billhome3</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
@@ -7,5 +15,18 @@
     <label>LightningInstrumentation</label>
     <navType>Standard</navType>
     <tabs>standard-LightningInstrumentation</tabs>
+    <tabs>bill_vf_tab</tabs>
+    <tabs>Fredobj__c</tabs>
+    <tabs>testobj__c</tabs>
+    <tabs>monarch_tester__c</tabs>
+    <tabs>criteria_visible__c</tabs>
+    <tabs>manual_visible__c</tabs>
+    <tabs>role_visible__c</tabs>
+    <tabs>childabc__c</tabs>
+    <tabs>rectype_example__c</tabs>
+    <tabs>autonamer__c</tabs>
+    <tabs>Book__c</tabs>
+    <tabs>parent_one__c</tabs>
+    <tabs>parent_two__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

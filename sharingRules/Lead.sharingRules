@@ -1,3 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>lead_sharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>lead sharing</label>
+        <sharedTo>
+            <guestUser>MetazoaTest</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Email</field>
+            <operation>equals</operation>
+            <value>bill@metazoa.com</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+</SharingRules>

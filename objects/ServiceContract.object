@@ -248,7 +248,7 @@
         <columns>CONTRACT.ENDDATE</columns>
         <columns>CONTRACT.STATUS</columns>
         <filterScope>Everything</filterScope>
-        <label>Todos los Contratos de servicio</label>
+        <label>All Service Contracts</label>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CONTRACT.NAME</customTabListAdditionalFields>

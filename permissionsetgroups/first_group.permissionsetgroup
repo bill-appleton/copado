@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>first_group description
+
+change
+
+line</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>First Group</label>
+    <mutingPermissionSets>first_group_Muted</mutingPermissionSets>
+    <permissionSets>founder</permissionSets>
+    <permissionSets>testing123</permissionSets>
+    <permissionSets>testing456</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

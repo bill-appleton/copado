@@ -1,1 +1,9 @@
-*** ALERTA DE DISTRIBUCIÓN DE CASOS *** Se ha distribuido el caso siguiente:   Compañía:  {!Account.Name} Caso:  {!Case.CaseNumber}: {!Case.Subject} Propietario:  {!CaseOwner.FullName} Haga clic en el vínculo para acceder al caso:  {!Case.Link}
+*** CASE ESCALATION ALERT *** 
+
+The following case has been escalated: 
+
+Company: {!Account.Name} 
+Case: {!Case.CaseNumber}: {!Case.Subject} 
+Owner: {!Case.OwnerFullName} 
+
+Click on the link to access the case: {!Case.Link}

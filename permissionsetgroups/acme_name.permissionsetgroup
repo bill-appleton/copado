@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>The best group ever</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>ACME</label>
+    <permissionSets>Account_RW</permissionSets>
+    <permissionSets>Another</permissionSets>
+    <permissionSets>sales_console</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -10,8 +10,8 @@
     <enableCompileOnDeploy>false</enableCompileOnDeploy>
     <enableDisableParallelApexTesting>false</enableDisableParallelApexTesting>
     <enableDoNotEmailDebugLog xsi:nil="true"/>
-    <enableGaplessTestAutoNum>true</enableGaplessTestAutoNum>
-    <enableMngdCtrlActionAccessPref>false</enableMngdCtrlActionAccessPref>
+    <enableGaplessTestAutoNum>false</enableGaplessTestAutoNum>
+    <enableMngdCtrlActionAccessPref>true</enableMngdCtrlActionAccessPref>
     <enableNonCertifiedApexMdCrud>false</enableNonCertifiedApexMdCrud>
     <enableRestrictCommunityExecAnon>false</enableRestrictCommunityExecAnon>
     <enableSecureNoArgConstructorPref>false</enableSecureNoArgConstructorPref>

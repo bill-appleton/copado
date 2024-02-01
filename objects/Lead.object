@@ -255,10 +255,20 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-    <externalSharingModel>Private</externalSharingModel>
+    <externalSharingModel>ReadWriteTransfer</externalSharingModel>
     <fields>
         <fullName>Address</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>AnnualITBudget__c</fullName>
+        <externalId>false</externalId>
+        <label>Annual IT Budget</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
     </fields>
     <fields>
         <fullName>AnnualRevenue</fullName>
@@ -273,6 +283,153 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>CorporateDesktopHWStandard__c</fullName>
+        <externalId>false</externalId>
+        <label>Corporate Desktop HW Standard</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>HP</fullName>
+                    <default>false</default>
+                    <label>HP</label>
+                </value>
+                <value>
+                    <fullName>IBM</fullName>
+                    <default>false</default>
+                    <label>IBM</label>
+                </value>
+                <value>
+                    <fullName>Compaq</fullName>
+                    <default>false</default>
+                    <label>Compaq</label>
+                </value>
+                <value>
+                    <fullName>Dell</fullName>
+                    <default>false</default>
+                    <label>Dell</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CorporateDesktopOSStandard__c</fullName>
+        <externalId>false</externalId>
+        <label>Corporate Desktop OS Standard</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Windows 98</fullName>
+                    <default>false</default>
+                    <label>Windows 98</label>
+                </value>
+                <value>
+                    <fullName>Windows 2000</fullName>
+                    <default>false</default>
+                    <label>Windows 2000</label>
+                </value>
+                <value>
+                    <fullName>Windows XP</fullName>
+                    <default>false</default>
+                    <label>Windows XP</label>
+                </value>
+                <value>
+                    <fullName>Mac OS</fullName>
+                    <default>false</default>
+                    <label>Mac OS</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Windows 95</fullName>
+                    <default>false</default>
+                    <label>Windows 95</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DB_Created_Date_without_Time__c</fullName>
+        <description>This is a field that is installed by and used with the Adoption Dashboard AppExchange package. If your org already has a similar field, you can change the reports that are part of the Adoption Dashboard package to use your custom field and then delete this field.</description>
+        <externalId>false</externalId>
+        <formula>CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DB Created Date without Time</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>DB_Lead_Age__c</fullName>
+        <description>This is a field that is installed by and used with the Adoption Dashboard AppExchange package. If your org already has a similar field, you can change the reports that are part of the Adoption Dashboard package to use your custom field and then delete this field.</description>
+        <externalId>false</externalId>
+        <formula>NOW() - LastModifiedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DB Lead Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Database__c</fullName>
+        <externalId>false</externalId>
+        <label>Database</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>DB2</fullName>
+                    <default>false</default>
+                    <label>DB2</label>
+                </value>
+                <value>
+                    <fullName>SQL Server</fullName>
+                    <default>false</default>
+                    <label>SQL Server</label>
+                </value>
+                <value>
+                    <fullName>My SQL</fullName>
+                    <default>false</default>
+                    <label>My SQL</label>
+                </value>
+                <value>
+                    <fullName>Oracle</fullName>
+                    <default>false</default>
+                    <label>Oracle</label>
+                </value>
+                <value>
+                    <fullName>SAS</fullName>
+                    <default>false</default>
+                    <label>SAS</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -281,17 +438,45 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>ERPSystem__c</fullName>
+        <externalId>false</externalId>
+        <label>ERP System</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Peoplesoft</fullName>
+                    <default>false</default>
+                    <label>Peoplesoft</label>
+                </value>
+                <value>
+                    <fullName>SAP</fullName>
+                    <default>false</default>
+                    <label>SAP</label>
+                </value>
+                <value>
+                    <fullName>Oracle</fullName>
+                    <default>false</default>
+                    <label>Oracle</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Email</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Fax</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>GenderIdentity</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>HasOptedOutOfEmail</fullName>
@@ -312,8 +497,74 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>IntegrationNeeds__c</fullName>
+        <externalId>false</externalId>
+        <label>Integration Needs</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ERP</fullName>
+                    <default>false</default>
+                    <label>ERP</label>
+                </value>
+                <value>
+                    <fullName>Accounting</fullName>
+                    <default>false</default>
+                    <label>Accounting</label>
+                </value>
+                <value>
+                    <fullName>CRM</fullName>
+                    <default>false</default>
+                    <label>CRM</label>
+                </value>
+                <value>
+                    <fullName>HR</fullName>
+                    <default>false</default>
+                    <label>HR</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Jigsaw</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>KeyProductRequirement__c</fullName>
+        <externalId>false</externalId>
+        <label>Key Product Requirement</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Breadth of Functionality</fullName>
+                    <default>false</default>
+                    <label>Breadth of Functionality</label>
+                </value>
+                <value>
+                    <fullName>Full reporting</fullName>
+                    <default>false</default>
+                    <label>Full reporting</label>
+                </value>
+                <value>
+                    <fullName>Ease of use</fullName>
+                    <default>false</default>
+                    <label>Ease of use</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>LastTransferDate</fullName>
@@ -322,6 +573,29 @@
         <fullName>LeadSource</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>MainCompetitor__c</fullName>
+        <externalId>false</externalId>
+        <label>Main Competitor</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Competitor A</fullName>
+                    <default>false</default>
+                    <label>Competitor A</label>
+                </value>
+                <value>
+                    <fullName>Competitor C</fullName>
+                    <default>false</default>
+                    <label>Competitor C</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>MobilePhone</fullName>
@@ -336,6 +610,55 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>NumberofLicenses__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Licenses</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opinionofourcompany__c</fullName>
+        <externalId>false</externalId>
+        <label>Opinion of our company</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Positive</fullName>
+                    <default>false</default>
+                    <label>Positive</label>
+                </value>
+                <value>
+                    <fullName>Neutral</fullName>
+                    <default>false</default>
+                    <label>Neutral</label>
+                </value>
+                <value>
+                    <fullName>Negative</fullName>
+                    <default>false</default>
+                    <label>Negative</label>
+                </value>
+                <value>
+                    <fullName>Highly Negative</fullName>
+                    <default>false</default>
+                    <label>Highly Negative</label>
+                </value>
+                <value>
+                    <fullName>Highly Positive</fullName>
+                    <default>false</default>
+                    <label>Highly Positive</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
@@ -345,14 +668,70 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Pronouns</fullName>
+        <fullName>ProductInterest__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Interest</label>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Licenses - Product B</fullName>
+                    <default>false</default>
+                    <label>Licenses - Product B</label>
+                </value>
+                <value>
+                    <fullName>Licenses - Product C</fullName>
+                    <default>false</default>
+                    <label>Licenses - Product C</label>
+                </value>
+                <value>
+                    <fullName>Gold Support</fullName>
+                    <default>false</default>
+                    <label>Gold Support</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>Implementation</fullName>
+                    <default>false</default>
+                    <label>Implementation</label>
+                </value>
+                <value>
+                    <fullName>Licenses - Product A</fullName>
+                    <default>false</default>
+                    <label>Licenses - Product A</label>
+                </value>
+                <value>
+                    <fullName>Maintenance</fullName>
+                    <default>false</default>
+                    <label>Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Rating</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>RequirementsDescription__c</fullName>
+        <externalId>false</externalId>
+        <label>Requirements Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
     </fields>
     <fields>
         <fullName>Status</fullName>
@@ -364,8 +743,41 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>TotalPotentialLicenses__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Potential Licenses</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Website</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>ofITStaff__c</fullName>
+        <externalId>false</externalId>
+        <label># of IT Staff</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ofsalesreps__c</fullName>
+        <externalId>false</externalId>
+        <label># of sales reps</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <listViews>
         <fullName>AllOpenLeads</fullName>
@@ -381,7 +793,7 @@
         <filters>
             <field>LEAD.STATUS</field>
             <operation>notEqual</operation>
-            <value>Habilitado</value>
+            <value>Qualified</value>
         </filters>
         <label>All Open Leads</label>
     </listViews>
@@ -402,6 +814,33 @@
             <value>1</value>
         </filters>
         <label>My Unread Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>My_New_Queue_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>My New Queue</label>
+        <queue>My_New_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>QualifiedLeads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>equals</operation>
+            <value>Qualified</value>
+        </filters>
+        <label>Qualified Leads</label>
     </listViews>
     <listViews>
         <fullName>TodaysLeads</fullName>
@@ -442,136 +881,57 @@
     </searchLayouts>
     <sharingModel>ReadWriteTransfer</sharingModel>
     <webLinks>
-        <fullName>AltavistaNews</fullName>
+        <fullName>financialprofile</fullName>
         <availability>online</availability>
         <displayType>link</displayType>
         <encodingKey>UTF-8</encodingKey>
         <hasMenubar>true</hasMenubar>
         <hasScrollbars>true</hasScrollbars>
         <hasToolbar>true</hasToolbar>
-        <height>600</height>
         <isResizable>true</isResizable>
         <linkType>url</linkType>
-        <masterLabel>Noticias de Altavista</masterLabel>
+        <masterLabel>financial profile</masterLabel>
         <openType>newWindow</openType>
         <position>none</position>
         <protected>false</protected>
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
-        <url>http://news.altavista.com/search?nc=0&amp;q={!Lead.Company}</url>
+        <url>http://search.hoovers.com/cgi-bin/hol_search?which=company&amp;query_string={!Lead_Company}</url>
     </webLinks>
     <webLinks>
-        <fullName>GoogleMaps</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Mapas de Google</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Lead.Street}+{!Lead.City}+{!Lead.State}&amp;om=1</url>
-    </webLinks>
-    <webLinks>
-        <fullName>GoogleNews</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Noticias de Google</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>http://www.google.com/news?&amp;q={!Lead.Company}&amp;btnG=Search+News</url>
-    </webLinks>
-    <webLinks>
-        <fullName>GoogleSearch</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Búsqueda en Google</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>http://www.google.com/search?q={!Lead.Company}</url>
-    </webLinks>
-    <webLinks>
-        <fullName>HooversProfile</fullName>
+        <fullName>map</fullName>
         <availability>online</availability>
         <displayType>link</displayType>
         <encodingKey>UTF-8</encodingKey>
         <hasMenubar>true</hasMenubar>
         <hasScrollbars>true</hasScrollbars>
         <hasToolbar>true</hasToolbar>
-        <height>600</height>
         <isResizable>true</isResizable>
         <linkType>url</linkType>
-        <masterLabel>Perfil de Hoovers</masterLabel>
+        <masterLabel>map</masterLabel>
         <openType>newWindow</openType>
         <position>none</position>
         <protected>false</protected>
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
-        <url>http://search.hoovers.com/cgi-bin/hol_search?which=company&amp;query_string={!Lead.Company}</url>
+        <url>http://maps.yahoo.com/py/maps.py?cn={!Lead_Country}&amp;csz={!Lead_City}+{!Lead_State}+{!Lead_PostalCode}+&amp;addr={!Lead_Address}</url>
     </webLinks>
     <webLinks>
-        <fullName>SendGmail</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Enviar a Gmail</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>https://mail.google.com/mail?view=cm&amp;tf=0&amp;to={!Lead.Email}&lt;{!Lead.LastName}, {!Lead.FirstName}&gt;&amp;tf=1</url>
-    </webLinks>
-    <webLinks>
-        <fullName>YahooMaps</fullName>
+        <fullName>news</fullName>
         <availability>online</availability>
         <displayType>link</displayType>
         <encodingKey>UTF-8</encodingKey>
         <hasMenubar>true</hasMenubar>
         <hasScrollbars>true</hasScrollbars>
         <hasToolbar>true</hasToolbar>
-        <height>600</height>
         <isResizable>true</isResizable>
         <linkType>url</linkType>
-        <masterLabel>Mapas de Yahoo!</masterLabel>
+        <masterLabel>news</masterLabel>
         <openType>newWindow</openType>
         <position>none</position>
         <protected>false</protected>
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
-        <url>http://maps.yahoo.com/py/maps.py?cn={!Lead.Country}&amp;csz={!Lead.City}+{!Lead.State}+{!Lead.PostalCode}+&amp;addr={!Lead.Street}</url>
+        <url>http://news.altavista.com/search?nc=0&amp;q={!Lead_Company}</url>
     </webLinks>
 </CustomObject>

@@ -1,1 +1,13 @@
-Estimado {!Contact.FirstName}, {!Case.Solution_Description} Gracias, {!User.Name} {!Organization.Name} Su comentario:    {!Case.Description}   {!Case.Solution_Attachments}
+Dear {!Contact.FirstName}, 
+
+{!Case.Solution_Description} 
+
+Thank you, 
+
+{!User.Name} 
+{!Organization.Name} 
+
+Your comment: 
+
+{!Case.Description} 
+{!Case.Solution_Attachments}

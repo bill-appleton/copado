@@ -2,13 +2,33 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
+        <fullName>New Business</fullName>
+        <default>false</default>
+        <label>New Business</label>
+    </standardValue>
+    <standardValue>
         <fullName>Existing Business</fullName>
         <default>false</default>
         <label>Existing Business</label>
     </standardValue>
     <standardValue>
-        <fullName>New Business</fullName>
+        <fullName>Add-On Business</fullName>
         <default>false</default>
-        <label>New Business</label>
+        <label>Add-On Business</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Maintenance</fullName>
+        <default>false</default>
+        <label>Maintenance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Upgrade</fullName>
+        <default>false</default>
+        <label>Upgrade</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Services</fullName>
+        <default>false</default>
+        <label>Services</label>
     </standardValue>
 </StandardValueSet>

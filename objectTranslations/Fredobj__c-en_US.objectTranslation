@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fredobj</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fredobjs</value>
+    </caseValues>
+    <fields>
+        <label><!-- AdamxBar --></label>
+        <name>AdamxBar__c</name>
+        <relationshipLabel><!-- Fredobjs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- formulanext --></label>
+        <name>formulanext__c</name>
+    </fields>
+    <fields>
+        <label><!-- formulatest --></label>
+        <name>formulatest__c</name>
+    </fields>
+    <fields>
+        <label><!-- fredactive --></label>
+        <name>fredactive__c</name>
+    </fields>
+    <fields>
+        <label><!-- simpleform --></label>
+        <name>simpleform__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

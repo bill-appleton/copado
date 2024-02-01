@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>more dx object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>more dx objects</value>
+    </caseValues>
+    <fields>
+        <label><!-- A DX Object --></label>
+        <name>dxlinker__c</name>
+        <relationshipLabel><!-- more dx objects --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

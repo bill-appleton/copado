@@ -1,1 +1,7 @@
-Estimado {!Contact.FirstName}: su información de inicio de sesión y contraseña del portal de autoservicio de {!Organization.Name} se incluye a continuación.  Gracias, Servicio de atención al cliente de {!Organization.Name}
+Dear {!Contact.FirstName},
+
+Your {!Organization.Name} Self-Service portal login and password information is below.
+
+Thank you,
+
+{!Organization.Name} Customer Support

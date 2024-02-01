@@ -2,18 +2,18 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Borrador</fullName>
+        <fullName>Draft</fullName>
         <default>true</default>
-        <label>Borrador</label>
+        <label>Draft</label>
     </standardValue>
     <standardValue>
-        <fullName>En proceso de aprobación</fullName>
+        <fullName>In Approval Process</fullName>
         <default>false</default>
-        <label>En proceso de aprobación</label>
+        <label>In Approval Process</label>
     </standardValue>
     <standardValue>
-        <fullName>Activado</fullName>
+        <fullName>Activated</fullName>
         <default>false</default>
-        <label>Activado</label>
+        <label>Activated</label>
     </standardValue>
 </StandardValueSet>

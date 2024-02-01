@@ -225,9 +225,75 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>My_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>OwnerId</fields>
+        <fields>Active__c</fields>
+        <fields>BillingAddress</fields>
+        <label>My Compact Layout</label>
+    </compactLayouts>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
     <enableFeeds>true</enableFeeds>
     <enableHistory>true</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AA_Field__c</fullName>
+        <complianceGroup>GDPR</complianceGroup>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>AA_Field</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ADR__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>ADR</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ADR_is_active__c</fullName>
+        <externalId>false</externalId>
+        <formula>ADR__r.IsActive</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ADR_is_active</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>A_Formula_Field__c</fullName>
+        <description>A test formula field</description>
+        <externalId>false</externalId>
+        <formula>200*(Complete_Cost__c)/10</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>No help here. This is a formula field.</inlineHelpText>
+        <label>A Formula Field</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>A_Long_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>A Long Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
     <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -240,14 +306,188 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Account_Check__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Account Check</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Account_Flag__c</fullName>
+        <description>custom field description test</description>
+        <externalId>false</externalId>
+        <inlineHelpText>custom field help text test</inlineHelpText>
+        <label>Account Flag</label>
+        <length>1</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Account ID</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Active__c</fullName>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>Maybe</fullName>
+                    <default>false</default>
+                    <label>Maybe</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AnnualITBudget__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>HIPAA;GDPR;COPPA</complianceGroup>
+        <description>This information needs to be limited to executive team and VP level Salespeople.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is confidential information about the account&apos;s IT budget.</inlineHelpText>
+        <label>Annual IT Budget</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <securityClassification>Confidential</securityClassification>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
         <fullName>AnnualRevenue</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>BillingAddress</fullName>
+        <complianceGroup>GDPR</complianceGroup>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>BillingAddress</fullName>
+        <fullName>Complete_Cost__c</fullName>
+        <complianceGroup>COPPA</complianceGroup>
+        <externalId>false</externalId>
+        <label>Complete Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CorporateDesktopHWStandard__c</fullName>
+        <externalId>false</externalId>
+        <label>Corporate Desktop HW Standard</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>HP</fullName>
+                    <default>false</default>
+                    <label>HP</label>
+                </value>
+                <value>
+                    <fullName>IBM</fullName>
+                    <default>false</default>
+                    <label>IBM</label>
+                </value>
+                <value>
+                    <fullName>Compaq</fullName>
+                    <default>false</default>
+                    <label>Compaq</label>
+                </value>
+                <value>
+                    <fullName>Dell</fullName>
+                    <default>false</default>
+                    <label>Dell</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CorporateDesktopOSStandard__c</fullName>
+        <externalId>false</externalId>
+        <label>Corporate Desktop OS Standard</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Windows 98</fullName>
+                    <default>false</default>
+                    <label>Windows 98</label>
+                </value>
+                <value>
+                    <fullName>Windows 2000</fullName>
+                    <default>false</default>
+                    <label>Windows 2000</label>
+                </value>
+                <value>
+                    <fullName>Windows XP</fullName>
+                    <default>false</default>
+                    <label>Windows XP</label>
+                </value>
+                <value>
+                    <fullName>Mac OS</fullName>
+                    <default>false</default>
+                    <label>Mac OS</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Windows 95</fullName>
+                    <default>false</default>
+                    <label>Windows 95</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Description</fullName>
@@ -261,12 +501,16 @@
     </fields>
     <fields>
         <fullName>Industry</fullName>
+        <businessStatus>DeprecateCandidate</businessStatus>
+        <complianceGroup>HIPAA;GDPR;COPPA</complianceGroup>
+        <description>This picklist needs to be checked for compliance with HIPPA.</description>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Jigsaw</fullName>
+        <complianceGroup>GDPR</complianceGroup>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
@@ -278,18 +522,18 @@
     <fields>
         <fullName>NumberOfEmployees</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Ownership</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -300,14 +544,97 @@
     </fields>
     <fields>
         <fullName>Phone</fullName>
+        <complianceGroup>GDPR</complianceGroup>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>Rating</fullName>
+        <fullName>PrimaryDataCenterLocation__c</fullName>
+        <externalId>false</externalId>
+        <label>Primary Data Center Location</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PrimaryERPSystem__c</fullName>
+        <externalId>false</externalId>
+        <label>Primary ERP System</label>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Oracle</fullName>
+                    <default>false</default>
+                    <label>Oracle</label>
+                </value>
+                <value>
+                    <fullName>Peoplesoft</fullName>
+                    <default>false</default>
+                    <label>Peoplesoft</label>
+                </value>
+                <value>
+                    <fullName>SAP</fullName>
+                    <default>false</default>
+                    <label>SAP</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Quickbooks_Id__c</fullName>
+        <description>Account.Quickbooks_Id__c matches with Customer.Id
+If this field is empty, match Account.Name with Customer.Name</description>
+        <externalId>true</externalId>
+        <label>Quickbooks Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rating</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ReferenceProgramStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Reference Program Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Available</fullName>
+                    <default>false</default>
+                    <label>Available</label>
+                </value>
+                <value>
+                    <fullName>Not Available</fullName>
+                    <default>false</default>
+                    <label>Not Available</label>
+                </value>
+                <value>
+                    <fullName>Top Level</fullName>
+                    <default>false</default>
+                    <label>Top Level</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>ShippingAddress</fullName>
@@ -332,10 +659,22 @@
     <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
     </fields>
     <fields>
         <fullName>Tier</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalPotentialLicenses__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Potential Licenses</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Type</fullName>
@@ -345,11 +684,71 @@
     </fields>
     <fields>
         <fullName>Website</fullName>
+        <inlineHelpText>New help text</inlineHelpText>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
+    <fields>
+        <fullName>metazoa_external_id__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>metazoa_external_id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ofsalesreps__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <externalId>false</externalId>
+        <label>Actual Reps</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>richtext1__c</fullName>
+        <externalId>false</externalId>
+        <label>richtext1</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>testme__c</fullName>
+        <externalId>false</externalId>
+        <label>testme</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>one</fullName>
+                    <default>false</default>
+                    <label>one</label>
+                </value>
+                <value>
+                    <fullName>two</fullName>
+                    <default>false</default>
+                    <label>two</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <listViews>
-        <fullName>AllAccounts</fullName>
+        <fullName>MyAccounts</fullName>
         <columns>ACCOUNT.NAME</columns>
         <columns>ACCOUNT.SITE</columns>
         <columns>ACCOUNT.ADDRESS1_STATE</columns>
@@ -357,12 +756,24 @@
         <columns>ACCOUNT.TYPE</columns>
         <columns>CORE.USERS.ALIAS</columns>
         <filterScope>Everything</filterScope>
-        <label>All Accounts</label>
+        <label>My Accounts</label>
+        <language>en_US</language>
     </listViews>
     <listViews>
-        <fullName>MyAccounts</fullName>
-        <filterScope>Mine</filterScope>
-        <label>My Accounts</label>
+        <fullName>NewLastWeek</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_WEEK</value>
+        </filters>
+        <label>New Last Week</label>
     </listViews>
     <listViews>
         <fullName>NewThisWeek</fullName>
@@ -380,48 +791,689 @@
         </filters>
         <label>New This Week</label>
     </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Account_Rec_Type1</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>My_Compact_Layout</compactLayoutAssignment>
+        <label>Account Rec Type1</label>
+        <picklistValues>
+            <picklist>AccountSource</picklist>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Active__c</picklist>
+            <values>
+                <fullName>Yes</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CorporateDesktopHWStandard__c</picklist>
+            <values>
+                <fullName>Compaq</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CorporateDesktopOSStandard__c</picklist>
+            <values>
+                <fullName>Mac OS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 2000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 95</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 98</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows XP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Industry</picklist>
+            <values>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ownership</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subsidiary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PrimaryERPSystem__c</picklist>
+            <values>
+                <fullName>Oracle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Peoplesoft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rating</picklist>
+            <values>
+                <fullName>Cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ReferenceProgramStatus__c</picklist>
+            <values>
+                <fullName>Available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Top Level</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>testme__c</picklist>
+            <values>
+                <fullName>one</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>two</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Account_Rec_Type2</fullName>
+        <active>true</active>
+        <label>Account Rec Type2</label>
+        <picklistValues>
+            <picklist>AccountSource</picklist>
+            <values>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cold Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web Seminar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Word of mouth</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Active__c</picklist>
+            <values>
+                <fullName>Maybe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CorporateDesktopHWStandard__c</picklist>
+            <values>
+                <fullName>Compaq</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CorporateDesktopOSStandard__c</picklist>
+            <values>
+                <fullName>Mac OS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 2000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 95</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 98</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows XP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Industry</picklist>
+            <values>
+                <fullName>Advertising</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aerospace %26 Defense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Airlines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Appliance %26 Tool</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Audio %26 Video Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auto %26 Truck Manufacturers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Beverages %28Alcoholic%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Biotechnology %26 Drugs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chemical Manufacturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial Banks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Peripherals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Financial Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electric Utilities</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronic Instr%2E %26 Controls</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Food Processing2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Healthcare Facilities</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insurance %28Accident %26 Health%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insurance %28Life%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insurance %28Miscellaneous%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insurance %28Property %26 Casualty%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metal Mining</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Misc%2E Capital Goods</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Misc%2E Financial Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oil %26 Gas Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oil Well Services %26 Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paper %26 Paper Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal %26 Household Prods%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Photography</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail %28Grocery%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail %28Home Improvement%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail %28Specialty Non-Apparel%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S%26Ls%2FSavings Banks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scientific %26 Technical Instr%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tobacco</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Water Utilities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ownership</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subsidiary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PrimaryERPSystem__c</picklist>
+            <values>
+                <fullName>Oracle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Peoplesoft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rating</picklist>
+            <values>
+                <fullName>Cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ReferenceProgramStatus__c</picklist>
+            <values>
+                <fullName>Available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Available</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Top Level</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Analyst</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integrator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Investor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Press</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reseller</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>testme__c</picklist>
+            <values>
+                <fullName>one</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>two</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.PHONE1</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ACCOUNT.TYPE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.ADDRESS1_CITY</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.ADDRESS1_STATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.PHONE1</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Active__c</lookupDialogsAdditionalFields>
+        <lookupFilterFields>ACCOUNT.NAME</lookupFilterFields>
+        <lookupFilterFields>ACCOUNT.ADDRESS1_CITY</lookupFilterFields>
+        <lookupFilterFields>ACCOUNT.ADDRESS1_STATE</lookupFilterFields>
+        <lookupFilterFields>ACCOUNT.PHONE1</lookupFilterFields>
+        <lookupFilterFields>ACCOUNT.TYPE</lookupFilterFields>
+        <lookupFilterFields>ACCOUNT.SALES</lookupFilterFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ACCOUNT.TYPE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.ADDRESS1_CITY</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.ADDRESS1_STATE</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Active__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>ACCOUNT.NAME</searchFilterFields>
+        <searchFilterFields>ACCOUNT.SITE</searchFilterFields>
+        <searchFilterFields>ACCOUNT.ADDRESS1_CITY</searchFilterFields>
+        <searchFilterFields>ACCOUNT.ADDRESS1_STATE</searchFilterFields>
+        <searchFilterFields>ACCOUNT.PHONE1</searchFilterFields>
+        <searchFilterFields>ACCOUNT.TYPE</searchFilterFields>
         <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.ADDRESS1_CITY</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.ADDRESS1_STATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Read</sharingModel>
     <webLinks>
-        <fullName>AltavistaNews</fullName>
+        <fullName>Hierarchy_Map</fullName>
         <availability>online</availability>
-        <displayType>link</displayType>
+        <displayType>button</displayType>
         <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>true</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>true</hasToolbar>
-        <height>600</height>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>1000</height>
         <isResizable>true</isResizable>
         <linkType>url</linkType>
-        <masterLabel>Noticias de Altavista</masterLabel>
+        <masterLabel>Hierarchy Map</masterLabel>
         <openType>newWindow</openType>
         <position>none</position>
         <protected>false</protected>
-        <showsLocation>true</showsLocation>
-        <showsStatus>true</showsStatus>
-        <url>http://news.altavista.com/search?nc=0&amp;q={!Account.Name}</url>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://www.dreamfactory.net/sforce/gameplan/gameplan.html? 
+sforce_session_id={!API.Session_ID}&amp; 
+sforce_server_url={!API.Partner_Server_URL_120}&amp; 
+sforce_user_name={!User.Username}&amp; 
+sforce_full_name={!User.Name}&amp; 
+sforce_user_id={!User.Id}&amp; 
+custom_link_flags=Hierarchy%20Map&amp; 
+custom_link_id={!Account.Id}</url>
+        <width>1200</width>
     </webLinks>
     <webLinks>
-        <fullName>GoogleMaps</fullName>
+        <fullName>Initiatives_Map</fullName>
         <availability>online</availability>
-        <displayType>link</displayType>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>1000</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Initiatives Map</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://www.dreamfactory.net/sforce/gameplan/gameplan.html? 
+sforce_session_id={!API.Session_ID}&amp; 
+sforce_server_url={!API.Partner_Server_URL_120}&amp; 
+sforce_user_name={!User.Username}&amp; 
+sforce_full_name={!User.Name}&amp; 
+sforce_user_id={!User.Id}&amp; 
+custom_link_flags=Initiatives%20Map&amp; 
+custom_link_id={!Account.Id}</url>
+        <width>1200</width>
+    </webLinks>
+    <webLinks>
+        <fullName>Relationship_Map</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>1000</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Relationship Map</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://www.dreamfactory.net/sforce/gameplan/gameplan.html?
+sforce_session_id={!API.Session_ID}&amp;
+sforce_server_url={!API.Partner_Server_URL_120}&amp;
+sforce_user_name={!User.Username}&amp;
+sforce_full_name={!User.Name}&amp;
+sforce_user_id={!User.Id}&amp;
+custom_link_flags=Relationship%20Map&amp;
+custom_link_id={!Account.Id}</url>
+        <width>1200</width>
+    </webLinks>
+    <webLinks>
+        <fullName>Sridhar_DeleteMe</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
         <encodingKey>UTF-8</encodingKey>
         <hasMenubar>false</hasMenubar>
         <hasScrollbars>true</hasScrollbars>
@@ -429,18 +1481,25 @@
         <height>600</height>
         <isResizable>true</isResizable>
         <linkType>url</linkType>
-        <masterLabel>Mapas de Google</masterLabel>
+        <masterLabel>Contact Hierarchy</masterLabel>
         <openType>newWindow</openType>
         <position>none</position>
         <protected>false</protected>
         <showsLocation>false</showsLocation>
         <showsStatus>false</showsStatus>
-        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Account.BillingStreet}+{!Account.BillingCity}+{!Account.BillingState}&amp;om=1</url>
+        <url>https://www.dreamfactory.net/sforce/gameplan/gameplan.html? 
+sforce_session_id={!API.Session_ID}&amp; 
+sforce_server_url={!API.Partner_Server_URL_120}&amp; 
+sforce_user_name={!User.Username}&amp; 
+sforce_full_name={!User.Name}&amp; 
+sforce_user_id={!User.Id}&amp; 
+custom_link_flags=Contact Hierarchy Map&amp; 
+custom_link_id={!Account.Id}</url>
     </webLinks>
     <webLinks>
-        <fullName>GoogleNews</fullName>
+        <fullName>contact_hierarchy_trick</fullName>
         <availability>online</availability>
-        <displayType>link</displayType>
+        <displayType>button</displayType>
         <encodingKey>UTF-8</encodingKey>
         <hasMenubar>false</hasMenubar>
         <hasScrollbars>true</hasScrollbars>
@@ -448,18 +1507,25 @@
         <height>600</height>
         <isResizable>true</isResizable>
         <linkType>url</linkType>
-        <masterLabel>Noticias de Google</masterLabel>
+        <masterLabel>Contact Hierarchy Trick</masterLabel>
         <openType>newWindow</openType>
         <position>none</position>
         <protected>false</protected>
         <showsLocation>false</showsLocation>
         <showsStatus>false</showsStatus>
-        <url>http://www.google.com/news?&amp;q={!Account.Name}&amp;btnG=Search+News</url>
+        <url>https://www.dreamfactory.net/sforce/gameplan/gameplan.html?
+sforce_session_id={!API.Session_ID}&amp;
+sforce_server_url={!API.Partner_Server_URL_120}&amp;
+sforce_user_name={!User.Username}&amp;
+sforce_full_name={!User.Name}&amp;
+sforce_user_id={!User.Id}&amp;
+custom_link_flags=Contact Hierarchy Map&amp;
+custom_link_id={!Account.Id}</url>
     </webLinks>
     <webLinks>
-        <fullName>GoogleSearch</fullName>
+        <fullName>go_home</fullName>
         <availability>online</availability>
-        <displayType>link</displayType>
+        <displayType>button</displayType>
         <encodingKey>UTF-8</encodingKey>
         <hasMenubar>false</hasMenubar>
         <hasScrollbars>true</hasScrollbars>
@@ -467,50 +1533,12 @@
         <height>600</height>
         <isResizable>true</isResizable>
         <linkType>url</linkType>
-        <masterLabel>Búsqueda en Google</masterLabel>
+        <masterLabel>go home</masterLabel>
         <openType>newWindow</openType>
         <position>none</position>
         <protected>false</protected>
         <showsLocation>false</showsLocation>
         <showsStatus>false</showsStatus>
-        <url>http://www.google.com/search?q={!Account.Name}</url>
-    </webLinks>
-    <webLinks>
-        <fullName>HooversProfile</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Perfil de Hoovers</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>http://search.hoovers.com/cgi-bin/hol_search?which=company&amp;query_string={!Account.Name}</url>
-    </webLinks>
-    <webLinks>
-        <fullName>YahooMaps</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>true</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>true</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Mapas de Yahoo!</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>true</showsLocation>
-        <showsStatus>true</showsStatus>
-        <url>http://maps.yahoo.com/py/maps.py?cn={!Account.BillingCountry}&amp;csz={!Account.BillingCity}+{!Account.BillingState}+{!Account.BillingPostalCode}+&amp;addr={!Account.BillingStreet}</url>
+        <url>http://www.metazoa.com</url>
     </webLinks>
 </CustomObject>

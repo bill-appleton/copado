@@ -1,0 +1,6 @@
+<apex:page standardController="Fredobj__c">
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  Frednew
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

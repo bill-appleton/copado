@@ -1,0 +1,10 @@
+<html>
+<head>
+	<title>test</title>
+</head>
+<body style="height: auto; min-height: auto;">Testing one, two, three<br />
+<br />
+{{{Account.ADR_is_active__c}}}<br />
+<br />
+Whatever else...</body>
+</html>

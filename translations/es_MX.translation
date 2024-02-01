@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <customApplications>
+        <description xsi:nil="true"/>
+        <label><!-- Snapshot --></label>
+        <name>Snapshot</name>
+    </customApplications>
+    <customApplications>
+        <description xsi:nil="true"/>
+        <label><!-- Test Application --></label>
+        <name>Test_App</name>
+    </customApplications>
+    <customApplications>
+        <description xsi:nil="true"/>
+        <label><!-- Unused Application --></label>
+        <name>Unused_Application</name>
+    </customApplications>
+    <customApplications>
+        <description xsi:nil="true"/>
+        <label><!-- testapp --></label>
+        <name>testapp</name>
+    </customApplications>
+    <customLabels>
+        <label>
+		</label>
+        <name>My_Custom_Labels</name>
+    </customLabels>
+    <customLabels>
+        <label>
+		</label>
+        <name>label1</name>
+    </customLabels>
+    <customLabels>
+        <label>
+		</label>
+        <name>lastly</name>
+    </customLabels>
+    <customPageWebLinks>
+        <label><!-- Microsoft --></label>
+        <name>Microsoft</name>
+    </customPageWebLinks>
+    <customTabs>
+        <label><!-- Getting Started --></label>
+        <name>Getting_Started</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- bill_lc_tab --></label>
+        <name>bill_lc_tab</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- bill_vf_tab --></label>
+        <name>bill_vf_tab</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Billappl --></label>
+        <name>billapp</name>
+    </customTabs>
+    <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>
+		</label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>
+		</label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>
+		</label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>
+		</label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>
+		</label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>
+		</label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>
+		</label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>
+		</label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>
+		</label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>
+		</label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>
+		</label>
+        <name>SendEmail</name>
+    </quickActions>
+</Translations>

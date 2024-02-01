@@ -109,12 +109,12 @@
             <operation>equals</operation>
             <value>ASG</value>
         </filters>
-        <label>All Open Work Items</label>
+        <label>Tutte le voci su cui lavorare aperte</label>
     </listViews>
     <listViews>
         <fullName>All_Work_Items</fullName>
         <filterScope>Everything</filterScope>
-        <label>All Work Items</label>
+        <label>Tutte le voci su cui lavorare</label>
     </listViews>
     <sharingModel>Private</sharingModel>
 </CustomObject>

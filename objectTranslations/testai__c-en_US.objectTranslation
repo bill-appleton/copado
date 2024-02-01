@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>testai</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>testais</value>
+    </caseValues>
+    <fields>
+        <label><!-- amount --></label>
+        <name>amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- employees --></label>
+        <name>employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- fortune_500 --></label>
+        <name>fortune_500__c</name>
+    </fields>
+    <fields>
+        <label><!-- founded --></label>
+        <name>founded__c</name>
+    </fields>
+    <fields>
+        <label><!-- industry --></label>
+        <name>industry__c</name>
+        <picklistValues>
+            <masterLabel>Agriculture</masterLabel>
+            <translation><!-- Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Care</masterLabel>
+            <translation><!-- Health Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation><!-- Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation><!-- Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology</masterLabel>
+            <translation><!-- Technology --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- medical condition --></label>
+        <name>medical_condition__c</name>
+    </fields>
+    <fields>
+        <label><!-- non_profit --></label>
+        <name>non_profit__c</name>
+    </fields>
+    <fields>
+        <label><!-- phone_number --></label>
+        <name>phone_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- rating --></label>
+        <name>rating__c</name>
+        <picklistValues>
+            <masterLabel>cold</masterLabel>
+            <translation><!-- cold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hot</masterLabel>
+            <translation><!-- hot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>warm</masterLabel>
+            <translation><!-- warm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- social security number --></label>
+        <name>social_security_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- website --></label>
+        <name>website__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You must have some employees --></errorMessage>
+        <name>Must_Have_Some_Employees</name>
+    </validationRules>
+</CustomObjectTranslation>

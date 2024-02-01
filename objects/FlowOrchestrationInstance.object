@@ -86,7 +86,7 @@
     <listViews>
         <fullName>All_Orchestration_Instances</fullName>
         <filterScope>Everything</filterScope>
-        <label>All Orchestration Runs</label>
+        <label>Tutte le esecuzioni orchestrazione</label>
     </listViews>
     <sharingModel>Private</sharingModel>
 </CustomObject>
