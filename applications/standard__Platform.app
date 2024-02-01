@@ -5,11 +5,11 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-Chatter</tabs>
-    <tabs>standard-UserProfile</tabs>
-    <tabs>standard-CollaborationGroup</tabs>
-    <tabs>standard-File</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>testingabc__c</tabs>
+    <tabs>parentabc__c</tabs>
+    <tabs>testobj__c</tabs>
 </CustomApplication>

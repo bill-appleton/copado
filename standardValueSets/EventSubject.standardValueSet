@@ -4,26 +4,26 @@
     <standardValue>
         <fullName>Call</fullName>
         <default>false</default>
-        <label>Llamada</label>
+        <label>Call</label>
     </standardValue>
     <standardValue>
         <fullName>Email</fullName>
         <default>false</default>
-        <label>Correo electrónico</label>
+        <label>Email</label>
     </standardValue>
     <standardValue>
         <fullName>Meeting</fullName>
         <default>false</default>
-        <label>Reunión</label>
+        <label>Meeting</label>
     </standardValue>
     <standardValue>
         <fullName>Send Letter/Quote</fullName>
         <default>false</default>
-        <label>Enviar carta / presupuesto</label>
+        <label>Send Letter/Quote</label>
     </standardValue>
     <standardValue>
         <fullName>Other</fullName>
         <default>false</default>
-        <label>Otros</label>
+        <label>Other</label>
     </standardValue>
 </StandardValueSet>

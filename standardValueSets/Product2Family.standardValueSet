@@ -6,4 +6,9 @@
         <default>false</default>
         <label>None</label>
     </standardValue>
+    <standardValue>
+        <fullName>Services</fullName>
+        <default>false</default>
+        <label>Services</label>
+    </standardValue>
 </StandardValueSet>

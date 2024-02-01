@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatSensitiveDataRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionType>Remove</actionType>
+    <description>This is unused Live Chat Data Rule</description>
+    <enforceOn>2</enforceOn>
+    <isEnabled>true</isEnabled>
+    <pattern>F*ck
+D*ck</pattern>
+    <priority xsi:nil="true"/>
+</LiveChatSensitiveDataRule>

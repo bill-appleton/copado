@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "37300f74-2dc6-48e9-81a6-317c2530d7fd",
+  "appPageId" : "9e474e75-894e-4d8a-ac2a-2fef73d33b11",
+  "configurationTags" : [ ],
+  "devName" : "My_TestMe_Community_Account_Management__c",
+  "id" : "e236f3fa-6ae6-40c6-8581-d6c90683ddc2",
+  "label" : "My TestMe Community Account Management",
+  "routeType" : "account-management",
+  "type" : "route",
+  "urlPrefix" : "account-management"
+}

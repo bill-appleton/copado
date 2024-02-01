@@ -246,6 +246,10 @@
         <fullName>ContractName</fullName>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>CustomerAuthorizedById</fullName>
         <trackHistory>true</trackHistory>
         <type>Lookup</type>
@@ -283,6 +287,20 @@
         <trackHistory>true</trackHistory>
     </fields>
     <fields>
+        <fullName>Order__c</fullName>
+        <description>The Power of One</description>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Order</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>OriginalOrderId</fullName>
         <type>Lookup</type>
     </fields>
@@ -301,6 +319,11 @@
     </fields>
     <fields>
         <fullName>Pricebook2Id</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QuoteId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
@@ -326,6 +349,16 @@
         <fullName>Type</fullName>
         <trackHistory>true</trackHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Validation_Rule_Test__c</fullName>
+        <description>Validation Rule Formula Logic Test</description>
+        <externalId>false</externalId>
+        <formula>CreatedDate &gt; NOW()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Validation Rule Test</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
     </fields>
     <listViews>
         <fullName>AllActivatedOrders</fullName>

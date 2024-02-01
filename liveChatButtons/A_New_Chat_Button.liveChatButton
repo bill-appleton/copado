@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatButton xmlns="http://soap.sforce.com/2006/04/metadata">
+    <chatPage>dsfs__AccountDocuSignActionLandingPage</chatPage>
+    <deployments/>
+    <enableQueue>false</enableQueue>
+    <isActive>true</isActive>
+    <label>A New Chat Button</label>
+    <offlineImage>dsfs__SearchIconPNG</offlineImage>
+    <onlineImage>dsfs__DocuSignLoadingLogoPNG</onlineImage>
+    <optionsCustomRoutingIsEnabled>false</optionsCustomRoutingIsEnabled>
+    <optionsHasChasitorIdleTimeout>false</optionsHasChasitorIdleTimeout>
+    <optionsHasInviteAfterAccept>false</optionsHasInviteAfterAccept>
+    <optionsHasInviteAfterReject>false</optionsHasInviteAfterReject>
+    <optionsHasRerouteDeclinedRequest>false</optionsHasRerouteDeclinedRequest>
+    <optionsIsAutoAccept>false</optionsIsAutoAccept>
+    <optionsIsInviteAutoRemove>false</optionsIsInviteAutoRemove>
+    <postChatPage>AnswersHome</postChatPage>
+    <preChatFormPage>Field_Trip__analyzeCreate</preChatFormPage>
+    <routingType>Choice</routingType>
+    <site>My_Test_Community</site>
+    <skills>
+        <skill>Dot_Net</skill>
+        <skill>Java</skill>
+    </skills>
+    <type>Standard</type>
+    <windowLanguage>en_US</windowLanguage>
+</LiveChatButton>

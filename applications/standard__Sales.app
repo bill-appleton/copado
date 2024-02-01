@@ -5,15 +5,22 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-Chatter</tabs>
-    <tabs>standard-UserProfile</tabs>
-    <tabs>standard-CollaborationGroup</tabs>
-    <tabs>standard-File</tabs>
+    <tabs>standard-Campaign</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Forecasting3</tabs>
+    <tabs>standard-Contract</tabs>
+    <tabs>standard-Order</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Solution</tabs>
+    <tabs>standard-Product2</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>standard-Product2</tabs>
-    <tabs>standard-Forecasting3</tabs>
+    <tabs>External_Unique_Object__c</tabs>
+    <tabs>standard-Quote</tabs>
+    <tabs>testingabc__c</tabs>
+    <tabs>parentabc__c</tabs>
+    <tabs>testobj__c</tabs>
 </CustomApplication>

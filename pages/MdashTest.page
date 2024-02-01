@@ -1,0 +1,12 @@
+<apex:page >
+    <html>
+        <head>
+            Test Head
+        </head>
+        <body>
+            This is a test to see how the &mdash; works with and without the &mdash; character.
+            With an additional test of &quot; something &quot; in quotes.   
+            And some actual " something " in quotes.         
+        </body>
+    </html>
+</apex:page>

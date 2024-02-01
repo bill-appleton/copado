@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
     <available>true</available>
-    <description>Ejemplo de plantilla de correo electrónico que se puede enviar a los clientes de autoservicio para notificarles que se ha agregado un comentario público a su caso.</description>
+    <description>Sample email template that can be sent to your Self-Service customers to notify them a public comment has been added to their case.</description>
     <encodingKey>ISO-8859-1</encodingKey>
-    <name>SOPORTE:  Notificación de comentario nuevo de autoservicio (MUESTRA)</name>
+    <name>SUPPORT:  Self-Service New Comment Notification (SAMPLE)</name>
     <style>none</style>
     <subject>Your case {!Case.CaseNumber} has been updated</subject>
     <type>text</type>

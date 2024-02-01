@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Bill</fullName>
+        <default>false</default>
+        <label>Bill</label>
+    </customValue>
+    <customValue>
+        <fullName>New</fullName>
+        <default>false</default>
+        <label>Newt</label>
+    </customValue>
+    <customValue>
+        <fullName>Old</fullName>
+        <default>false</default>
+        <label>Old</label>
+    </customValue>
+    <customValue>
+        <fullName>Existing</fullName>
+        <default>false</default>
+        <label>Existing</label>
+    </customValue>
+    <customValue>
+        <fullName>Renewal</fullName>
+        <default>false</default>
+        <label>Renewal</label>
+    </customValue>
+    <masterLabel>Text based value set</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

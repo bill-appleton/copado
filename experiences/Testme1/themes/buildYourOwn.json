@@ -1,0 +1,123 @@
+{
+  "activeBrandingSetId" : "05f3ae61-1163-43f5-9d22-f2817a0da27d",
+  "customCSS" : "",
+  "developerName" : "starter",
+  "id" : "03bd0a82-80f7-4f25-ab7f-441a46b760ba",
+  "label" : "Build Your Own",
+  "layouts" : {
+    "Inner" : "e3e02289-18b1-40c6-aa5a-ef01d2bad469",
+    "Login" : "56e57976-5139-40a6-bb8b-de04c73fd05d",
+    "ServiceNotAvailable" : "36895d6c-ed02-47f9-b73e-eec1146cb141"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "56e57976-5139-40a6-bb8b-de04c73fd05d",
+    "label" : "Login",
+    "regions" : [ {
+      "id" : "062505bd-01bc-4630-8efb-2716ed1b3197",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "757e56d7-6567-492c-b9c8-79bda09ad37a",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "id" : "d313494c-6165-4328-9499-855b86895258",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : { },
+    "componentName" : "siteforce:starterBody",
+    "id" : "e3e02289-18b1-40c6-aa5a-ef01d2bad469",
+    "label" : "Default",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "maxAutoCompleteResults" : 5,
+          "searchLabel" : "Search...",
+          "searchObjects" : [ {
+            "isPublic" : true,
+            "name" : "Account"
+          } ]
+        },
+        "componentName" : "forceCommunity:globalSearchInput",
+        "id" : "2b797c94-593e-4cbc-8449-14e680c7b018",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "74b2eac8-7df3-4a8d-83a9-e9872585b792",
+      "regionName" : "search",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "accountManagementLabel" : "Account Management",
+          "communityBuilderLabel" : "Community Builder",
+          "communitySetupLabel" : "Community Setup",
+          "contactSupportLabel" : "Contact Support",
+          "filterName" : "MyCases",
+          "homeLabel" : "Home",
+          "includeContactSupport" : true,
+          "includeMessages" : false,
+          "loginLabel" : "Login",
+          "logoutLabel" : "Logout",
+          "myAccountLabel" : "My Account",
+          "showAccountManagement" : false,
+          "showUserSettings" : true,
+          "userSettingsLabel" : "My Settings",
+          "viewProfileLabel" : "My Profile"
+        },
+        "componentName" : "selfService:userProfileMenu",
+        "id" : "2f893f7f-2fe3-42f1-a2df-854997fc9acc",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "e0b7621c-701f-46f9-a722-1f0ce44415be",
+      "regionName" : "profileMenu",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "NavigationMenuEditorRefresh" : "",
+          "hideAppLauncher" : true,
+          "hideHomeText" : true
+        },
+        "componentName" : "forceCommunity:globalNavigation",
+        "id" : "4c1fb35f-9075-4f43-afcd-94f789b90e3f",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "1487ab47-0e54-4725-9de1-47c835ec6e75",
+      "regionName" : "navBar",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "36895d6c-ed02-47f9-b73e-eec1146cb141",
+    "label" : "ServiceNotAvailable",
+    "regions" : [ {
+      "id" : "dfe06894-a957-426d-a885-45bdfac538b4",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "e3cf8019-f9bc-45ad-815c-ce4cba4fb87e",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

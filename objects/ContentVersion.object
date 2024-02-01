@@ -34,6 +34,10 @@
         <fullName>ContentSize</fullName>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -42,6 +46,16 @@
     </fields>
     <fields>
         <fullName>FileType</fullName>
+    </fields>
+    <fields>
+        <fullName>FirstPublishedType__c</fullName>
+        <externalId>false</externalId>
+        <label>FirstPublishedType</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>IsAssetEnabled</fullName>
@@ -70,6 +84,31 @@
         <fullName>Title</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <fields>
+        <fullName>external_finder__c</fullName>
+        <externalId>false</externalId>
+        <label>external_finder</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>metazoa_external_id__c</fullName>
+        <externalId>true</externalId>
+        <label>metazoa_external_id</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <recordTypes>
+        <fullName>Test_Me</fullName>
+        <active>true</active>
+        <label>Test Me</label>
+    </recordTypes>
     <searchLayouts>
         <searchResultsAdditionalFields>VERSION.TITLE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>VERSION.CONTENT_SIZE</searchResultsAdditionalFields>

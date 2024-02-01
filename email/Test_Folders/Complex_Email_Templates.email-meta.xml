@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email Template description</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Complex Email Templates</name>
+    <style>none</style>
+    <subject>Test Email Template Subject</subject>
+    <textOnly>This is a complex HTML email template.
+
+Metazoa is my company!
+
+
+But this is not the way it is supposed to work.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

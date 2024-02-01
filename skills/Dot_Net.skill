@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skill xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <profiles>
+            <profile>custom: marketing profile</profile>
+            <profile>custom: support profile</profile>
+            <profile>contractmanager</profile>
+            <profile>sales rep profile</profile>
+        </profiles>
+    </assignments>
+    <label>Dot Net</label>
+</Skill>

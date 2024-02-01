@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RecordType Test Object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RecordType Test Objects</value>
+    </caseValues>
+    <fields>
+        <label><!-- Abnormal/Awesome Picklist Field --></label>
+        <name>Abnormal_Awesome_Picklist_Field__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abnormal/Awesome PicklistValue1</masterLabel>
+            <translation><!-- Abnormal/Awesome PicklistValue1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abnormal/Awesome PicklistValue2</masterLabel>
+            <translation><!-- Abnormal/Awesome PicklistValue2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abnormal/Awesome PicklistValue3</masterLabel>
+            <translation><!-- Abnormal/Awesome PicklistValue3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abnormal/Awesome PicklistValue4</masterLabel>
+            <translation><!-- Abnormal/Awesome PicklistValue4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abnormal/Awesome PicklistValue5</masterLabel>
+            <translation><!-- Abnormal/Awesome PicklistValue5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dependent Value Set --></label>
+        <name>Dependent_Value_Set__c</name>
+    </fields>
+    <fields>
+        <label><!-- Normal Picklist --></label>
+        <name>Normal_Picklist__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ValueSet Picklist --></label>
+        <name>ValueSet_Picklist__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Abnormal/Awesome Recordtype --></label>
+        <name>Abnormal_Awesome_Recordtype</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Normal Record Type --></label>
+        <name>Normal_Record_Type</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

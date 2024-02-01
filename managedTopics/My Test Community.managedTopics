@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>My Test Community.Content:Another Topic</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Another Topic</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription>Here is the description</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>My Test Community.Content:Sub Managed Topic</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Sub Managed Topic</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>My Test Community.Content:Test Managed Topic</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Test Managed Topic</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription>Test Managed Topic</topicDescription>
+    </managedTopic>
+</ManagedTopics>

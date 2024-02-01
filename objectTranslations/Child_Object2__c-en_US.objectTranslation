@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Child Object2</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Child Objects2</value>
+    </caseValues>
+    <fields>
+        <label><!-- Child Text --></label>
+        <name>Child_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Object --></label>
+        <name>Parent_Object__c</name>
+        <relationshipLabel><!-- Child Objects2 --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

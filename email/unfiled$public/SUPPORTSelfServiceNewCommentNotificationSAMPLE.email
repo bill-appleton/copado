@@ -1,1 +1,5 @@
-Su nº de caso {!Case.CaseNumber}: {!Case.Subject} se ha actualizado.  Haga clic en el vínculo siguiente para ver este caso en el portal de autoservicio. <inserte aquí el vínculo para la página de inicio de sesión del portal de autoservicio> Servicio de atención al cliente de {!Organization.Name}
+Your case # {!Case.CaseNumber}: {!Case.Subject} has been updated.  Please click on the link below
+to view this case on the Self-Service portal.
+<insert the link to your Self-Service portal login page here>
+
+{!Organization.Name} Customer Support

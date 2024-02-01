@@ -133,6 +133,19 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Campaign_Member__c</fullName>
+        <description>It&apos;s The Power of One</description>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Campaign Member</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>City</fullName>
     </fields>
     <fields>
@@ -208,6 +221,15 @@
     </fields>
     <fields>
         <fullName>Title</fullName>
+    </fields>
+    <fields>
+        <fullName>Validation_Rule_Test__c</fullName>
+        <description>Validation Rule Formula Logic Test</description>
+        <externalId>false</externalId>
+        <formula>CreatedDate &gt; NOW()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Validation Rule Test</label>
+        <type>Checkbox</type>
     </fields>
     <sharingModel>ControlledByCampaign</sharingModel>
 </CustomObject>

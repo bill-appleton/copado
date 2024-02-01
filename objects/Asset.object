@@ -125,6 +125,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Asset__c</fullName>
+        <description>The Power of One</description>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Asset</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ConsequenceOfFailure</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
@@ -133,6 +147,10 @@
         <fullName>ContactId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Description</fullName>
@@ -150,6 +168,7 @@
     </fields>
     <fields>
         <fullName>InstallDate</fullName>
+        <complianceGroup>GDPR</complianceGroup>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -159,11 +178,6 @@
     <fields>
         <fullName>IsInternal</fullName>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>LocationId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>ManufactureDate</fullName>
@@ -242,6 +256,16 @@
         <fullName>Uuid</fullName>
         <inlineHelpText>Unique string identifying the asset.</inlineHelpText>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Validation_Rule_Test__c</fullName>
+        <description>Validation Rule Formula Logic Test</description>
+        <externalId>false</externalId>
+        <formula>CreatedDate &gt; NOW()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Validation Rule Test</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
     </fields>
     <listViews>
         <fullName>AllAssets</fullName>

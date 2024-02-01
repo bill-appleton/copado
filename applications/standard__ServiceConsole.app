@@ -180,7 +180,14 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
+    <tabs>standard-Knowledge</tabs>
+    <tabs>testingabc__c</tabs>
+    <tabs>parentabc__c</tabs>
+    <tabs>testobj__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>parentabc__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
@@ -193,11 +200,20 @@
             <tab>standard-Contact</tab>
         </mappings>
         <mappings>
+            <tab>standard-Knowledge</tab>
+        </mappings>
+        <mappings>
             <tab>standard-Lead</tab>
         </mappings>
         <mappings>
             <fieldName>AccountId</fieldName>
             <tab>standard-Opportunity</tab>
+        </mappings>
+        <mappings>
+            <tab>testingabc__c</tab>
+        </mappings>
+        <mappings>
+            <tab>testobj__c</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>

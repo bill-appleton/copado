@@ -4,15 +4,15 @@
     <enableApexAccessRightsPref>false</enableApexAccessRightsPref>
     <enableApexApprovalLockUnlock>false</enableApexApprovalLockUnlock>
     <enableApexCtrlImplicitWithSharingPref>false</enableApexCtrlImplicitWithSharingPref>
-    <enableApexPropertyGetterPref>false</enableApexPropertyGetterPref>
-    <enableAuraApexCtrlAuthUserAccessCheckPref>false</enableAuraApexCtrlAuthUserAccessCheckPref>
-    <enableAuraApexCtrlGuestUserAccessCheckPref>false</enableAuraApexCtrlGuestUserAccessCheckPref>
+    <enableApexPropertyGetterPref>true</enableApexPropertyGetterPref>
+    <enableAuraApexCtrlAuthUserAccessCheckPref>true</enableAuraApexCtrlAuthUserAccessCheckPref>
+    <enableAuraApexCtrlGuestUserAccessCheckPref>true</enableAuraApexCtrlGuestUserAccessCheckPref>
     <enableCompileOnDeploy>false</enableCompileOnDeploy>
     <enableDisableParallelApexTesting>false</enableDisableParallelApexTesting>
     <enableDoNotEmailDebugLog xsi:nil="true"/>
-    <enableGaplessTestAutoNum>true</enableGaplessTestAutoNum>
-    <enableMngdCtrlActionAccessPref>false</enableMngdCtrlActionAccessPref>
+    <enableGaplessTestAutoNum>false</enableGaplessTestAutoNum>
+    <enableMngdCtrlActionAccessPref>true</enableMngdCtrlActionAccessPref>
     <enableNonCertifiedApexMdCrud>false</enableNonCertifiedApexMdCrud>
     <enableRestrictCommunityExecAnon>false</enableRestrictCommunityExecAnon>
-    <enableSecureNoArgConstructorPref>false</enableSecureNoArgConstructorPref>
+    <enableSecureNoArgConstructorPref>true</enableSecureNoArgConstructorPref>
 </ApexSettings>

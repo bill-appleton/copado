@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Eve Bar</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Eves Bar</value>
+    </caseValues>
+    <fields>
+        <label><!-- Eve Bar2 --></label>
+        <name>Eve_Bar2__c</name>
+        <relationshipLabel><!-- Eves Bar (Eve Bar2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Eve Bar --></label>
+        <name>Eve_Bar__c</name>
+        <relationshipLabel><!-- Eves Bar --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- My Text Field --></label>
+        <name>My_Text_Field__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

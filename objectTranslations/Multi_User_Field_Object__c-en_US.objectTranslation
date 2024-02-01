@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Multi User Field Object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Multi User Field Object</value>
+    </caseValues>
+    <fields>
+        <label><!-- Partner Manager --></label>
+        <name>Partner_Manager__c</name>
+        <relationshipLabel><!-- Multi User Field Object (Partner Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Support Manager --></label>
+        <name>Support_Manager__c</name>
+        <relationshipLabel><!-- Multi User Field Object (Support Manager) --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

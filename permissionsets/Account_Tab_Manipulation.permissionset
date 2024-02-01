@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Provide access to the Account tab</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Account Tab Manipulation</label>
+    <license>Salesforce</license>
+    <tabSettings>
+        <tab>standard-Account</tab>
+        <visibility>Available</visibility>
+    </tabSettings>
+</PermissionSet>

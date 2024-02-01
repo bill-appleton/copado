@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Division of the Contact --></label>
+        <name>Division_of_the_Contact__c</name>
+        <picklistValues>
+            <masterLabel>Ad/ TGI</masterLabel>
+            <translation><!-- Ad/ TGI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ad/TGI/Reputation</masterLabel>
+            <translation><!-- Ad/TGI/Reputation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reputation</masterLabel>
+            <translation><!-- Reputation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Languages --></label>
+        <name>Languages__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>Level__c</name>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation><!-- Primary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation><!-- Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation><!-- Tertiary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Validation Rule Test --></label>
+        <name>Validation_Rule_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- mypicklist --></label>
+        <name>mypicklist__c</name>
+        <picklistValues>
+            <masterLabel>one</masterLabel>
+            <translation><!-- one --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>three</masterLabel>
+            <translation><!-- three --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>two!</masterLabel>
+            <translation><!-- two! --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- Customer Contact --></label>
+        <name>Customer_Contact</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Partner Contact --></description>
+        <label><!-- Partner --></label>
+        <name>Partner</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- BLND_FormFactoryContactLink --></label>
+        <name>BLND_FormFactoryContactLink</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+</CustomObjectTranslation>

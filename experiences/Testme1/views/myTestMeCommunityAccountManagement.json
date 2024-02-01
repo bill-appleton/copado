@@ -1,0 +1,120 @@
+{
+  "appPageId" : "9e474e75-894e-4d8a-ac2a-2fef73d33b11",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "37300f74-2dc6-48e9-81a6-317c2530d7fd",
+  "label" : "My TestMe Community Account Management",
+  "regions" : [ {
+    "id" : "039c154e-a09b-460e-85bb-0eb0f0d6a618",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "4508a95b-c603-4211-a0b2-e88ddc7e5dde",
+          "activeTab" : "tab1",
+          "tabs" : [ {
+            "UUID" : "fc801832-9ceb-4f84-b38e-73216a5b9f1f",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "customTitle" : "Members",
+                "parentRecordId" : "{!CurrentUser.accountId}",
+                "relatedListName" : "Users",
+                "showBreadCrumbs" : "false",
+                "showCustomTitle" : "true",
+                "showManualRefreshButton" : "false",
+                "showRowNumbers" : "false"
+              },
+              "fqn" : "forceCommunity:relatedList"
+            } ],
+            "tabKey" : "tab1",
+            "tabName" : "Members"
+          }, {
+            "UUID" : "aa17cd60-d46d-42b7-a07a-c88c5accfb06",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "recordId" : "{!CurrentUser.accountId}"
+              },
+              "fqn" : "forceCommunity:accountBrandRecord"
+            } ],
+            "tabKey" : "tab2",
+            "tabName" : "Branding"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "4508a95b-c603-4211-a0b2-e88ddc7e5dde",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "customTitle" : "Members",
+            "parentRecordId" : "{!CurrentUser.accountId}",
+            "relatedListName" : "Users",
+            "showBreadCrumbs" : false,
+            "showCustomTitle" : true,
+            "showManualRefreshButton" : false,
+            "showRowNumbers" : false
+          },
+          "componentName" : "forceCommunity:relatedList",
+          "id" : "64e32953-bbf2-4023-8d4e-c2f50ed95256",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "fc801832-9ceb-4f84-b38e-73216a5b9f1f",
+        "regionLabel" : "Members",
+        "regionName" : "tab1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!CurrentUser.accountId}"
+          },
+          "componentName" : "forceCommunity:accountBrandRecord",
+          "id" : "f4eccdd4-804f-4d50-ade9-8340bacfe40a",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "aa17cd60-d46d-42b7-a07a-c88c5accfb06",
+        "regionLabel" : "Branding",
+        "regionName" : "tab2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7c34c826-9c46-4970-9faf-eb67316b29d0",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "5a7b55c7-494e-4fa9-aab6-852877a15e9c",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "My TestMe Community Account Management"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3b5397e0-f5aa-4a45-806a-c23a46f8d878",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c92c71f2-9c06-40d7-ad2b-e02e93b2a9d1",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "account-management"
+}

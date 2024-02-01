@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniSupervisorConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isTimelineHidden>false</isTimelineHidden>
+    <masterLabel>testing</masterLabel>
+    <omniSupervisorConfigGroup>
+        <group>All_Users</group>
+    </omniSupervisorConfigGroup>
+    <omniSupervisorConfigProfile>
+        <profile>admin2</profile>
+    </omniSupervisorConfigProfile>
+    <omniSupervisorConfigQueue>
+        <queue>My_New_Queue</queue>
+    </omniSupervisorConfigQueue>
+    <omniSupervisorConfigSkill>
+        <skill>Dot_Net</skill>
+    </omniSupervisorConfigSkill>
+    <omniSupervisorConfigSkill>
+        <skill>Java</skill>
+    </omniSupervisorConfigSkill>
+    <skillVisibility>AllSkills</skillVisibility>
+</OmniSupervisorConfig>

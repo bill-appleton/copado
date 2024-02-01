@@ -157,6 +157,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -199,6 +203,16 @@
         <fullName>RootServiceContractId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Service_Contract_Text_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Service Contract Text 2</label>
+        <length>55</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>ShippingAddress</fullName>
@@ -248,7 +262,7 @@
         <columns>CONTRACT.ENDDATE</columns>
         <columns>CONTRACT.STATUS</columns>
         <filterScope>Everything</filterScope>
-        <label>Todos los Contratos de servicio</label>
+        <label>All Service Contracts</label>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CONTRACT.NAME</customTabListAdditionalFields>

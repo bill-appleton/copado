@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- $Amount(Closed) --></label>
+        <name>Amount_Closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- $Amount(Lost) --></label>
+        <name>Amount_Lost__c</name>
+    </fields>
+    <fields>
+        <label><!-- $Amount(Open) --></label>
+        <name>Amount_Open__c</name>
+    </fields>
+    <fields>
+        <label><!-- $Amount(Won) --></label>
+        <name>Amount_Won__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CloseDate = Current Month --></label>
+        <name>CloseDate_Current_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- CloseDate(Day) &lt;= TODAY --></label>
+        <name>CloseDate_Day_TODAY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Date (MTD) --></label>
+        <name>Close_Date_MTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Date (Quarter) --></label>
+        <name>Close_Date_Quarter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Date (YTD) --></label>
+        <name>Close_Date_YTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Generator(s) --></label>
+        <name>CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Amount --></label>
+        <name>Current_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Close Date --></label>
+        <name>Current_Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Probability% --></label>
+        <name>Current_Probability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Stage --></label>
+        <name>Current_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Since Close --></label>
+        <name>Days_Since_Close__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Until Close --></label>
+        <name>Days_Until_Close__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delete Me --></label>
+        <name>Delete_Me__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery/Installation Status --></label>
+        <name>DeliveryInstallationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation><!-- In progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation><!-- Yet to begin --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lost --></label>
+        <name>IsLost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open --></label>
+        <name>IsOpen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lapsed --></label>
+        <name>Lapsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Competitor(s) --></label>
+        <name>MainCompetitors__c</name>
+    </fields>
+    <fields>
+        <label><!-- My Multiselect Picklist --></label>
+        <name>My_Multiselect_Picklist__c</name>
+    </fields>
+    <fields>
+        <label><!-- My Regular Picklist --></label>
+        <name>My_Regular_Picklist__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- pwned! --></help>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Number --></label>
+        <name>OrderNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- pwned! --></help>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number --></label>
+        <name>TrackingNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validation Rule Test --></label>
+        <name>Validation_Rule_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- metazoa_external_id --></label>
+        <name>metazoa_external_id__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Account Rec Type1 --></label>
+        <name>Account_Rec_Type1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Closed Opp --></label>
+        <name>Closed_Opp</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Open Opp --></label>
+        <name>Open_Opp</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You cannot set a CloseDate less than a year from TODAY --></errorMessage>
+        <name>Close_Date_Set_too_far_in_Future</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot set a CloseDate less than TODAY --></errorMessage>
+        <name>Close_Date_set_to_before_TODAY</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- All high-value opportunities must be approved for closure. Click the
+Approval Status button. --></errorMessage>
+        <name>High_Value_Opportunity_Must_Be_Approved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t save an opportunity that has not been been rejected. --></errorMessage>
+        <name>No_Opportunities_Can_Be_Accepted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t save an opportunity that has been rejected. --></errorMessage>
+        <name>No_Opportunities_Can_Be_Rejected</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- BLND_FormFactory_Opportunity_Link --></label>
+        <name>BLND_FormFactory_Opportunity_Link</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DeliveryStatus --></label>
+        <name>DeliveryStatus</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Verify_with_DNB --></label>
+        <name>dsfs__Verify_with_DNB</name>
+    </webLinks>
+</CustomObjectTranslation>

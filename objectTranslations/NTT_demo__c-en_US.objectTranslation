@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>NTT Demo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>NTT demo objects</value>
+    </caseValues>
+    <fields>
+        <help><!-- My Help --></help>
+        <label><!-- My Text --></label>
+        <name>My_Text__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

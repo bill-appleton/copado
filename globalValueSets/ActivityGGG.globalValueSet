@@ -1,0 +1,3136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>3D Secure</fullName>
+        <default>false</default>
+        <label>3D Secure</label>
+    </customValue>
+    <customValue>
+        <fullName>3D Secure - Implementation/Update</fullName>
+        <default>false</default>
+        <label>3D Secure - Implementation/Update</label>
+    </customValue>
+    <customValue>
+        <fullName>800# Support</fullName>
+        <default>false</default>
+        <label>800# Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Account Take Over</fullName>
+        <default>false</default>
+        <label>Account Take Over</label>
+    </customValue>
+    <customValue>
+        <fullName>ACH</fullName>
+        <default>false</default>
+        <label>ACH</label>
+    </customValue>
+    <customValue>
+        <fullName>ACH File Approval</fullName>
+        <default>false</default>
+        <label>ACH File Approval</label>
+    </customValue>
+    <customValue>
+        <fullName>ACH File Processing</fullName>
+        <default>false</default>
+        <label>ACH File Processing</label>
+    </customValue>
+    <customValue>
+        <fullName>ACH File Processing - FSR Clearing</fullName>
+        <default>false</default>
+        <label>ACH File Processing - FSR Clearing</label>
+    </customValue>
+    <customValue>
+        <fullName>ACH File Processing - FSR Processing</fullName>
+        <default>false</default>
+        <label>ACH File Processing - FSR Processing</label>
+    </customValue>
+    <customValue>
+        <fullName>ACH Return</fullName>
+        <default>false</default>
+        <label>ACH Return</label>
+    </customValue>
+    <customValue>
+        <fullName>ACH Return Data Entry</fullName>
+        <default>false</default>
+        <label>ACH Return Data Entry</label>
+    </customValue>
+    <customValue>
+        <fullName>ACH Settlement Corrections</fullName>
+        <default>false</default>
+        <label>ACH Settlement Corrections</label>
+    </customValue>
+    <customValue>
+        <fullName>ACH Settlement Corrections  Data Entry</fullName>
+        <default>false</default>
+        <label>ACH Settlement Corrections  Data Entry</label>
+    </customValue>
+    <customValue>
+        <fullName>ACS</fullName>
+        <default>false</default>
+        <label>ACS</label>
+    </customValue>
+    <customValue>
+        <fullName>Add Acquirer Interface</fullName>
+        <default>false</default>
+        <label>Add Acquirer Interface</label>
+    </customValue>
+    <customValue>
+        <fullName>Add ATM (1st) </fullName>
+        <default>false</default>
+        <label>Add ATM (1st) </label>
+    </customValue>
+    <customValue>
+        <fullName>Add ATM (1st) with Image Clearing </fullName>
+        <default>false</default>
+        <label>Add ATM (1st) with Image Clearing </label>
+    </customValue>
+    <customValue>
+        <fullName>ADD ATM Bill Mix </fullName>
+        <default>false</default>
+        <label>ADD ATM Bill Mix </label>
+    </customValue>
+    <customValue>
+        <fullName>Add ATM - Windows 10 </fullName>
+        <default>false</default>
+        <label>Add ATM - Windows 10 </label>
+    </customValue>
+    <customValue>
+        <fullName>Add Image Clearing to Existing ATM </fullName>
+        <default>false</default>
+        <label>Add Image Clearing to Existing ATM </label>
+    </customValue>
+    <customValue>
+        <fullName>Additional ATM </fullName>
+        <default>false</default>
+        <label>Additional ATM </label>
+    </customValue>
+    <customValue>
+        <fullName>ADD NCR ITM </fullName>
+        <default>false</default>
+        <label>ADD NCR ITM </label>
+    </customValue>
+    <customValue>
+        <fullName>Add-On Skip Pay Custom</fullName>
+        <default>false</default>
+        <label>Add-On Skip Pay Custom</label>
+    </customValue>
+    <customValue>
+        <fullName>Add-On Skip Pay Standard</fullName>
+        <default>false</default>
+        <label>Add-On Skip Pay Standard</label>
+    </customValue>
+    <customValue>
+        <fullName>Add-On Turning On/Off Inactive Stmt</fullName>
+        <default>false</default>
+        <label>Add-On Turning On/Off Inactive Stmt</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - Client Inquiry</fullName>
+        <default>false</default>
+        <label>Adjustment Issue - Client Inquiry</label>
+    </customValue>
+    <customValue>
+        <fullName>ADJUSTMENT SETTLEMENT ESCALATION</fullName>
+        <default>false</default>
+        <label>Adjustment Settlement Escalation</label>
+    </customValue>
+    <customValue>
+        <fullName>Admin-Support</fullName>
+        <default>false</default>
+        <label>Admin-Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Agent Assigned Pricing - Fixed or Variable</fullName>
+        <default>false</default>
+        <label>Agent Assigned Pricing - Fixed or Variable</label>
+    </customValue>
+    <customValue>
+        <fullName>Agent Assign - Pricing Update</fullName>
+        <default>false</default>
+        <label>Agent Assign - Pricing Update</label>
+    </customValue>
+    <customValue>
+        <fullName>ALP - Base Changes</fullName>
+        <default>false</default>
+        <label>ALP - Base Changes</label>
+    </customValue>
+    <customValue>
+        <fullName>ALP - New program base build</fullName>
+        <default>false</default>
+        <label>ALP - New program base build</label>
+    </customValue>
+    <customValue>
+        <fullName>AML</fullName>
+        <default>false</default>
+        <label>AML</label>
+    </customValue>
+    <customValue>
+        <fullName>Augeo Rewards</fullName>
+        <default>false</default>
+        <label>ampliFI / Augeo Rewards</label>
+    </customValue>
+    <customValue>
+        <fullName>Analytical Request</fullName>
+        <default>false</default>
+        <label>Analytical Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Annual Stmt - Enhanced</fullName>
+        <default>false</default>
+        <label>Annual Stmt - Enhanced</label>
+    </customValue>
+    <customValue>
+        <fullName>Annual Stmt - Standard</fullName>
+        <default>false</default>
+        <label>Annual Stmt - Standard</label>
+    </customValue>
+    <customValue>
+        <fullName>AOV/COV</fullName>
+        <default>false</default>
+        <label>AOV/COV</label>
+    </customValue>
+    <customValue>
+        <fullName>AOV/COV Request</fullName>
+        <default>false</default>
+        <label>AOV/COV Request</label>
+    </customValue>
+    <customValue>
+        <fullName>AP2/AP4 Conversion</fullName>
+        <default>false</default>
+        <label>AP2/AP4 Conversion</label>
+    </customValue>
+    <customValue>
+        <fullName>Application Integration Advisory</fullName>
+        <default>false</default>
+        <label>Application Integration Advisory</label>
+    </customValue>
+    <customValue>
+        <fullName>AT</fullName>
+        <default>false</default>
+        <label>AT</label>
+    </customValue>
+    <customValue>
+        <fullName>AT (compromises)</fullName>
+        <default>false</default>
+        <label>AT (compromises)</label>
+    </customValue>
+    <customValue>
+        <fullName>ATIRA</fullName>
+        <default>false</default>
+        <label>ATIRA</label>
+    </customValue>
+    <customValue>
+        <fullName>ATM Add</fullName>
+        <default>false</default>
+        <label>ATM Add</label>
+    </customValue>
+    <customValue>
+        <fullName>ATM Delete</fullName>
+        <default>false</default>
+        <label>ATM Delete</label>
+    </customValue>
+    <customValue>
+        <fullName>ATM Locator</fullName>
+        <default>false</default>
+        <label>ATM Locator</label>
+    </customValue>
+    <customValue>
+        <fullName>ATM Managed Services </fullName>
+        <default>false</default>
+        <label>ATM Managed Services </label>
+    </customValue>
+    <customValue>
+        <fullName>ATM Migration </fullName>
+        <default>false</default>
+        <label>ATM Migration </label>
+    </customValue>
+    <customValue>
+        <fullName>ATM Modify</fullName>
+        <default>false</default>
+        <label>ATM Modify</label>
+    </customValue>
+    <customValue>
+        <fullName>ATM Relocation </fullName>
+        <default>false</default>
+        <label>ATM Relocation </label>
+    </customValue>
+    <customValue>
+        <fullName>ATM Software Upgrade </fullName>
+        <default>false</default>
+        <label>ATM Software Upgrade </label>
+    </customValue>
+    <customValue>
+        <fullName>ATM Telecom Change </fullName>
+        <default>false</default>
+        <label>ATM Telecom Change </label>
+    </customValue>
+    <customValue>
+        <fullName>ATM Visual Control </fullName>
+        <default>false</default>
+        <label>ATM Visual Control </label>
+    </customValue>
+    <customValue>
+        <fullName>ATM Visual Control (AVC)</fullName>
+        <default>false</default>
+        <label>ATM Visual Control (AVC)</label>
+    </customValue>
+    <customValue>
+        <fullName>ATO</fullName>
+        <default>false</default>
+        <label>ATO</label>
+    </customValue>
+    <customValue>
+        <fullName>Audit/Compliance</fullName>
+        <default>false</default>
+        <label>Audit/Compliance</label>
+    </customValue>
+    <customValue>
+        <fullName>Audit Confirmation</fullName>
+        <default>false</default>
+        <label>Audit Confirmation</label>
+    </customValue>
+    <customValue>
+        <fullName>Augeo</fullName>
+        <default>false</default>
+        <label>Augeo</label>
+    </customValue>
+    <customValue>
+        <fullName>Authorization Build</fullName>
+        <default>false</default>
+        <label>Authorization Build</label>
+    </customValue>
+    <customValue>
+        <fullName>Authorization Modification</fullName>
+        <default>false</default>
+        <label>Authorization Modification</label>
+    </customValue>
+    <customValue>
+        <fullName>Authorizations</fullName>
+        <default>false</default>
+        <label>Authorizations</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Charge-off</fullName>
+        <default>false</default>
+        <label>Auto Charge-off</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Purge</fullName>
+        <default>false</default>
+        <label>Auto Purge</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Recon Clearing</fullName>
+        <default>false</default>
+        <label>Auto Recon Clearing</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Recon Data Entry</fullName>
+        <default>false</default>
+        <label>Auto Recon Data Entry</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Recon Processing</fullName>
+        <default>false</default>
+        <label>Auto Recon Processing</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Recon - Research</fullName>
+        <default>false</default>
+        <label>Auto Recon - Research</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Recon - Resolving</fullName>
+        <default>false</default>
+        <label>Auto Recon - Resolving</label>
+    </customValue>
+    <customValue>
+        <fullName>AWS - Self Service Gateway</fullName>
+        <default>false</default>
+        <label>AWS - Self Service Gateway</label>
+    </customValue>
+    <customValue>
+        <fullName>Balance Transfer</fullName>
+        <default>false</default>
+        <label>Balance Transfer</label>
+    </customValue>
+    <customValue>
+        <fullName>BALCON</fullName>
+        <default>false</default>
+        <label>BALCON</label>
+    </customValue>
+    <customValue>
+        <fullName>BAU Management Admin</fullName>
+        <default>false</default>
+        <label>BAU Management Admin</label>
+    </customValue>
+    <customValue>
+        <fullName>Bi-Annual Release-Debit Network</fullName>
+        <default>false</default>
+        <label>Bi-Annual Release-Debit Network</label>
+    </customValue>
+    <customValue>
+        <fullName>Bi-Annual Release-Mastercard - Connex</fullName>
+        <default>false</default>
+        <label>Bi-Annual Release-Mastercard - Connex</label>
+    </customValue>
+    <customValue>
+        <fullName>Bi-Annual Release-Mastercard - Optis</fullName>
+        <default>false</default>
+        <label>Bi-Annual Release-Mastercard - Optis</label>
+    </customValue>
+    <customValue>
+        <fullName>Bi-Annual Release- Visa - Connex</fullName>
+        <default>false</default>
+        <label>Bi-Annual Release- Visa - Connex</label>
+    </customValue>
+    <customValue>
+        <fullName>Bi-Annual Release- Visa - Optis</fullName>
+        <default>false</default>
+        <label>Bi-Annual Release- Visa - Optis</label>
+    </customValue>
+    <customValue>
+        <fullName>Billable Testing</fullName>
+        <default>false</default>
+        <label>Billable Testing</label>
+    </customValue>
+    <customValue>
+        <fullName>Billing Database</fullName>
+        <default>false</default>
+        <label>Billing Database</label>
+    </customValue>
+    <customValue>
+        <fullName>Billing-Invoice Inquiry-Debit Network</fullName>
+        <default>false</default>
+        <label>Billing-Invoice Inquiry-Debit Network</label>
+    </customValue>
+    <customValue>
+        <fullName>Billing-Invoice Inquiry-MC - Connex</fullName>
+        <default>false</default>
+        <label>Billing-Invoice Inquiry-MC - Connex</label>
+    </customValue>
+    <customValue>
+        <fullName>Billing-Invoice Inquiry-MC - Optis</fullName>
+        <default>false</default>
+        <label>Billing-Invoice Inquiry-MC - Optis</label>
+    </customValue>
+    <customValue>
+        <fullName>Billing-Invoice Inquiry-Visa - Connex</fullName>
+        <default>false</default>
+        <label>Billing-Invoice Inquiry-Visa - Connex</label>
+    </customValue>
+    <customValue>
+        <fullName>Billing-Invoice Inquiry-Visa - Optis</fullName>
+        <default>false</default>
+        <label>Billing-Invoice Inquiry-Visa - Optis</label>
+    </customValue>
+    <customValue>
+        <fullName>BlueZone/3270</fullName>
+        <default>false</default>
+        <label>BlueZone/3270</label>
+    </customValue>
+    <customValue>
+        <fullName>BONEBASE File</fullName>
+        <default>false</default>
+        <label>BONEBASE File</label>
+    </customValue>
+    <customValue>
+        <fullName>Branch Add</fullName>
+        <default>false</default>
+        <label>Branch Add</label>
+    </customValue>
+    <customValue>
+        <fullName>Branch Locator</fullName>
+        <default>false</default>
+        <label>Branch Locator</label>
+    </customValue>
+    <customValue>
+        <fullName>Brand Flips</fullName>
+        <default>false</default>
+        <label>Brand Flips</label>
+    </customValue>
+    <customValue>
+        <fullName>Bulletin Inquiry- Debit Network</fullName>
+        <default>false</default>
+        <label>Bulletin Inquiry- Debit Network</label>
+    </customValue>
+    <customValue>
+        <fullName>Bulletin Inquiry- Mastercard</fullName>
+        <default>false</default>
+        <label>Bulletin Inquiry- Mastercard</label>
+    </customValue>
+    <customValue>
+        <fullName>Bulletin Inquiry- Visa</fullName>
+        <default>false</default>
+        <label>Bulletin Inquiry- Visa</label>
+    </customValue>
+    <customValue>
+        <fullName>Bureau Source</fullName>
+        <default>false</default>
+        <label>Bureau Source</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Account</fullName>
+        <default>false</default>
+        <label>Business Account</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Variable Change</fullName>
+        <default>false</default>
+        <label>Business Variable Change</label>
+    </customValue>
+    <customValue>
+        <fullName>Call Back Request - Partners Federal CU</fullName>
+        <default>false</default>
+        <label>Call Back Request - Partners Federal CU</label>
+    </customValue>
+    <customValue>
+        <fullName>Call Back Request - Redstone FCU</fullName>
+        <default>false</default>
+        <label>Call Back Request - Redstone FCU</label>
+    </customValue>
+    <customValue>
+        <fullName>Call Escalation</fullName>
+        <default>false</default>
+        <label>Call Escalation</label>
+    </customValue>
+    <customValue>
+        <fullName>Call Escalation - Alliant CU IL call back request</fullName>
+        <default>false</default>
+        <label>Call Escalation - Alliant CU IL call back request</label>
+    </customValue>
+    <customValue>
+        <fullName>Call Escalation Firt Tech</fullName>
+        <default>false</default>
+        <label>Call Escalation Firt Tech</label>
+    </customValue>
+    <customValue>
+        <fullName>Call Pull</fullName>
+        <default>false</default>
+        <label>Call Pull</label>
+    </customValue>
+    <customValue>
+        <fullName>Call Recording Delivery</fullName>
+        <default>false</default>
+        <label>Call Recording Delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>Call Review</fullName>
+        <default>false</default>
+        <label>Call Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Cardinal/3DS</fullName>
+        <default>false</default>
+        <label>Cardinal/3DS</label>
+    </customValue>
+    <customValue>
+        <fullName>Cardless Cash</fullName>
+        <default>false</default>
+        <label>Cardless Cash</label>
+    </customValue>
+    <customValue>
+        <fullName>CardNav</fullName>
+        <default>false</default>
+        <label>CardNav</label>
+    </customValue>
+    <customValue>
+        <fullName>Card Portal</fullName>
+        <default>false</default>
+        <label>Card Portal</label>
+    </customValue>
+    <customValue>
+        <fullName>CardPro</fullName>
+        <default>false</default>
+        <label>CardPro</label>
+    </customValue>
+    <customValue>
+        <fullName>Cards (CR/DR)</fullName>
+        <default>false</default>
+        <label>Cards (CR/DR)</label>
+    </customValue>
+    <customValue>
+        <fullName>CardWiz/XNet/Prepaid</fullName>
+        <default>false</default>
+        <label>CardWiz/XNet/Prepaid</label>
+    </customValue>
+    <customValue>
+        <fullName>Case Escalation</fullName>
+        <default>false</default>
+        <label>Case Escalation</label>
+    </customValue>
+    <customValue>
+        <fullName>Casper</fullName>
+        <default>false</default>
+        <label>Casper</label>
+    </customValue>
+    <customValue>
+        <fullName>Change ATM Contact Info </fullName>
+        <default>false</default>
+        <label>Change ATM Contact Info </label>
+    </customValue>
+    <customValue>
+        <fullName>Change ATM Terminal Type </fullName>
+        <default>false</default>
+        <label>Change ATM Terminal Type </label>
+    </customValue>
+    <customValue>
+        <fullName>Change Card Reader Types </fullName>
+        <default>false</default>
+        <label>Change Card Reader Types </label>
+    </customValue>
+    <customValue>
+        <fullName>Change Denominations/Cassettes </fullName>
+        <default>false</default>
+        <label>Change Denominations/Cassettes </label>
+    </customValue>
+    <customValue>
+        <fullName>Change Dispense Algorithm </fullName>
+        <default>false</default>
+        <label>Change Dispense Algorithm </label>
+    </customValue>
+    <customValue>
+        <fullName>Change File Transmission </fullName>
+        <default>false</default>
+        <label>Change File Transmission </label>
+    </customValue>
+    <customValue>
+        <fullName>Change Protocol ATM </fullName>
+        <default>false</default>
+        <label>Change Protocol ATM </label>
+    </customValue>
+    <customValue>
+        <fullName>Change Request</fullName>
+        <default>false</default>
+        <label>Change Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Change Software Vendor </fullName>
+        <default>false</default>
+        <label>Change Software Vendor </label>
+    </customValue>
+    <customValue>
+        <fullName>Change Surcharge Amount </fullName>
+        <default>false</default>
+        <label>Change Surcharge Amount </label>
+    </customValue>
+    <customValue>
+        <fullName>Change Transaction Types - ATMs </fullName>
+        <default>false</default>
+        <label>Change Transaction Types - ATMs </label>
+    </customValue>
+    <customValue>
+        <fullName>Chargebacks</fullName>
+        <default>false</default>
+        <label>Chargebacks</label>
+    </customValue>
+    <customValue>
+        <fullName>Chip Certification</fullName>
+        <default>false</default>
+        <label>Chip Certification</label>
+    </customValue>
+    <customValue>
+        <fullName>CID</fullName>
+        <default>false</default>
+        <label>CID</label>
+    </customValue>
+    <customValue>
+        <fullName>CIMple Access</fullName>
+        <default>false</default>
+        <label>CIMple Access</label>
+    </customValue>
+    <customValue>
+        <fullName>CIMple Teller</fullName>
+        <default>false</default>
+        <label>CIMple Teller</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Change Request</fullName>
+        <default>false</default>
+        <label>Client Change Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Inquiry/Research</fullName>
+        <default>false</default>
+        <label>Client Inquiry/Research</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Project Escalation-Mastercard- Optis</fullName>
+        <default>false</default>
+        <label>Client Project Escalation-Mastercard- Optis</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Project Escalation-Visa - Connex</fullName>
+        <default>false</default>
+        <label>Client Project Escalation-Visa - Connex</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Project Escalation-Visa - Optis</fullName>
+        <default>false</default>
+        <label>Client Project Escalation-Visa - Optis</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Project Implementation Paperwork Request- Connex</fullName>
+        <default>false</default>
+        <label>Client Project Implementation Paperwork Request- Connex</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Project Implementation Paperwork Request- Debit Network</fullName>
+        <default>false</default>
+        <label>Client Project Implementation Paperwork Request- Debit Network</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Project Implementation Paperwork Request- Optis</fullName>
+        <default>false</default>
+        <label>Client Project Implementation Paperwork Request- Optis</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Project Licensing Paperwork Request- Connex</fullName>
+        <default>false</default>
+        <label>Client Project Licensing Paperwork Request- Connex</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Project Licensing Paperwork Request- Debit Network</fullName>
+        <default>false</default>
+        <label>Client Project Licensing Paperwork Request- Debit Network</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Project Licensing Paperwork Request- Optis</fullName>
+        <default>false</default>
+        <label>Client Project Licensing Paperwork Request- Optis</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Project-Mastercard Escalation - Connex</fullName>
+        <default>false</default>
+        <label>Client Project-Mastercard Escalation - Connex</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Settlement Inquiry</fullName>
+        <default>false</default>
+        <label>Client Settlement Inquiry</label>
+    </customValue>
+    <customValue>
+        <fullName>CMC</fullName>
+        <default>false</default>
+        <label>CMC</label>
+    </customValue>
+    <customValue>
+        <fullName>CNCC /ADT</fullName>
+        <default>false</default>
+        <label>CNCC /ADT</label>
+    </customValue>
+    <customValue>
+        <fullName>Collateral Order/Reorder</fullName>
+        <default>false</default>
+        <label>Collateral Order/Reorder</label>
+    </customValue>
+    <customValue>
+        <fullName>Collections Credit Bureau</fullName>
+        <default>false</default>
+        <label>Collections Credit Bureau</label>
+    </customValue>
+    <customValue>
+        <fullName>Collections Delinquency</fullName>
+        <default>false</default>
+        <label>Collections Delinquency</label>
+    </customValue>
+    <customValue>
+        <fullName>Collections Other</fullName>
+        <default>false</default>
+        <label>Collections Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Collections Payment Plan</fullName>
+        <default>false</default>
+        <label>Collections Payment Plan</label>
+    </customValue>
+    <customValue>
+        <fullName>Collections Re-Open Account</fullName>
+        <default>false</default>
+        <label>Collections Re-Open Account</label>
+    </customValue>
+    <customValue>
+        <fullName>Compliance</fullName>
+        <default>false</default>
+        <label>Compliance</label>
+    </customValue>
+    <customValue>
+        <fullName>Compromise/VIP</fullName>
+        <default>false</default>
+        <label>Compromise/VIP</label>
+    </customValue>
+    <customValue>
+        <fullName>Compromise/VIP Accounts</fullName>
+        <default>false</default>
+        <label>Compromise/VIP Accounts</label>
+    </customValue>
+    <customValue>
+        <fullName>Concert</fullName>
+        <default>false</default>
+        <label>Concert</label>
+    </customValue>
+    <customValue>
+        <fullName>Concierge API</fullName>
+        <default>false</default>
+        <label>Concierge API</label>
+    </customValue>
+    <customValue>
+        <fullName>Concur</fullName>
+        <default>false</default>
+        <label>Concur</label>
+    </customValue>
+    <customValue>
+        <fullName>Connex - ASG Issue</fullName>
+        <default>false</default>
+        <label>Connex - ASG Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Connex ATM</fullName>
+        <default>false</default>
+        <label>Connex ATM</label>
+    </customValue>
+    <customValue>
+        <fullName>Connex Automated Consumer Notice (ACN)</fullName>
+        <default>false</default>
+        <label>Connex Automated Consumer Notice (ACN)</label>
+    </customValue>
+    <customValue>
+        <fullName>Connex Debit</fullName>
+        <default>false</default>
+        <label>Connex Debit</label>
+    </customValue>
+    <customValue>
+        <fullName>Connex - NAO Processor</fullName>
+        <default>false</default>
+        <label>Connex - NAO Processor</label>
+    </customValue>
+    <customValue>
+        <fullName>Connex - Network Gateways</fullName>
+        <default>false</default>
+        <label>Connex - Network Gateways</label>
+    </customValue>
+    <customValue>
+        <fullName>Connex - Pin Processing</fullName>
+        <default>false</default>
+        <label>Connex - Pin Processing</label>
+    </customValue>
+    <customValue>
+        <fullName>Connex - Recon/Settlement</fullName>
+        <default>false</default>
+        <label>Connex - Recon/Settlement</label>
+    </customValue>
+    <customValue>
+        <fullName>Connex - Reports</fullName>
+        <default>false</default>
+        <label>Connex - Reports</label>
+    </customValue>
+    <customValue>
+        <fullName>Connex - Starview</fullName>
+        <default>false</default>
+        <label>Connex - Starview</label>
+    </customValue>
+    <customValue>
+        <fullName>Connex - Transaction Research</fullName>
+        <default>false</default>
+        <label>Connex - Transaction Research</label>
+    </customValue>
+    <customValue>
+        <fullName>Connex - Travel/VIP API</fullName>
+        <default>false</default>
+        <label>Connex - Travel/VIP API</label>
+    </customValue>
+    <customValue>
+        <fullName>Construct</fullName>
+        <default>false</default>
+        <label>Construct</label>
+    </customValue>
+    <customValue>
+        <fullName>Consultation/Assessment</fullName>
+        <default>false</default>
+        <label>Consultation/Assessment</label>
+    </customValue>
+    <customValue>
+        <fullName>Consultation/Inquiry</fullName>
+        <default>false</default>
+        <label>Consultation/Inquiry</label>
+    </customValue>
+    <customValue>
+        <fullName>Contact Center</fullName>
+        <default>false</default>
+        <label>Contact Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Convenience Checks</fullName>
+        <default>false</default>
+        <label>Convenience Checks</label>
+    </customValue>
+    <customValue>
+        <fullName>Convenience Checks Mass Mailing</fullName>
+        <default>false</default>
+        <label>Convenience Checks Mass Mailing</label>
+    </customValue>
+    <customValue>
+        <fullName>Conversion</fullName>
+        <default>false</default>
+        <label>Conversion</label>
+    </customValue>
+    <customValue>
+        <fullName>Conversion IH to Shared Branch</fullName>
+        <default>false</default>
+        <label>Conversion IH to Shared Branch</label>
+    </customValue>
+    <customValue>
+        <fullName>Conversion Key Areas</fullName>
+        <default>false</default>
+        <label>Conversion Key Areas</label>
+    </customValue>
+    <customValue>
+        <fullName>Conversion PCF Build</fullName>
+        <default>false</default>
+        <label>Conversion PCF Build</label>
+    </customValue>
+    <customValue>
+        <fullName>COOPER</fullName>
+        <default>false</default>
+        <label>COOPER</label>
+    </customValue>
+    <customValue>
+        <fullName>COOPER Fraud Analyzer</fullName>
+        <default>false</default>
+        <label>COOPER Fraud Analyzer</label>
+    </customValue>
+    <customValue>
+        <fullName>CO-OP Mobile New Install</fullName>
+        <default>false</default>
+        <label>Co-op Mobile New Install</label>
+    </customValue>
+    <customValue>
+        <fullName>CO-OP_Pay-Over-Time_Transactions</fullName>
+        <default>false</default>
+        <label>Co-op Pay-Over-Time Transactions</label>
+    </customValue>
+    <customValue>
+        <fullName>Core Conversion</fullName>
+        <default>false</default>
+        <label>Core Conversion</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate Technology Roadmaps</fullName>
+        <default>false</default>
+        <label>Corporate Technology Roadmaps</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate Websites</fullName>
+        <default>false</default>
+        <label>Corporate Websites</label>
+    </customValue>
+    <customValue>
+        <fullName>Covera</fullName>
+        <default>false</default>
+        <label>Covera</label>
+    </customValue>
+    <customValue>
+        <fullName>Create Document</fullName>
+        <default>false</default>
+        <label>Create Document</label>
+    </customValue>
+    <customValue>
+        <fullName>Create Training</fullName>
+        <default>false</default>
+        <label>Create Training</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit Balance Refund</fullName>
+        <default>false</default>
+        <label>Credit Balance Refund</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit Bureau</fullName>
+        <default>false</default>
+        <label>Credit Bureau</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit bureau flag updates</fullName>
+        <default>false</default>
+        <label>Credit bureau flag updates</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit Life / Debt Protection</fullName>
+        <default>false</default>
+        <label>Credit Life / Debt Protection</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit line increases</fullName>
+        <default>false</default>
+        <label>Credit line increases</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit score updates</fullName>
+        <default>false</default>
+        <label>Credit score updates</label>
+    </customValue>
+    <customValue>
+        <fullName>CRF</fullName>
+        <default>false</default>
+        <label>CRF</label>
+    </customValue>
+    <customValue>
+        <fullName>Crown Letters</fullName>
+        <default>false</default>
+        <label>Crown Letters</label>
+    </customValue>
+    <customValue>
+        <fullName>CST</fullName>
+        <default>false</default>
+        <label>CST</label>
+    </customValue>
+    <customValue>
+        <fullName>CUFSC Stop Payment</fullName>
+        <default>false</default>
+        <label>CUFSC Stop Payment</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Selects</fullName>
+        <default>false</default>
+        <label>Custom Selects</label>
+    </customValue>
+    <customValue>
+        <fullName>Daily Limit Authorization</fullName>
+        <default>false</default>
+        <label>Daily Limit Authorization</label>
+    </customValue>
+    <customValue>
+        <fullName>Daily Ticket</fullName>
+        <default>false</default>
+        <label>Daily Ticket</label>
+    </customValue>
+    <customValue>
+        <fullName>Dashboard</fullName>
+        <default>false</default>
+        <label>Dashboard</label>
+    </customValue>
+    <customValue>
+        <fullName>Data Center Moves</fullName>
+        <default>false</default>
+        <label>Data Center Moves</label>
+    </customValue>
+    <customValue>
+        <fullName>Data Navigator</fullName>
+        <default>false</default>
+        <label>Data Navigator</label>
+    </customValue>
+    <customValue>
+        <fullName>Declines</fullName>
+        <default>false</default>
+        <label>Declines</label>
+    </customValue>
+    <customValue>
+        <fullName>Decommission</fullName>
+        <default>false</default>
+        <label>Decommission</label>
+    </customValue>
+    <customValue>
+        <fullName>Deconversion</fullName>
+        <default>false</default>
+        <label>Deconversion</label>
+    </customValue>
+    <customValue>
+        <fullName>De-Convert </fullName>
+        <default>false</default>
+        <label>De-Convert </label>
+    </customValue>
+    <customValue>
+        <fullName>Defect Analysis</fullName>
+        <default>false</default>
+        <label>Defect Analysis</label>
+    </customValue>
+    <customValue>
+        <fullName>Defense Edge</fullName>
+        <default>false</default>
+        <label>Defense Edge</label>
+    </customValue>
+    <customValue>
+        <fullName>Delete Acquirers</fullName>
+        <default>false</default>
+        <label>Delete Acquirers</label>
+    </customValue>
+    <customValue>
+        <fullName>Delete ATM </fullName>
+        <default>false</default>
+        <label>Delete ATM </label>
+    </customValue>
+    <customValue>
+        <fullName>Delete Network </fullName>
+        <default>false</default>
+        <label>Delete Network </label>
+    </customValue>
+    <customValue>
+        <fullName>Deletions</fullName>
+        <default>false</default>
+        <label>Deletions</label>
+    </customValue>
+    <customValue>
+        <fullName>Deletions due to merger</fullName>
+        <default>false</default>
+        <label>Deletions due to merger</label>
+    </customValue>
+    <customValue>
+        <fullName>Delinquency Settings</fullName>
+        <default>false</default>
+        <label>Delinquency Settings</label>
+    </customValue>
+    <customValue>
+        <fullName>Department Losses</fullName>
+        <default>false</default>
+        <label>Department Losses</label>
+    </customValue>
+    <customValue>
+        <fullName>DEPOSIT DISPUTES</fullName>
+        <default>false</default>
+        <label>Deposit Disputes</label>
+    </customValue>
+    <customValue>
+        <fullName>Desktop Director</fullName>
+        <default>false</default>
+        <label>Desktop Director</label>
+    </customValue>
+    <customValue>
+        <fullName>Developer Portal</fullName>
+        <default>false</default>
+        <label>Developer Portal</label>
+    </customValue>
+    <customValue>
+        <fullName>Development Request</fullName>
+        <default>false</default>
+        <label>Development Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Issuance</fullName>
+        <default>false</default>
+        <label>Digital Issuance</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct Connect</fullName>
+        <default>false</default>
+        <label>Direct Connect</label>
+    </customValue>
+    <customValue>
+        <fullName>Disaster Recovery </fullName>
+        <default>false</default>
+        <label>Disaster Recovery </label>
+    </customValue>
+    <customValue>
+        <fullName>DP Conversion existing proc</fullName>
+        <default>false</default>
+        <label>DP Conversion existing proc</label>
+    </customValue>
+    <customValue>
+        <fullName>DP Conversion IH TO SB add routes</fullName>
+        <default>false</default>
+        <label>DP Conversion IH TO SB add routes</label>
+    </customValue>
+    <customValue>
+        <fullName>DP Conversion IH TO SB existing PROC</fullName>
+        <default>false</default>
+        <label>DP Conversion IH TO SB existing PROC</label>
+    </customValue>
+    <customValue>
+        <fullName>DP Conversion new VPN</fullName>
+        <default>false</default>
+        <label>DP Conversion new VPN</label>
+    </customValue>
+    <customValue>
+        <fullName>DP Conversions</fullName>
+        <default>false</default>
+        <label>DP Conversions</label>
+    </customValue>
+    <customValue>
+        <fullName>DP Conversion SB w route Adds</fullName>
+        <default>false</default>
+        <label>DP Conversion SB w route Adds</label>
+    </customValue>
+    <customValue>
+        <fullName>DP Conversion w existing VPN</fullName>
+        <default>false</default>
+        <label>DP Conversion w existing VPN</label>
+    </customValue>
+    <customValue>
+        <fullName>DRC Loss Memo - Data Entry</fullName>
+        <default>false</default>
+        <label>DRC Loss Memo - Data Entry</label>
+    </customValue>
+    <customValue>
+        <fullName>DRC Loss Memo  - Processing</fullName>
+        <default>false</default>
+        <label>DRC Loss Memo  - Processing</label>
+    </customValue>
+    <customValue>
+        <fullName>DR Routers</fullName>
+        <default>false</default>
+        <label>DR Routers</label>
+    </customValue>
+    <customValue>
+        <fullName>DR Testing /Failover</fullName>
+        <default>false</default>
+        <label>DR Testing /Failover</label>
+    </customValue>
+    <customValue>
+        <fullName>Dynamic Fees</fullName>
+        <default>false</default>
+        <label>Dynamic Fees</label>
+    </customValue>
+    <customValue>
+        <fullName>eCJA</fullName>
+        <default>false</default>
+        <label>eCJA</label>
+    </customValue>
+    <customValue>
+        <fullName>eCOM</fullName>
+        <default>false</default>
+        <label>eCOM</label>
+    </customValue>
+    <customValue>
+        <fullName>Edit/Delete Existing Training</fullName>
+        <default>false</default>
+        <label>Edit/Delete Existing Training</label>
+    </customValue>
+    <customValue>
+        <fullName>Edit Existing Document</fullName>
+        <default>false</default>
+        <label>Edit Existing Document</label>
+    </customValue>
+    <customValue>
+        <fullName>Embossing File Error</fullName>
+        <default>false</default>
+        <label>Embossing File Error</label>
+    </customValue>
+    <customValue>
+        <fullName>EMV setup</fullName>
+        <default>false</default>
+        <label>EMV setup</label>
+    </customValue>
+    <customValue>
+        <fullName>End of Month (EOM) Adjustment Resolving</fullName>
+        <default>false</default>
+        <label>End of Month (EOM) Adjustment Resolving</label>
+    </customValue>
+    <customValue>
+        <fullName>End of Month (EOM) Support</fullName>
+        <default>false</default>
+        <label>End of Month (EOM) Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Ensenta Setup</fullName>
+        <default>false</default>
+        <label>Ensenta Setup</label>
+    </customValue>
+    <customValue>
+        <fullName>Escheatment</fullName>
+        <default>false</default>
+        <label>Escheatment</label>
+    </customValue>
+    <customValue>
+        <fullName>Existing Client Vendor Integration</fullName>
+        <default>false</default>
+        <label>Existing Client Vendor Integration</label>
+    </customValue>
+    <customValue>
+        <fullName>Existing Letters</fullName>
+        <default>false</default>
+        <label>Existing Letters</label>
+    </customValue>
+    <customValue>
+        <fullName>Expansion Tables</fullName>
+        <default>false</default>
+        <label>Expansion Tables</label>
+    </customValue>
+    <customValue>
+        <fullName>Expiration date bumps (compromises)</fullName>
+        <default>false</default>
+        <label>Expiration date bumps (compromises)</label>
+    </customValue>
+    <customValue>
+        <fullName>Extranet</fullName>
+        <default>false</default>
+        <label>Extranet</label>
+    </customValue>
+    <customValue>
+        <fullName>Falcon</fullName>
+        <default>false</default>
+        <label>Falcon</label>
+    </customValue>
+    <customValue>
+        <fullName>FD Reports - IDP</fullName>
+        <default>false</default>
+        <label>FD Reports - IDP</label>
+    </customValue>
+    <customValue>
+        <fullName>FD Reports - RMS</fullName>
+        <default>false</default>
+        <label>FD Reports - RMS</label>
+    </customValue>
+    <customValue>
+        <fullName>FD Reports - STAR</fullName>
+        <default>false</default>
+        <label>FD Reports - STAR</label>
+    </customValue>
+    <customValue>
+        <fullName>Fee Bill Group Changes</fullName>
+        <default>false</default>
+        <label>Fee Bill Group Changes</label>
+    </customValue>
+    <customValue>
+        <fullName>Fee Reversal Annual Fee</fullName>
+        <default>false</default>
+        <label>Fee Reversal Annual Fee</label>
+    </customValue>
+    <customValue>
+        <fullName>Fee Reversal Interest</fullName>
+        <default>false</default>
+        <label>Fee Reversal Interest</label>
+    </customValue>
+    <customValue>
+        <fullName>Fee Reversal Other</fullName>
+        <default>false</default>
+        <label>Fee Reversal Other</label>
+    </customValue>
+    <customValue>
+        <fullName>FI Request</fullName>
+        <default>false</default>
+        <label>FI Request</label>
+    </customValue>
+    <customValue>
+        <fullName>First Data - Fiserv</fullName>
+        <default>false</default>
+        <label>First Data - Fiserv</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAP Balances</fullName>
+        <default>false</default>
+        <label>FLAP Balances</label>
+    </customValue>
+    <customValue>
+        <fullName>Foreign Item</fullName>
+        <default>false</default>
+        <label>Foreign Item</label>
+    </customValue>
+    <customValue>
+        <fullName>Formatting (Consider combining review)</fullName>
+        <default>false</default>
+        <label>Formatting (Consider combining review)</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Alerts Account Registration</fullName>
+        <default>false</default>
+        <label>Fraud Alerts Account Registration</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Application</fullName>
+        <default>false</default>
+        <label>Fraud Application</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Case</fullName>
+        <default>false</default>
+        <label>Fraud Case</label>
+    </customValue>
+    <customValue>
+        <fullName>Transaction Inquiries</fullName>
+        <default>false</default>
+        <label>Fraud Consulting/General Question</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Declines</fullName>
+        <default>false</default>
+        <label>Fraud Declines</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Dispute Case</fullName>
+        <default>false</default>
+        <label>Fraud Dispute Case</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Other</fullName>
+        <default>false</default>
+        <label>Fraud Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Predictor</fullName>
+        <default>false</default>
+        <label>Fraud Predictor</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Product Inquiry</fullName>
+        <default>false</default>
+        <label>Fraud Product Inquiry</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Reporting</fullName>
+        <default>false</default>
+        <label>Fraud Reporting</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Report Upload</fullName>
+        <default>false</default>
+        <label>Fraud Report Upload</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Rule Request</fullName>
+        <default>false</default>
+        <label>Fraud Rule Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Strategy</fullName>
+        <default>false</default>
+        <label>Fraud Strategy</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Trend Analysis</fullName>
+        <default>false</default>
+        <label>Fraud Trend Analysis</label>
+    </customValue>
+    <customValue>
+        <fullName>FRIS</fullName>
+        <default>false</default>
+        <label>FRIS</label>
+    </customValue>
+    <customValue>
+        <fullName>FTP/SFTP</fullName>
+        <default>false</default>
+        <label>FTP/SFTP</label>
+    </customValue>
+    <customValue>
+        <fullName>Fusion</fullName>
+        <default>false</default>
+        <label>Fusion</label>
+    </customValue>
+    <customValue>
+        <fullName>Gemalto/Vendor</fullName>
+        <default>false</default>
+        <label>Gemalto/Vendor</label>
+    </customValue>
+    <customValue>
+        <fullName>General Question</fullName>
+        <default>false</default>
+        <label>General Question</label>
+    </customValue>
+    <customValue>
+        <fullName>General Question- Debit Network</fullName>
+        <default>false</default>
+        <label>General Question- Debit Network</label>
+    </customValue>
+    <customValue>
+        <fullName>General Question- Mastercard</fullName>
+        <default>false</default>
+        <label>General Question- Mastercard</label>
+    </customValue>
+    <customValue>
+        <fullName>General Question- Visa</fullName>
+        <default>false</default>
+        <label>General Question- Visa</label>
+    </customValue>
+    <customValue>
+        <fullName>General Research</fullName>
+        <default>false</default>
+        <label>General Research</label>
+    </customValue>
+    <customValue>
+        <fullName>Great Plains</fullName>
+        <default>false</default>
+        <label>Great Plains</label>
+    </customValue>
+    <customValue>
+        <fullName>High Profile Pre-Quality review</fullName>
+        <default>false</default>
+        <label>High Profile Pre-Quality review</label>
+    </customValue>
+    <customValue>
+        <fullName>Host Relocation </fullName>
+        <default>false</default>
+        <label>Host Relocation </label>
+    </customValue>
+    <customValue>
+        <fullName>Host Telecom Change </fullName>
+        <default>false</default>
+        <label>Host Telecom Change </label>
+    </customValue>
+    <customValue>
+        <fullName>ICASUBBY</fullName>
+        <default>false</default>
+        <label>ICASUBBY</label>
+    </customValue>
+    <customValue>
+        <fullName>iCO/Darwin</fullName>
+        <default>false</default>
+        <label>iCO/Darwin</label>
+    </customValue>
+    <customValue>
+        <fullName>Implementation</fullName>
+        <default>false</default>
+        <label>Implementation</label>
+    </customValue>
+    <customValue>
+        <fullName>Industry/Network Impacts</fullName>
+        <default>false</default>
+        <label>Industry/Network Impacts</label>
+    </customValue>
+    <customValue>
+        <fullName>Information Validation</fullName>
+        <default>false</default>
+        <label>Information Validation</label>
+    </customValue>
+    <customValue>
+        <fullName>Insert, Message</fullName>
+        <default>false</default>
+        <label>Insert, Message</label>
+    </customValue>
+    <customValue>
+        <fullName>Insert, Message, Onsert</fullName>
+        <default>false</default>
+        <label>Insert, Message, Onsert</label>
+    </customValue>
+    <customValue>
+        <fullName>Insert, Onsert</fullName>
+        <default>false</default>
+        <label>Insert, Onsert</label>
+    </customValue>
+    <customValue>
+        <fullName>Inserts</fullName>
+        <default>false</default>
+        <label>Inserts</label>
+    </customValue>
+    <customValue>
+        <fullName>Insight Center</fullName>
+        <default>false</default>
+        <label>Insight Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Instant Issue</fullName>
+        <default>false</default>
+        <label>Instant Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal SDA</fullName>
+        <default>false</default>
+        <label>Internal SDA</label>
+    </customValue>
+    <customValue>
+        <fullName>IP Whitelisting</fullName>
+        <default>false</default>
+        <label>IP Whitelisting</label>
+    </customValue>
+    <customValue>
+        <fullName>ISO Changes</fullName>
+        <default>false</default>
+        <label>ISO Changes</label>
+    </customValue>
+    <customValue>
+        <fullName>ISP/IP Changes</fullName>
+        <default>false</default>
+        <label>ISP/IP Changes</label>
+    </customValue>
+    <customValue>
+        <fullName>Knowledge Center</fullName>
+        <default>false</default>
+        <label>Knowledge Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Law Enforcement Request</fullName>
+        <default>false</default>
+        <label>Law Enforcement Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Letters</fullName>
+        <default>false</default>
+        <label>Letters</label>
+    </customValue>
+    <customValue>
+        <fullName>Lifestyle Loyalty Cash Back Only - Rewards</fullName>
+        <default>false</default>
+        <label>Lifestyle Loyalty Cash Back Only - Rewards</label>
+    </customValue>
+    <customValue>
+        <fullName>Lifestyle Loyalty Elite - Rewards</fullName>
+        <default>false</default>
+        <label>Lifestyle Loyalty Elite - Rewards</label>
+    </customValue>
+    <customValue>
+        <fullName>Lifestyle Loyalty Flex - Rewards</fullName>
+        <default>false</default>
+        <label>Lifestyle Loyalty Flex - Rewards</label>
+    </customValue>
+    <customValue>
+        <fullName>Lifestyle Loyalty - Rewards</fullName>
+        <default>false</default>
+        <label>Lifestyle Loyalty - Rewards</label>
+    </customValue>
+    <customValue>
+        <fullName>Locator</fullName>
+        <default>false</default>
+        <label>Locator</label>
+    </customValue>
+    <customValue>
+        <fullName>Locator API</fullName>
+        <default>false</default>
+        <label>Locator API</label>
+    </customValue>
+    <customValue>
+        <fullName>Logo change/Add</fullName>
+        <default>false</default>
+        <label>Logo change/Add</label>
+    </customValue>
+    <customValue>
+        <fullName>Lost/Stolen Accumulator</fullName>
+        <default>false</default>
+        <label>Lost/Stolen Accumulator</label>
+    </customValue>
+    <customValue>
+        <fullName>Manual Settlement - Backup Docs</fullName>
+        <default>false</default>
+        <label>Manual Settlement - Backup Docs</label>
+    </customValue>
+    <customValue>
+        <fullName>Manual Settlement - Clearing</fullName>
+        <default>false</default>
+        <label>Manual Settlement - Clearing</label>
+    </customValue>
+    <customValue>
+        <fullName>Manual Settlement - Data Entry</fullName>
+        <default>false</default>
+        <label>Manual Settlement - Data Entry</label>
+    </customValue>
+    <customValue>
+        <fullName>Manual Settlement - Processing</fullName>
+        <default>false</default>
+        <label>Manual Settlement - Processing</label>
+    </customValue>
+    <customValue>
+        <fullName>Manual Settlement - Resolving</fullName>
+        <default>false</default>
+        <label>Manual Settlement - Resolving</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing calendar</fullName>
+        <default>false</default>
+        <label>Marketing calendar</label>
+    </customValue>
+    <customValue>
+        <fullName>Mass Reissue</fullName>
+        <default>false</default>
+        <label>Mass Reissue</label>
+    </customValue>
+    <customValue>
+        <fullName>Mastercard Connect Admin</fullName>
+        <default>false</default>
+        <label>Mastercard Connect Admin</label>
+    </customValue>
+    <customValue>
+        <fullName>Mastercard Quarterly Reporting</fullName>
+        <default>false</default>
+        <label>Mastercard Quarterly Reporting</label>
+    </customValue>
+    <customValue>
+        <fullName>MCI - CH having issues</fullName>
+        <default>false</default>
+        <label>MCI - CH having issues</label>
+    </customValue>
+    <customValue>
+        <fullName>mConsole - Connex</fullName>
+        <default>false</default>
+        <label>mConsole - Connex</label>
+    </customValue>
+    <customValue>
+        <fullName>mConsole - Omaha</fullName>
+        <default>false</default>
+        <label>mConsole - Omaha</label>
+    </customValue>
+    <customValue>
+        <fullName>MDM - Data Research</fullName>
+        <default>false</default>
+        <label>MDM - Data Research</label>
+    </customValue>
+    <customValue>
+        <fullName>MemberView</fullName>
+        <default>false</default>
+        <label>MemberView</label>
+    </customValue>
+    <customValue>
+        <fullName>Merchant</fullName>
+        <default>false</default>
+        <label>Merchant</label>
+    </customValue>
+    <customValue>
+        <fullName>Merchant Numbers</fullName>
+        <default>false</default>
+        <label>Merchant Numbers</label>
+    </customValue>
+    <customValue>
+        <fullName>Merger</fullName>
+        <default>false</default>
+        <label>Merger</label>
+    </customValue>
+    <customValue>
+        <fullName>Merger </fullName>
+        <default>false</default>
+        <label>Merger </label>
+    </customValue>
+    <customValue>
+        <fullName>Message, Onsert</fullName>
+        <default>false</default>
+        <label>Message, Onsert</label>
+    </customValue>
+    <customValue>
+        <fullName>Miscellaneous</fullName>
+        <default>false</default>
+        <label>Miscellaneous</label>
+    </customValue>
+    <customValue>
+        <fullName>Miscellaneous Projects</fullName>
+        <default>false</default>
+        <label>Miscellaneous Projects</label>
+    </customValue>
+    <customValue>
+        <fullName>Misc field updates</fullName>
+        <default>false</default>
+        <label>Misc field updates</label>
+    </customValue>
+    <customValue>
+        <fullName>Misc Project</fullName>
+        <default>false</default>
+        <label>Misc Project</label>
+    </customValue>
+    <customValue>
+        <fullName>Misc Request</fullName>
+        <default>false</default>
+        <label>Misc Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Misc - Updates to existing Stmt</fullName>
+        <default>false</default>
+        <label>Misc - Updates to existing Stmt</label>
+    </customValue>
+    <customValue>
+        <fullName>MLP - Base Changes</fullName>
+        <default>false</default>
+        <label>MLP - Base Changes</label>
+    </customValue>
+    <customValue>
+        <fullName>MLP - New program base build</fullName>
+        <default>false</default>
+        <label>MLP - New program base build</label>
+    </customValue>
+    <customValue>
+        <fullName>Monetary Adjustment</fullName>
+        <default>false</default>
+        <label>Monetary Adjustment</label>
+    </customValue>
+    <customValue>
+        <fullName>MPI Script</fullName>
+        <default>false</default>
+        <label>MPI Script</label>
+    </customValue>
+    <customValue>
+        <fullName>My Card Info</fullName>
+        <default>false</default>
+        <label>My Card Info</label>
+    </customValue>
+    <customValue>
+        <fullName>MyCOOP</fullName>
+        <default>false</default>
+        <label>MyCOOP</label>
+    </customValue>
+    <customValue>
+        <fullName>My Deposit</fullName>
+        <default>false</default>
+        <label>My Deposit</label>
+    </customValue>
+    <customValue>
+        <fullName>N/A</fullName>
+        <default>false</default>
+        <label>N/A</label>
+    </customValue>
+    <customValue>
+        <fullName>Name change </fullName>
+        <default>false</default>
+        <label>Name change </label>
+    </customValue>
+    <customValue>
+        <fullName>NCOA</fullName>
+        <default>false</default>
+        <label>NCOA</label>
+    </customValue>
+    <customValue>
+        <fullName>New Acq Interface-add routes</fullName>
+        <default>false</default>
+        <label>New Acq Interface-add routes</label>
+    </customValue>
+    <customValue>
+        <fullName>New Acq Interface-existing INT</fullName>
+        <default>false</default>
+        <label>New Acq Interface-existing INT</label>
+    </customValue>
+    <customValue>
+        <fullName>New Acq Interface-New VPN</fullName>
+        <default>false</default>
+        <label>New Acq Interface-New VPN</label>
+    </customValue>
+    <customValue>
+        <fullName>New Acq Interface-SB add routes</fullName>
+        <default>false</default>
+        <label>New Acq Interface-SB add routes</label>
+    </customValue>
+    <customValue>
+        <fullName>New Client Vendor Integration</fullName>
+        <default>false</default>
+        <label>New Client Vendor Integration</label>
+    </customValue>
+    <customValue>
+        <fullName>New DR Routers</fullName>
+        <default>false</default>
+        <label>New DR Routers</label>
+    </customValue>
+    <customValue>
+        <fullName>New DR w existing VPN</fullName>
+        <default>false</default>
+        <label>New DR w existing VPN</label>
+    </customValue>
+    <customValue>
+        <fullName>New Issuer</fullName>
+        <default>false</default>
+        <label>New Issuer</label>
+    </customValue>
+    <customValue>
+        <fullName>New Issuer/Acquirer</fullName>
+        <default>false</default>
+        <label>New Issuer/Acquirer</label>
+    </customValue>
+    <customValue>
+        <fullName>New Issuer and Acq existing proc</fullName>
+        <default>false</default>
+        <label>New Issuer and Acq existing proc</label>
+    </customValue>
+    <customValue>
+        <fullName>New Issuer and Acq existing VPN</fullName>
+        <default>false</default>
+        <label>New Issuer and Acq existing VPN</label>
+    </customValue>
+    <customValue>
+        <fullName>New Issuer and Acq SB add routes</fullName>
+        <default>false</default>
+        <label>New Issuer and Acq SB add routes</label>
+    </customValue>
+    <customValue>
+        <fullName>New Issuer and Acq VPN</fullName>
+        <default>false</default>
+        <label>New Issuer and Acq VPN</label>
+    </customValue>
+    <customValue>
+        <fullName>New Issuer SB Add routes</fullName>
+        <default>false</default>
+        <label>New Issuer SB Add routes</label>
+    </customValue>
+    <customValue>
+        <fullName>New Issuer SB Existing proc</fullName>
+        <default>false</default>
+        <label>New Issuer SB Existing proc</label>
+    </customValue>
+    <customValue>
+        <fullName>New Issuer with existing VPN</fullName>
+        <default>false</default>
+        <label>New Issuer with existing VPN</label>
+    </customValue>
+    <customValue>
+        <fullName>New Issuer with new VPN</fullName>
+        <default>false</default>
+        <label>New Issuer with new VPN</label>
+    </customValue>
+    <customValue>
+        <fullName>New Letters</fullName>
+        <default>false</default>
+        <label>New Letters</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-CO-OP MRDC/Mobile</fullName>
+        <default>false</default>
+        <label>Non-Co-op MRDC/Mobile</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Mon</fullName>
+        <default>false</default>
+        <label>Non-Mon</label>
+    </customValue>
+    <customValue>
+        <fullName>Omaha</fullName>
+        <default>false</default>
+        <label>Omaha</label>
+    </customValue>
+    <customValue>
+        <fullName>Onboarding</fullName>
+        <default>false</default>
+        <label>Onboarding</label>
+    </customValue>
+    <customValue>
+        <fullName>Onboarding/Conversion/Deconversion</fullName>
+        <default>false</default>
+        <label>Onboarding/Conversion/Deconversion</label>
+    </customValue>
+    <customValue>
+        <fullName>OneStream</fullName>
+        <default>false</default>
+        <label>OneStream</label>
+    </customValue>
+    <customValue>
+        <fullName>Ongoing CIT Processing Setup/Maintainance Changes</fullName>
+        <default>false</default>
+        <label>Ongoing CIT Processing Setup/Maintainance Changes</label>
+    </customValue>
+    <customValue>
+        <fullName>Open Services</fullName>
+        <default>false</default>
+        <label>Open Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Optis - Reports</fullName>
+        <default>false</default>
+        <label>Optis - Reports</label>
+    </customValue>
+    <customValue>
+        <fullName>Optis - Transaction Research</fullName>
+        <default>false</default>
+        <label>Optis - Transaction Research</label>
+    </customValue>
+    <customValue>
+        <fullName>ORRs- Co-op</fullName>
+        <default>false</default>
+        <label>ORRs- Co-op</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>OTP</fullName>
+        <default>false</default>
+        <label>OTP</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Auto Pay</fullName>
+        <default>false</default>
+        <label>Payment Auto Pay</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Defender</fullName>
+        <default>false</default>
+        <label>Payment Defender</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Other</fullName>
+        <default>false</default>
+        <label>Payment Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Research</fullName>
+        <default>false</default>
+        <label>Payment Research</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Reversal</fullName>
+        <default>false</default>
+        <label>Payment Reversal</label>
+    </customValue>
+    <customValue>
+        <fullName>Payments</fullName>
+        <default>false</default>
+        <label>Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>Payments One</fullName>
+        <default>false</default>
+        <label>Payments One</label>
+    </customValue>
+    <customValue>
+        <fullName>Pay Over Time</fullName>
+        <default>false</default>
+        <label>Pay Over Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Pay Switch</fullName>
+        <default>false</default>
+        <label>Pay Switch</label>
+    </customValue>
+    <customValue>
+        <fullName>PCF</fullName>
+        <default>false</default>
+        <label>PCF</label>
+    </customValue>
+    <customValue>
+        <fullName>PCF Build</fullName>
+        <default>false</default>
+        <label>PCF Build</label>
+    </customValue>
+    <customValue>
+        <fullName>PCF Change</fullName>
+        <default>false</default>
+        <label>PCF Change</label>
+    </customValue>
+    <customValue>
+        <fullName>PEP Carrier template creation/modification</fullName>
+        <default>false</default>
+        <label>PEP Carrier template creation/modification</label>
+    </customValue>
+    <customValue>
+        <fullName>Performance Request</fullName>
+        <default>false</default>
+        <label>Performance Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Personix</fullName>
+        <default>false</default>
+        <label>Personix</label>
+    </customValue>
+    <customValue>
+        <fullName>Phone System</fullName>
+        <default>false</default>
+        <label>Phone System</label>
+    </customValue>
+    <customValue>
+        <fullName>PIN Change (ATM or VRU) </fullName>
+        <default>false</default>
+        <label>PIN Change (ATM or VRU) </label>
+    </customValue>
+    <customValue>
+        <fullName>PIN Chargebacks - Internal Use Only</fullName>
+        <default>false</default>
+        <label>PIN Chargebacks - Internal Use Only</label>
+    </customValue>
+    <customValue>
+        <fullName>PIN NOW</fullName>
+        <default>false</default>
+        <label>PIN NOW</label>
+    </customValue>
+    <customValue>
+        <fullName>PIN Now Setup</fullName>
+        <default>false</default>
+        <label>PIN Now Setup</label>
+    </customValue>
+    <customValue>
+        <fullName>Plastic Order/Reorder EMV Contact Only</fullName>
+        <default>false</default>
+        <label>Plastic Order/Reorder EMV Contact Only</label>
+    </customValue>
+    <customValue>
+        <fullName>Plastic Order/Reorder EMV Dual</fullName>
+        <default>false</default>
+        <label>Plastic Order/Reorder EMV Dual</label>
+    </customValue>
+    <customValue>
+        <fullName>Plastic Order/Reorder Mag Stripe Only</fullName>
+        <default>false</default>
+        <label>Plastic Order/Reorder Mag Stripe Only</label>
+    </customValue>
+    <customValue>
+        <fullName>Plastics</fullName>
+        <default>false</default>
+        <label>Plastics</label>
+    </customValue>
+    <customValue>
+        <fullName>PLSV - Fee/Collections - Data Entry</fullName>
+        <default>false</default>
+        <label>PLSV - Fee/Collections - Data Entry</label>
+    </customValue>
+    <customValue>
+        <fullName>PLSV - Fee/Collections - Processing</fullName>
+        <default>false</default>
+        <label>PLSV - Fee/Collections - Processing</label>
+    </customValue>
+    <customValue>
+        <fullName>PLSV - Fee/Collections - Resolving</fullName>
+        <default>false</default>
+        <label>PLSV - Fee/Collections - Resolving</label>
+    </customValue>
+    <customValue>
+        <fullName>Points Add-On Customer Link Rewards</fullName>
+        <default>false</default>
+        <label>Points Add-On Customer Link Rewards</label>
+    </customValue>
+    <customValue>
+        <fullName>Points Custom</fullName>
+        <default>false</default>
+        <label>Points Custom</label>
+    </customValue>
+    <customValue>
+        <fullName>Points No Redemption Site</fullName>
+        <default>false</default>
+        <label>Points No Redemption Site</label>
+    </customValue>
+    <customValue>
+        <fullName>Points Program</fullName>
+        <default>false</default>
+        <label>Points Program</label>
+    </customValue>
+    <customValue>
+        <fullName>Points Standard (Branded or Unbranded)</fullName>
+        <default>false</default>
+        <label>Points Standard (Branded or Unbranded)</label>
+    </customValue>
+    <customValue>
+        <fullName>Ponts Add-On Merchant Funded</fullName>
+        <default>false</default>
+        <label>Ponts Add-On Merchant Funded</label>
+    </customValue>
+    <customValue>
+        <fullName>Possible Elder Abuse (Financial Institution)</fullName>
+        <default>false</default>
+        <label>Possible Elder Abuse (Financial Institution)</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre-Sales Support</fullName>
+        <default>false</default>
+        <label>Pre-Sales Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Presto Adjustment Totals</fullName>
+        <default>false</default>
+        <label>Presto Adjustment Totals</label>
+    </customValue>
+    <customValue>
+        <fullName>Pricing</fullName>
+        <default>false</default>
+        <label>Pricing</label>
+    </customValue>
+    <customValue>
+        <fullName>Prime Rate Change</fullName>
+        <default>false</default>
+        <label>Prime Rate Change</label>
+    </customValue>
+    <customValue>
+        <fullName>Prime Rate Execution</fullName>
+        <default>false</default>
+        <label>Prime Rate Execution</label>
+    </customValue>
+    <customValue>
+        <fullName>Procedure Directory</fullName>
+        <default>false</default>
+        <label>Procedure Directory</label>
+    </customValue>
+    <customValue>
+        <fullName>Process Management-Bi-Annual Release</fullName>
+        <default>false</default>
+        <label>Process Management-Bi-Annual Release</label>
+    </customValue>
+    <customValue>
+        <fullName>Process Management-Bulletin Review Process</fullName>
+        <default>false</default>
+        <label>Process Management-Bulletin Review Process</label>
+    </customValue>
+    <customValue>
+        <fullName>Process Management-CSE Issue Log</fullName>
+        <default>false</default>
+        <label>Process Management-CSE Issue Log</label>
+    </customValue>
+    <customValue>
+        <fullName>Process Management-General Questions</fullName>
+        <default>false</default>
+        <label>Process Management-General Questions</label>
+    </customValue>
+    <customValue>
+        <fullName>Process Management-Industry Steering Committee</fullName>
+        <default>false</default>
+        <label>Process Management-Industry Steering Committee</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Integration Advisory</fullName>
+        <default>false</default>
+        <label>Product Integration Advisory</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Switch</fullName>
+        <default>false</default>
+        <label>Product Switch</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Switch Business</fullName>
+        <default>false</default>
+        <label>Product Switch Business</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Switch Consumer</fullName>
+        <default>false</default>
+        <label>Product Switch Consumer</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Switch Other</fullName>
+        <default>false</default>
+        <label>Product Switch Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Project</fullName>
+        <default>false</default>
+        <label>Project</label>
+    </customValue>
+    <customValue>
+        <fullName>Project - 3DS</fullName>
+        <default>false</default>
+        <label>Project - 3DS</label>
+    </customValue>
+    <customValue>
+        <fullName>Project - Conversion/Deconversion</fullName>
+        <default>false</default>
+        <label>Project - Conversion/Deconversion</label>
+    </customValue>
+    <customValue>
+        <fullName>Project - COOPER/Advance Defense</fullName>
+        <default>false</default>
+        <label>Project - COOPER/Advance Defense</label>
+    </customValue>
+    <customValue>
+        <fullName>Project - DefenseEdge</fullName>
+        <default>false</default>
+        <label>Project - DefenseEdge</label>
+    </customValue>
+    <customValue>
+        <fullName>Project - New Product</fullName>
+        <default>false</default>
+        <label>Project - New Product</label>
+    </customValue>
+    <customValue>
+        <fullName>Project - Other</fullName>
+        <default>false</default>
+        <label>Project - Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Project - Provision Plus</fullName>
+        <default>false</default>
+        <label>Project - Provision Plus</label>
+    </customValue>
+    <customValue>
+        <fullName>Project - Vendor Install</fullName>
+        <default>false</default>
+        <label>Project - Vendor Install</label>
+    </customValue>
+    <customValue>
+        <fullName>Promotions</fullName>
+        <default>false</default>
+        <label>Promotions</label>
+    </customValue>
+    <customValue>
+        <fullName>Proofpoint Reset</fullName>
+        <default>false</default>
+        <label>Proofpoint Reset</label>
+    </customValue>
+    <customValue>
+        <fullName>PS Client Setup</fullName>
+        <default>false</default>
+        <label>PS Client Setup</label>
+    </customValue>
+    <customValue>
+        <fullName>PS Collabria Merger</fullName>
+        <default>false</default>
+        <label>PS Collabria Merger</label>
+    </customValue>
+    <customValue>
+        <fullName>PS Contact Center</fullName>
+        <default>false</default>
+        <label>PS Contact Center</label>
+    </customValue>
+    <customValue>
+        <fullName>PS Credit Conversion - Omaha</fullName>
+        <default>false</default>
+        <label>PS Credit Conversion</label>
+    </customValue>
+    <customValue>
+        <fullName>PS Debit Conversion - Omaha</fullName>
+        <default>false</default>
+        <label>PS Debit Conversion</label>
+    </customValue>
+    <customValue>
+        <fullName>PS DeConversion-Omaha</fullName>
+        <default>false</default>
+        <label>PS DeConversion</label>
+    </customValue>
+    <customValue>
+        <fullName>Pseudo Term/Outlet Adds</fullName>
+        <default>false</default>
+        <label>Pseudo Term/Outlet Adds</label>
+    </customValue>
+    <customValue>
+        <fullName>Pseudo Term/Outlet Changes</fullName>
+        <default>false</default>
+        <label>Pseudo Term/Outlet Changes</label>
+    </customValue>
+    <customValue>
+        <fullName>Pseudo Term/Outlet Deletions</fullName>
+        <default>false</default>
+        <label>Pseudo Term/Outlet Deletions</label>
+    </customValue>
+    <customValue>
+        <fullName>PS Other</fullName>
+        <default>false</default>
+        <label>PS Other</label>
+    </customValue>
+    <customValue>
+        <fullName>PS Shared Branch Setup</fullName>
+        <default>false</default>
+        <label>PS Shared Branch Setup</label>
+    </customValue>
+    <customValue>
+        <fullName>Publish Document</fullName>
+        <default>false</default>
+        <label>Publish Document</label>
+    </customValue>
+    <customValue>
+        <fullName>Purge</fullName>
+        <default>false</default>
+        <label>Purge</label>
+    </customValue>
+    <customValue>
+        <fullName>QFX/Intuit</fullName>
+        <default>false</default>
+        <label>QFX/Intuit</label>
+    </customValue>
+    <customValue>
+        <fullName>Quality Assurance</fullName>
+        <default>false</default>
+        <label>Quality Assurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Quarterly Reporting-Mastercard - Connex</fullName>
+        <default>false</default>
+        <label>Quarterly Reporting-Mastercard - Connex</label>
+    </customValue>
+    <customValue>
+        <fullName>Quarterly Reporting-Mastercard - Optis</fullName>
+        <default>false</default>
+        <label>Quarterly Reporting-Mastercard - Optis</label>
+    </customValue>
+    <customValue>
+        <fullName>Quarterly Reporting-Visa - Connex</fullName>
+        <default>false</default>
+        <label>Quarterly Reporting-Visa - Connex</label>
+    </customValue>
+    <customValue>
+        <fullName>Quarterly Reporting-Visa - Optis</fullName>
+        <default>false</default>
+        <label>Quarterly Reporting-Visa - Optis</label>
+    </customValue>
+    <customValue>
+        <fullName>R&amp;T Changes</fullName>
+        <default>false</default>
+        <label>R&amp;T Changes</label>
+    </customValue>
+    <customValue>
+        <fullName>Rapid Setup/Change</fullName>
+        <default>false</default>
+        <label>Rapid Setup/Change</label>
+    </customValue>
+    <customValue>
+        <fullName>RAZR Rewards</fullName>
+        <default>false</default>
+        <label>RAZR Rewards</label>
+    </customValue>
+    <customValue>
+        <fullName>RealPay</fullName>
+        <default>false</default>
+        <label>RealPay</label>
+    </customValue>
+    <customValue>
+        <fullName>Rebate Program</fullName>
+        <default>false</default>
+        <label>Rebate Program</label>
+    </customValue>
+    <customValue>
+        <fullName>Rebrand Name Change</fullName>
+        <default>false</default>
+        <label>Rebrand Name Change</label>
+    </customValue>
+    <customValue>
+        <fullName>Remove/Delete Document</fullName>
+        <default>false</default>
+        <label>Remove/Delete Document</label>
+    </customValue>
+    <customValue>
+        <fullName>Renewal</fullName>
+        <default>false</default>
+        <label>Renewal</label>
+    </customValue>
+    <customValue>
+        <fullName>Reports</fullName>
+        <default>false</default>
+        <label>Reports</label>
+    </customValue>
+    <customValue>
+        <fullName>Request</fullName>
+        <default>false</default>
+        <label>Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Request Certification Time </fullName>
+        <default>false</default>
+        <label>Request Certification Time </label>
+    </customValue>
+    <customValue>
+        <fullName>Request Client Training</fullName>
+        <default>false</default>
+        <label>Request Client Training</label>
+    </customValue>
+    <customValue>
+        <fullName>Request for Report</fullName>
+        <default>false</default>
+        <label>Request for Report</label>
+    </customValue>
+    <customValue>
+        <fullName>Requirement Change PCF</fullName>
+        <default>false</default>
+        <label>Requirement Change PCF</label>
+    </customValue>
+    <customValue>
+        <fullName>Research &amp; Analysis</fullName>
+        <default>false</default>
+        <label>Research &amp; Analysis</label>
+    </customValue>
+    <customValue>
+        <fullName>Research &amp; Development</fullName>
+        <default>false</default>
+        <label>Research &amp; Development</label>
+    </customValue>
+    <customValue>
+        <fullName>Resolution Center</fullName>
+        <default>false</default>
+        <label>Resolution Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Resolution Center Connex</fullName>
+        <default>false</default>
+        <label>Resolution Center Connex</label>
+    </customValue>
+    <customValue>
+        <fullName>Resolution Center Optis</fullName>
+        <default>false</default>
+        <label>Resolution Center Optis</label>
+    </customValue>
+    <customValue>
+        <fullName>Retrieval Request</fullName>
+        <default>false</default>
+        <label>Retrieval Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Return Cards</fullName>
+        <default>false</default>
+        <label>Return Cards</label>
+    </customValue>
+    <customValue>
+        <fullName>Revelation</fullName>
+        <default>false</default>
+        <label>Revelation</label>
+    </customValue>
+    <customValue>
+        <fullName>Review doc (Edit/Format)</fullName>
+        <default>false</default>
+        <label>Review doc (Edit/Format)</label>
+    </customValue>
+    <customValue>
+        <fullName>Rewards</fullName>
+        <default>false</default>
+        <label>Rewards</label>
+    </customValue>
+    <customValue>
+        <fullName>Rewards Points</fullName>
+        <default>false</default>
+        <label>Rewards Points</label>
+    </customValue>
+    <customValue>
+        <fullName>RFP Support</fullName>
+        <default>false</default>
+        <label>RFP Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Sage</fullName>
+        <default>false</default>
+        <label>Sage</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce Business Management</fullName>
+        <default>false</default>
+        <label>Salesforce Business Management</label>
+    </customValue>
+    <customValue>
+        <fullName>SB Fraud/Non Fraud Disputes</fullName>
+        <default>false</default>
+        <label>SB Fraud/Non Fraud Disputes</label>
+    </customValue>
+    <customValue>
+        <fullName>Scoping</fullName>
+        <default>false</default>
+        <label>Scoping</label>
+    </customValue>
+    <customValue>
+        <fullName>SCS Letters</fullName>
+        <default>false</default>
+        <label>SCS Letters</label>
+    </customValue>
+    <customValue>
+        <fullName>Separate Entity</fullName>
+        <default>false</default>
+        <label>Separate Entity</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Transfer</fullName>
+        <default>false</default>
+        <label>Service Transfer</label>
+    </customValue>
+    <customValue>
+        <fullName>Settlement and Reconciliation Internal Use Only</fullName>
+        <default>false</default>
+        <label>Settlement and Reconciliation Internal Use Only</label>
+    </customValue>
+    <customValue>
+        <fullName>Settlement Changes</fullName>
+        <default>false</default>
+        <label>Settlement Changes</label>
+    </customValue>
+    <customValue>
+        <fullName>Settlement Correction Data Entry Error</fullName>
+        <default>false</default>
+        <label>Settlement Correction Data Entry Error</label>
+    </customValue>
+    <customValue>
+        <fullName>Settlement Correction Processing Error</fullName>
+        <default>false</default>
+        <label>Settlement Correction Processing Error</label>
+    </customValue>
+    <customValue>
+        <fullName>Settlement Corrections</fullName>
+        <default>false</default>
+        <label>Settlement Corrections</label>
+    </customValue>
+    <customValue>
+        <fullName>Settlement Research</fullName>
+        <default>false</default>
+        <label>Settlement Research</label>
+    </customValue>
+    <customValue>
+        <fullName>Shared Branch - 601 Report</fullName>
+        <default>false</default>
+        <label>Shared Branch - 601 Report</label>
+    </customValue>
+    <customValue>
+        <fullName>Shared Branch Adj Corr</fullName>
+        <default>false</default>
+        <label>Shared Branch Adj Corr</label>
+    </customValue>
+    <customValue>
+        <fullName>Shared Branch Adjustment Processing</fullName>
+        <default>false</default>
+        <label>Shared Branch Adjustment Processing</label>
+    </customValue>
+    <customValue>
+        <fullName>Shared Branch Grievances</fullName>
+        <default>false</default>
+        <label>Shared Branch Grievances</label>
+    </customValue>
+    <customValue>
+        <fullName>Shared Branch - Recon/Settlement</fullName>
+        <default>false</default>
+        <label>Shared Branch - Recon/Settlement</label>
+    </customValue>
+    <customValue>
+        <fullName>Shared Branch - Reports</fullName>
+        <default>false</default>
+        <label>Shared Branch - Reports</label>
+    </customValue>
+    <customValue>
+        <fullName>Shared Branch - Transaction Research</fullName>
+        <default>false</default>
+        <label>Shared Branch - Transaction Research</label>
+    </customValue>
+    <customValue>
+        <fullName>Single Sign On</fullName>
+        <default>false</default>
+        <label>Single Sign On</label>
+    </customValue>
+    <customValue>
+        <fullName>Skip Payment</fullName>
+        <default>false</default>
+        <label>Skip Payment</label>
+    </customValue>
+    <customValue>
+        <fullName>Smart Growth</fullName>
+        <default>false</default>
+        <label>Smart Growth</label>
+    </customValue>
+    <customValue>
+        <fullName>SmartLook</fullName>
+        <default>false</default>
+        <label>SmartLook</label>
+    </customValue>
+    <customValue>
+        <fullName>SME - Settlement Escalations</fullName>
+        <default>false</default>
+        <label>SME - Settlement Escalations</label>
+    </customValue>
+    <customValue>
+        <fullName>Softrax</fullName>
+        <default>false</default>
+        <label>Softrax</label>
+    </customValue>
+    <customValue>
+        <fullName>Solarwinds</fullName>
+        <default>false</default>
+        <label>Solarwinds</label>
+    </customValue>
+    <customValue>
+        <fullName>Spendtrend</fullName>
+        <default>false</default>
+        <label>Spendtrend</label>
+    </customValue>
+    <customValue>
+        <fullName>Sprig/CO-OP Mobile</fullName>
+        <default>false</default>
+        <label>Sprig/Co-op Mobile</label>
+    </customValue>
+    <customValue>
+        <fullName>Springboard</fullName>
+        <default>false</default>
+        <label>Springboard</label>
+    </customValue>
+    <customValue>
+        <fullName>SpringBoard Admin</fullName>
+        <default>false</default>
+        <label>SpringBoard Admin</label>
+    </customValue>
+    <customValue>
+        <fullName>Springboard - Expanded</fullName>
+        <default>false</default>
+        <label>Springboard - Expanded</label>
+    </customValue>
+    <customValue>
+        <fullName>Springboard - Legacy</fullName>
+        <default>false</default>
+        <label>Springboard - Legacy</label>
+    </customValue>
+    <customValue>
+        <fullName>SSRS</fullName>
+        <default>false</default>
+        <label>SSRS</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard Reports</fullName>
+        <default>false</default>
+        <label>Standard Reports</label>
+    </customValue>
+    <customValue>
+        <fullName>Star</fullName>
+        <default>false</default>
+        <label>STAR</label>
+    </customValue>
+    <customValue>
+        <fullName>Start Surcharging </fullName>
+        <default>false</default>
+        <label>Start Surcharging </label>
+    </customValue>
+    <customValue>
+        <fullName>Start Up</fullName>
+        <default>false</default>
+        <label>Start Up</label>
+    </customValue>
+    <customValue>
+        <fullName>Startups/Mergers</fullName>
+        <default>false</default>
+        <label>Startups/Mergers</label>
+    </customValue>
+    <customValue>
+        <fullName>Statement Copy Request</fullName>
+        <default>false</default>
+        <label>Statement Copy Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Statement Credit</fullName>
+        <default>false</default>
+        <label>Statement Credit</label>
+    </customValue>
+    <customValue>
+        <fullName>Statement hold codes</fullName>
+        <default>false</default>
+        <label>Statement hold codes</label>
+    </customValue>
+    <customValue>
+        <fullName>Statement Insert</fullName>
+        <default>false</default>
+        <label>Statement Insert</label>
+    </customValue>
+    <customValue>
+        <fullName>Statement Message</fullName>
+        <default>false</default>
+        <label>Statement Message</label>
+    </customValue>
+    <customValue>
+        <fullName>Statement Onsert</fullName>
+        <default>false</default>
+        <label>Statement Onsert</label>
+    </customValue>
+    <customValue>
+        <fullName>Statements</fullName>
+        <default>false</default>
+        <label>Statements</label>
+    </customValue>
+    <customValue>
+        <fullName>Statements - DIF/CRF</fullName>
+        <default>false</default>
+        <label>Statements - DIF/CRF</label>
+    </customValue>
+    <customValue>
+        <fullName>Stmt Template - Custom Back</fullName>
+        <default>false</default>
+        <label>Stmt Template - Custom Back</label>
+    </customValue>
+    <customValue>
+        <fullName>Stmt Template - Custom Front</fullName>
+        <default>false</default>
+        <label>Stmt Template - Custom Front</label>
+    </customValue>
+    <customValue>
+        <fullName>Stmt Template - New Stmt Form Type</fullName>
+        <default>false</default>
+        <label>Stmt Template - New Stmt Form Type</label>
+    </customValue>
+    <customValue>
+        <fullName>Stmt Template - Standard B/W</fullName>
+        <default>false</default>
+        <label>Stmt Template - Standard B/W</label>
+    </customValue>
+    <customValue>
+        <fullName>Stmt Template - Standard Back</fullName>
+        <default>false</default>
+        <label>Stmt Template - Standard Back</label>
+    </customValue>
+    <customValue>
+        <fullName>Stmt Template - Standard Front Color</fullName>
+        <default>false</default>
+        <label>Stmt Template - Standard Front Color</label>
+    </customValue>
+    <customValue>
+        <fullName>Stmt Template - TMG Standard Back</fullName>
+        <default>false</default>
+        <label>Stmt Template - TMG Standard Back</label>
+    </customValue>
+    <customValue>
+        <fullName>Stock Add/Change</fullName>
+        <default>false</default>
+        <label>Stock Add/Change</label>
+    </customValue>
+    <customValue>
+        <fullName>Stock Destruction</fullName>
+        <default>false</default>
+        <label>Stock Destruction</label>
+    </customValue>
+    <customValue>
+        <fullName>Stock Purge</fullName>
+        <default>false</default>
+        <label>Stock Purge</label>
+    </customValue>
+    <customValue>
+        <fullName>Stock Transfers</fullName>
+        <default>false</default>
+        <label>Stock Transfers</label>
+    </customValue>
+    <customValue>
+        <fullName>Strip &amp; Throw</fullName>
+        <default>false</default>
+        <label>Strip &amp; Throw</label>
+    </customValue>
+    <customValue>
+        <fullName>Superload </fullName>
+        <default>false</default>
+        <label>Superload </label>
+    </customValue>
+    <customValue>
+        <fullName>Telecom Migration – Re-convert </fullName>
+        <default>false</default>
+        <label>Telecom Migration – Re-convert </label>
+    </customValue>
+    <customValue>
+        <fullName>TellerPLUS</fullName>
+        <default>false</default>
+        <label>TellerPLUS</label>
+    </customValue>
+    <customValue>
+        <fullName>Terminal Request</fullName>
+        <default>false</default>
+        <label>Terminal Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Time Off</fullName>
+        <default>false</default>
+        <label>Time Off</label>
+    </customValue>
+    <customValue>
+        <fullName>TLF Promo Fees</fullName>
+        <default>false</default>
+        <label>TLF Promo Fees</label>
+    </customValue>
+    <customValue>
+        <fullName>TLP Promo Pricing - BALCON</fullName>
+        <default>false</default>
+        <label>TLP Promo Pricing - BALCON</label>
+    </customValue>
+    <customValue>
+        <fullName>TLP Promo Pricing - BAL Transfer</fullName>
+        <default>false</default>
+        <label>TLP Promo Pricing - BAL Transfer</label>
+    </customValue>
+    <customValue>
+        <fullName>TLP Promo Pricing - Base</fullName>
+        <default>false</default>
+        <label>TLP Promo Pricing - Base</label>
+    </customValue>
+    <customValue>
+        <fullName>TLP Promo Pricing - Cash</fullName>
+        <default>false</default>
+        <label>TLP Promo Pricing - Cash</label>
+    </customValue>
+    <customValue>
+        <fullName>TLP Promo Pricing - Conv Checks</fullName>
+        <default>false</default>
+        <label>TLP Promo Pricing - Conv Checks</label>
+    </customValue>
+    <customValue>
+        <fullName>TLP Promo Pricing - Merchandise</fullName>
+        <default>false</default>
+        <label>TLP Promo Pricing - Merchandise</label>
+    </customValue>
+    <customValue>
+        <fullName>TLP - Revision</fullName>
+        <default>false</default>
+        <label>TLP - Revision</label>
+    </customValue>
+    <customValue>
+        <fullName>TLR Custom Campaign</fullName>
+        <default>false</default>
+        <label>TLR Custom Campaign</label>
+    </customValue>
+    <customValue>
+        <fullName>TLR - Exclude</fullName>
+        <default>false</default>
+        <label>TLR - Exclude</label>
+    </customValue>
+    <customValue>
+        <fullName>TLR - Revision</fullName>
+        <default>false</default>
+        <label>TLR - Revision</label>
+    </customValue>
+    <customValue>
+        <fullName>TLR Rotating MCC Offering</fullName>
+        <default>false</default>
+        <label>TLR Rotating MCC Offering</label>
+    </customValue>
+    <customValue>
+        <fullName>TLR Turn-Key</fullName>
+        <default>false</default>
+        <label>TLR Turn-Key</label>
+    </customValue>
+    <customValue>
+        <fullName>Tokenization</fullName>
+        <default>false</default>
+        <label>Tokenization</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA</fullName>
+        <default>false</default>
+        <label>TPA</label>
+    </customValue>
+    <customValue>
+        <fullName>Transaction Research</fullName>
+        <default>false</default>
+        <label>Transaction Research</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel Concierge</fullName>
+        <default>false</default>
+        <label>Travel Concierge</label>
+    </customValue>
+    <customValue>
+        <fullName>UG/Photocard/Digital Stock Setup</fullName>
+        <default>false</default>
+        <label>UG/Photocard/Digital Stock Setup</label>
+    </customValue>
+    <customValue>
+        <fullName>Underwriting</fullName>
+        <default>false</default>
+        <label>Underwriting</label>
+    </customValue>
+    <customValue>
+        <fullName>Unload Request</fullName>
+        <default>false</default>
+        <label>Unload Request</label>
+    </customValue>
+    <customValue>
+        <fullName>VCR Support</fullName>
+        <default>false</default>
+        <label>VCR Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Visa Online Admin</fullName>
+        <default>false</default>
+        <label>Visa Online Admin</label>
+    </customValue>
+    <customValue>
+        <fullName>VISA PTC Clearing</fullName>
+        <default>false</default>
+        <label>VISA PTC Clearing</label>
+    </customValue>
+    <customValue>
+        <fullName>VISA PTC Processing</fullName>
+        <default>false</default>
+        <label>VISA PTC Processing</label>
+    </customValue>
+    <customValue>
+        <fullName>Welcome Screen </fullName>
+        <default>false</default>
+        <label>Welcome Screen </label>
+    </customValue>
+    <customValue>
+        <fullName>Windows Update</fullName>
+        <default>false</default>
+        <label>Windows Update</label>
+    </customValue>
+    <customValue>
+        <fullName>Write-off</fullName>
+        <default>false</default>
+        <label>Write-off</label>
+    </customValue>
+    <customValue>
+        <fullName>Year End Summary</fullName>
+        <default>false</default>
+        <label>Year End Summary</label>
+    </customValue>
+    <customValue>
+        <fullName>Zelle</fullName>
+        <default>false</default>
+        <label>Zelle</label>
+    </customValue>
+    <customValue>
+        <fullName>Zelle Adjustment Processing</fullName>
+        <default>false</default>
+        <label>Zelle Adjustment Processing</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - Moneypass</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - Moneypass</label>
+    </customValue>
+    <customValue>
+        <fullName>Pending Vendor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pending Vendor</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - Pulse</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - Pulse</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - Pin Correction</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - Pin Correction</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - Plus/visa</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - Plus/visa</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - Presto / Publix</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - Presto / Publix</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - Star Batch Import/export</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - Star Batch Import/export</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - Misc Check Mailings</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - Misc Check Mailings</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - Discover/ Amex</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - Discover/ Amex</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - Good Faith</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - Good Faith</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - Photo Request</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - Photo Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - Pre-arb/Arb/Pre- Comp/Comp</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - Pre-arb/Arb/Pre- Comp/Comp</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - 3 Business Days</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - 3 Business Days</label>
+    </customValue>
+    <customValue>
+        <fullName>New Issuer with VPN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>New Issuer with VPN</label>
+    </customValue>
+    <customValue>
+        <fullName>Sprig RDC/P2P Adjustment Processing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sprig RDC/P2P Adjustment Processing</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - CU24</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - CU24</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - AFFN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - AFFN</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - Cirrus</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - Cirrus</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - Co-op POS Batch Import/export</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - Co-op POS Batch Import/export</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - EBT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - EBT</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - Exchange/allpoint</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - Exchange/allpoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - GTWY CRS/PLS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - GTWY CRS/PLS</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - Interlink</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - Interlink</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Reporting - Cirrus</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fraud Reporting - Cirrus</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - Representments</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - Representments</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Recon - DN Processing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Auto Recon - DN Processing</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Recon - Report Distribution</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Auto Recon - Report Distribution</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Reporting - Co-op POS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fraud Reporting - Co-op POS</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Reporting - NYCE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fraud Reporting - NYCE</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Reporting - PLS/ILK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fraud Reporting - PLS/ILK</label>
+    </customValue>
+    <customValue>
+        <fullName>Fraud Reporting - STAR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fraud Reporting - STAR</label>
+    </customValue>
+    <customValue>
+        <fullName>Mastercom Rep Docs</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Mastercom Rep Docs</label>
+    </customValue>
+    <customValue>
+        <fullName>Settlement &amp; Reconciliation - Internal Use Only</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Settlement &amp; Reconciliation - Internal Use Only</label>
+    </customValue>
+    <customValue>
+        <fullName>ADJUSTMENT ISSUE- CLIENT INQUIRY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ADJUSTMENT ISSUE- CLIENT INQUIRY</label>
+    </customValue>
+    <customValue>
+        <fullName>ATM Add/Change</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ATM Add/Change</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment Issue - NYCE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Adjustment Issue - NYCE</label>
+    </customValue>
+    <masterLabel>Activity</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

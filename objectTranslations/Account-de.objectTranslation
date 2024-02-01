@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Company</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Companies</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Account</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Accounts</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Accounts</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Accounts</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Account</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Accounts</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Account FieldSets --></label>
+        <name>Account_FieldSets</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Active FieldSet --></label>
+        <name>Active_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Test Field Set --></label>
+        <name>Test_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Unused Account Field Set --></label>
+        <name>Unused_Account_Field_Set</name>
+    </fieldSets>
+    <fields>
+        <label><!-- AA_Field --></label>
+        <name>AA_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- No help here. This is a formula field. --></help>
+        <label><!-- A Formula Field --></label>
+        <name>A_Formula_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- Here is the help text --></help>
+        <label><!-- A Long Number --></label>
+        <name>A_Long_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>AccountID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please document level of entrenchment in this account. This is important. --></help>
+        <label><!-- Account Depth --></label>
+        <name>Account_Depth2__c</name>
+        <picklistValues>
+            <masterLabel>Bill</masterLabel>
+            <translation><!-- Bill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deep</masterLabel>
+            <translation><!-- Deep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deeper</masterLabel>
+            <translation><!-- Deeper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deeper &amp; Deeper</masterLabel>
+            <translation><!-- Deeper &amp; Deeper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deepest</masterLabel>
+            <translation><!-- Deepest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shallow</masterLabel>
+            <translation><!-- Shallow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please document level of entrenchment in this account. This is important. --></help>
+        <label><!-- Account Depth --></label>
+        <name>Account_Depth__c</name>
+        <picklistValues>
+            <masterLabel>Deep</masterLabel>
+            <translation><!-- Deep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deeper</masterLabel>
+            <translation><!-- Deeper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deepest</masterLabel>
+            <translation><!-- Deepest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shallow</masterLabel>
+            <translation><!-- Shallow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- custom field help text test --></help>
+        <label><!-- Account Flag --></label>
+        <name>Account_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Hierarchy Tier --></label>
+        <name>Account_Hierarchy_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account ID --></label>
+        <name>Account_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- pwned! --></help>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Annual IT Budget --></label>
+        <name>AnnualITBudget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Child Account --></label>
+        <name>Child_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complete Cost --></label>
+        <name>Complete_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corporate Desktop HW Standard --></label>
+        <name>CorporateDesktopHWStandard__c</name>
+        <picklistValues>
+            <masterLabel>Compaq</masterLabel>
+            <translation><!-- Compaq --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dell</masterLabel>
+            <translation><!-- Dell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP</masterLabel>
+            <translation><!-- HP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBM</masterLabel>
+            <translation><!-- IBM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Corporate Desktop OS Standard --></label>
+        <name>CorporateDesktopOSStandard__c</name>
+        <picklistValues>
+            <masterLabel>Mac OS</masterLabel>
+            <translation><!-- Mac OS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Windows 2000</masterLabel>
+            <translation><!-- Windows 2000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Windows 95</masterLabel>
+            <translation><!-- Windows 95 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Windows 98</masterLabel>
+            <translation><!-- Windows 98 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Windows XP</masterLabel>
+            <translation><!-- Windows XP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Countries --></label>
+        <name>Countries__c</name>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ireland</masterLabel>
+            <translation><!-- Ireland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morocco</masterLabel>
+            <translation><!-- Morocco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mozambique</masterLabel>
+            <translation><!-- Mozambique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pakistan</masterLabel>
+            <translation><!-- Pakistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation><!-- Turkey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK</masterLabel>
+            <translation><!-- UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Custom Record ID --></label>
+        <name>Custom_Record_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dependent States --></label>
+        <name>Dependent_States__c</name>
+        <picklistValues>
+            <masterLabel>Andra Pradesh</masterLabel>
+            <translation><!-- Andra Pradesh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Karnataka</masterLabel>
+            <translation><!-- Karnataka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maharastra</masterLabel>
+            <translation><!-- Maharastra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation><!-- NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation><!-- NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation><!-- TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tamil Nadu</masterLabel>
+            <translation><!-- Tamil Nadu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Bengal</masterLabel>
+            <translation><!-- West Bengal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Encrypted Text Area --></label>
+        <name>Encrypted_Text_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsActive --></label>
+        <name>IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Long Text Area --></label>
+        <name>Long_Text_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area of Interest --></label>
+        <name>Multi_select_Picklist__c</name>
+        <picklistValues>
+            <masterLabel>Administration</masterLabel>
+            <translation><!-- Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>App Development</masterLabel>
+            <translation><!-- App Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design</masterLabel>
+            <translation><!-- Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDE</masterLabel>
+            <translation><!-- IDE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support</masterLabel>
+            <translation><!-- Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visual Media</masterLabel>
+            <translation><!-- Visual Media --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- My GeoLocation Field --></label>
+        <name>My_GeoLocation_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- My Picklist field --></label>
+        <name>My_Picklist_field__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the Time data here. --></help>
+        <label><!-- My Time Field --></label>
+        <name>My_Time_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is not allowed access to anyone --></help>
+        <label><!-- No Access --></label>
+        <name>No_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number picklist --></label>
+        <name>Number_picklist__c</name>
+    </fields>
+    <fields>
+        <help><!-- Displays the number of locations --></help>
+        <label><!-- Number of Locations --></label>
+        <name>NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Count (All) --></label>
+        <name>Opportunity_Count_All__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Count (Open) --></label>
+        <name>Opportunity_Count_Open__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Count (Won) --></label>
+        <name>Opportunity_Count_Won__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity First Win Date --></label>
+        <name>Opportunity_First_Win_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Last Win Date --></label>
+        <name>Opportunity_Last_Win_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Data Center Location --></label>
+        <name>PrimaryDataCenterLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary ERP System --></label>
+        <name>PrimaryERPSystem__c</name>
+        <picklistValues>
+            <masterLabel>Oracle</masterLabel>
+            <translation><!-- Oracle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peoplesoft</masterLabel>
+            <translation><!-- Peoplesoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP</masterLabel>
+            <translation><!-- SAP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reference Program Status --></label>
+        <name>ReferenceProgramStatus__c</name>
+        <picklistValues>
+            <masterLabel>Available</masterLabel>
+            <translation><!-- Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Available</masterLabel>
+            <translation><!-- Not Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top Level</masterLabel>
+            <translation><!-- Top Level --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>Africa</masterLabel>
+            <translation><!-- Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Americas</masterLabel>
+            <translation><!-- Americas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia</masterLabel>
+            <translation><!-- Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia Pacific</masterLabel>
+            <translation><!-- Asia Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation><!-- Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe &amp; Asia</masterLabel>
+            <translation><!-- Europe &amp; Asia --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rich Text Area --></label>
+        <name>Rich_Text_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rollup Summary Test --></label>
+        <name>Rollup_Summary_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Expiration Date --></label>
+        <name>SLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Serial Number --></label>
+        <name>SLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subregions --></label>
+        <name>Subregions__c</name>
+        <picklistValues>
+            <masterLabel>Ampersand&amp;Slash/Back</masterLabel>
+            <translation><!-- Ampersand&amp;Slash/Back --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carribean</masterLabel>
+            <translation><!-- Carribean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eastern Europe</masterLabel>
+            <translation><!-- Eastern Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eurasia</masterLabel>
+            <translation><!-- Eurasia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indian Subcontinent</masterLabel>
+            <translation><!-- Indian Subcontinent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mediterrenean</masterLabel>
+            <translation><!-- Mediterrenean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America</masterLabel>
+            <translation><!-- North America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northeastern Africa</masterLabel>
+            <translation><!-- Northeastern Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pit &amp; Cairns</masterLabel>
+            <translation><!-- Pit &amp; Cairns --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russia</masterLabel>
+            <translation><!-- Russia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sahara</masterLabel>
+            <translation><!-- Sahara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation><!-- South Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South America</masterLabel>
+            <translation><!-- South America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West/Indies</masterLabel>
+            <translation><!-- West/Indies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western Africa</masterLabel>
+            <translation><!-- Western Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western Europe</masterLabel>
+            <translation><!-- Western Europe --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Potential Licenses --></label>
+        <name>TotalPotentialLicenses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type A --></label>
+        <name>Type_A__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type B --></label>
+        <name>Type_B__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Formula --></label>
+        <name>Type_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ultimate Parent Account Name --></label>
+        <name>Ultimate_Parent_Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ultimate Parent --></label>
+        <name>Ultimate_Parent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Dont use this field --></help>
+        <label><!-- Unused Account Field --></label>
+        <name>Unused_Account_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upsell Opportunity --></label>
+        <name>UpsellOpportunity__c</name>
+        <picklistValues>
+            <masterLabel>Absolutely not</masterLabel>
+            <translation><!-- Absolutely not --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I can&apos;t think why I should</masterLabel>
+            <translation><!-- I can&apos;t think why I should --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Validation Rule Test --></label>
+        <name>Validation_Rule_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- controls_menu --></label>
+        <name>controls_menu__c</name>
+    </fields>
+    <fields>
+        <label><!-- depends_checks --></label>
+        <name>depends_checks__c</name>
+        <picklistValues>
+            <masterLabel>five</masterLabel>
+            <translation><!-- five --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>four</masterLabel>
+            <translation><!-- four --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>no control</masterLabel>
+            <translation><!-- no control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>one</masterLabel>
+            <translation><!-- one --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>six</masterLabel>
+            <translation><!-- six --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>spec text ; ! /  charatcers</masterLabel>
+            <translation><!-- spec text ; ! /  charatcers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>three</masterLabel>
+            <translation><!-- three --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>two</masterLabel>
+            <translation><!-- two --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- depends_global --></label>
+        <name>depends_global__c</name>
+        <picklistValues>
+            <masterLabel>bob</masterLabel>
+            <translation><!-- bob --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>joe</masterLabel>
+            <translation><!-- joe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mary</masterLabel>
+            <translation><!-- mary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ted</masterLabel>
+            <translation><!-- ted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>tim</masterLabel>
+            <translation><!-- tim --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- depends_standard --></label>
+        <name>depends_standard__c</name>
+        <picklistValues>
+            <masterLabel>fifth</masterLabel>
+            <translation><!-- fifth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>first</masterLabel>
+            <translation><!-- first --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>fourth</masterLabel>
+            <translation><!-- fourth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>second</masterLabel>
+            <translation><!-- second --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sixth</masterLabel>
+            <translation><!-- sixth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>third</masterLabel>
+            <translation><!-- third --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- global_picklist --></label>
+        <name>global_picklist__c</name>
+    </fields>
+    <fields>
+        <label><!-- metazoa_external_id --></label>
+        <name>metazoa_external_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- text_area --></label>
+        <name>text_area__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <recordTypes>
+        <label><!-- Account Rec Type1 --></label>
+        <name>Account_Rec_Type1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Account Rec Type2 --></label>
+        <name>Account_Rec_Type2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Account Rec Type 3 --></label>
+        <name>Account_Rec_Type_3</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Master123 --></label>
+        <name>Master123</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MyRecType --></label>
+        <name>MyRecType</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is unused --></description>
+        <label><!-- Unused Account Recordtype --></label>
+        <name>Unused_Account_Recordtype</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Account cannot be inactive when you make a change. --></errorMessage>
+        <name>Account_is_Active</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bad picklist value. Please choose Deep --></errorMessage>
+        <name>Unused_Validation_Rule</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- BLND_FormFactoryAccountLink --></label>
+        <name>BLND_FormFactoryAccountLink</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Hierarchy_Map --></label>
+        <name>Hierarchy_Map</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Initiatives_Map --></label>
+        <name>Initiatives_Map</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- My_Microsoft_Button --></label>
+        <name>My_Microsoft_Button</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Relationship_Map --></label>
+        <name>Relationship_Map</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Sridhar_DeleteMe --></label>
+        <name>Sridhar_DeleteMe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Unused_Button --></label>
+        <name>Unused_Button</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- contact_hierarchy_trick --></label>
+        <name>contact_hierarchy_trick</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Verify_with_DNB --></label>
+        <name>dsfs__Verify_with_DNB</name>
+    </webLinks>
+</CustomObjectTranslation>

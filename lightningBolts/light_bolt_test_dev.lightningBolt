@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningBolt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <category>FinancialServices</category>
+    <lightningBoltFeatures>
+        <order>1</order>
+        <title>light_bolt_test_title</title>
+    </lightningBoltFeatures>
+    <lightningBoltImages>
+        <image>bug</image>
+        <order>1</order>
+    </lightningBoltImages>
+    <lightningBoltItems>
+        <name>Test_App</name>
+        <type>CustomApplication</type>
+    </lightningBoltItems>
+    <masterLabel>light_bolt_test</masterLabel>
+    <publisher>Metazoa</publisher>
+    <summary>ggg</summary>
+</LightningBolt>

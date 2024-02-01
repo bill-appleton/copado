@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <narrowComponents>standard-CreateNew</narrowComponents>
+    <narrowComponents>standard-StandardSearch</narrowComponents>
+    <narrowComponents>standard-Tags</narrowComponents>
+    <narrowComponents>standard-RecentItems</narrowComponents>
+    <narrowComponents>standard-MessagesAndAlerts</narrowComponents>
+    <narrowComponents>standard-ArticleSearch</narrowComponents>
+    <narrowComponents>standard-DocumentSearch</narrowComponents>
+    <narrowComponents>standard-PartnerPortalWelcome</narrowComponents>
+    <narrowComponents>standard-PortalWelcome</narrowComponents>
+    <narrowComponents>standard-ProductSearch</narrowComponents>
+    <narrowComponents>standard-SolutionSearch</narrowComponents>
+    <narrowComponents>standard-UsefulLinks</narrowComponents>
+    <narrowComponents>My Home Page Components</narrowComponents>
+    <narrowComponents>Unused Home Page Component</narrowComponents>
+    <wideComponents>standard-Calendar</wideComponents>
+    <wideComponents>standard-Tasks</wideComponents>
+    <wideComponents>standard-ProcessWorkitems</wideComponents>
+    <wideComponents>standard-Dashboard</wideComponents>
+    <wideComponents>standard-PartnerPortalLeadInbox</wideComponents>
+    <wideComponents>standard-PendingInterviews</wideComponents>
+</HomePageLayout>

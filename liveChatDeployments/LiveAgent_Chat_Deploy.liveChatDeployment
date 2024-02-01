@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatDeployment xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brandingImage>dsfs__MessageIconPNG</brandingImage>
+    <connectionTimeoutDuration>0</connectionTimeoutDuration>
+    <connectionWarningDuration>0</connectionWarningDuration>
+    <displayQueuePosition>false</displayQueuePosition>
+    <enablePrechatApi>false</enablePrechatApi>
+    <enableTranscriptSave>false</enableTranscriptSave>
+    <label>LiveAgent Chat Deploy</label>
+    <mobileBrandingImage>dsfs__RecipientIconPNG</mobileBrandingImage>
+    <site>My_New_SS_Site</site>
+    <windowTitle>LiveAgent is online!</windowTitle>
+</LiveChatDeployment>

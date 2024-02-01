@@ -10,8 +10,14 @@
     <tabs>standard-CmsChannel</tabs>
     <tabs>standard-CmsWorkspaces</tabs>
     <tabs>standard-CmsExperiences</tabs>
+    <tabs>testingabc__c</tabs>
+    <tabs>parentabc__c</tabs>
+    <tabs>testobj__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
+        <mappings>
+            <tab>parentabc__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-CmsAuthorHome</tab>
         </mappings>
@@ -23,6 +29,12 @@
         </mappings>
         <mappings>
             <tab>standard-CmsWorkspaces</tab>
+        </mappings>
+        <mappings>
+            <tab>testingabc__c</tab>
+        </mappings>
+        <mappings>
+            <tab>testobj__c</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>

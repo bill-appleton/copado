@@ -3,45 +3,45 @@
     <groupingStringEnum>WorkStatusCategory</groupingStringEnum>
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Nuevo</fullName>
+        <fullName>New</fullName>
         <default>true</default>
-        <label>Nuevo</label>
+        <label>New</label>
         <groupingString>New</groupingString>
     </standardValue>
     <standardValue>
-        <fullName>En curso</fullName>
+        <fullName>In Progress</fullName>
         <default>false</default>
-        <label>En curso</label>
+        <label>In Progress</label>
         <groupingString>InProgress</groupingString>
     </standardValue>
     <standardValue>
-        <fullName>En espera</fullName>
+        <fullName>On Hold</fullName>
         <default>false</default>
-        <label>En espera</label>
+        <label>On Hold</label>
         <groupingString>OnHold</groupingString>
     </standardValue>
     <standardValue>
-        <fullName>Completado</fullName>
+        <fullName>Completed</fullName>
         <default>false</default>
-        <label>Completado</label>
+        <label>Completed</label>
         <groupingString>Completed</groupingString>
     </standardValue>
     <standardValue>
-        <fullName>Cerrado</fullName>
+        <fullName>Closed</fullName>
         <default>false</default>
-        <label>Cerrado</label>
+        <label>Closed</label>
         <groupingString>Closed</groupingString>
     </standardValue>
     <standardValue>
-        <fullName>No se puede completar</fullName>
+        <fullName>Cannot Complete</fullName>
         <default>false</default>
-        <label>No se puede completar</label>
+        <label>Cannot Complete</label>
         <groupingString>CannotComplete</groupingString>
     </standardValue>
     <standardValue>
-        <fullName>Cancelado</fullName>
+        <fullName>Canceled</fullName>
         <default>false</default>
-        <label>Cancelado</label>
+        <label>Canceled</label>
         <groupingString>Canceled</groupingString>
     </standardValue>
 </StandardValueSet>

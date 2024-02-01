@@ -148,6 +148,19 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>FolderId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>IsActive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>IsActive</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>IsAlohaSupported</fullName>
     </fields>
     <fields>

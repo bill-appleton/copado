@@ -4,46 +4,46 @@
     <standardValue>
         <fullName>Business User</fullName>
         <default>false</default>
-        <label>Usuario empresarial</label>
+        <label>Business User</label>
     </standardValue>
     <standardValue>
         <fullName>Decision Maker</fullName>
         <default>false</default>
-        <label>Responsable de la decisión</label>
+        <label>Decision Maker</label>
     </standardValue>
     <standardValue>
         <fullName>Economic Buyer</fullName>
         <default>false</default>
-        <label>Comprador económico</label>
+        <label>Economic Buyer</label>
     </standardValue>
     <standardValue>
         <fullName>Economic Decision Maker</fullName>
         <default>false</default>
-        <label>Responsable de la decisión económica</label>
+        <label>Economic Decision Maker</label>
     </standardValue>
     <standardValue>
         <fullName>Evaluator</fullName>
         <default>false</default>
-        <label>Evaluador</label>
+        <label>Evaluator</label>
     </standardValue>
     <standardValue>
         <fullName>Executive Sponsor</fullName>
         <default>false</default>
-        <label>Ejecutivo de patrocinios</label>
+        <label>Executive Sponsor</label>
     </standardValue>
     <standardValue>
         <fullName>Influencer</fullName>
         <default>false</default>
-        <label>Influyente</label>
+        <label>Influencer</label>
     </standardValue>
     <standardValue>
         <fullName>Technical Buyer</fullName>
         <default>false</default>
-        <label>Comprador técnico</label>
+        <label>Technical Buyer</label>
     </standardValue>
     <standardValue>
         <fullName>Other</fullName>
         <default>false</default>
-        <label>Otros</label>
+        <label>Other</label>
     </standardValue>
 </StandardValueSet>

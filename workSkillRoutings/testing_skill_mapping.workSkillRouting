@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkSkillRouting xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isActive>true</isActive>
+    <masterLabel>testing skill mapping</masterLabel>
+    <relatedEntity>Adam_Bar__c</relatedEntity>
+    <workSkillRoutingAttributes>
+        <field>Adam_Bar__c.My_New_Field__c</field>
+        <isAdditionalSkill>false</isAdditionalSkill>
+        <skill>Dot_Net</skill>
+        <skillLevel>0</skillLevel>
+        <value>True</value>
+    </workSkillRoutingAttributes>
+</WorkSkillRouting>

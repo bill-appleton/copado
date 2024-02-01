@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>My_Test_Custom_Permission</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>My_Test_Custom_Permission2</name>
+    </customPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Custom Permissions - PermSet</label>
+    <license>Salesforce</license>
+</PermissionSet>

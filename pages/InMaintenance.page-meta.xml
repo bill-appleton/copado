@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
-    <apiVersion>54.0</apiVersion>
+    <apiVersion>30.0</apiVersion>
     <availableInTouch>false</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
-    <description>Default Lightning Platform In Maintenance page</description>
+    <description>Default Force.com In Maintenance page</description>
     <label>InMaintenance</label>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>2</minorNumber>
+        <namespace>Field_Trip</namespace>
+    </packageVersions>
 </ApexPage>

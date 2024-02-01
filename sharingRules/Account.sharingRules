@@ -1,3 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>My_Account_Criteria_Sharing_RUle</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <label>My Account Criteria Sharing RUle</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>ChannelSalesTeam</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Account_Depth2__c</field>
+            <operation>equals</operation>
+            <value>Deeper,Deep</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Yet_another_Acct_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <label>Yet another Acct Sharing Rule</label>
+        <sharedTo>
+            <group>Some_users</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Active__c</field>
+            <operation>equals</operation>
+            <value>Maybe,Yes</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingGuestRules>
+        <fullName>My_Guest_Sharing_Rule</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>My Guest Sharing Rule</label>
+        <sharedTo>
+            <guestUser>My_New_SS_Site</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountSource</field>
+            <operation>equals</operation>
+            <value>Web</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingOwnerRules>
+        <fullName>My_Account_Owner_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>My Account Owner Sharing Rule</label>
+        <sharedTo>
+            <role>COO</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

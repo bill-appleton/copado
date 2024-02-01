@@ -113,33 +113,79 @@
         <type>Default</type>
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Activity__c</fullName>
+        <description>The Power of One</description>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Activity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>My_Activity_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>My Activity Number</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>My_Activity_Test_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>My Activity Test Field</label>
+        <length>55</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Validation_Rule_Test__c</fullName>
+        <description>Validation Rule Formula Logic Test</description>
+        <externalId>false</externalId>
+        <formula>CreatedDate &gt; NOW()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Validation Rule Test</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>metazoa_external_id__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>metazoa_external_id</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>AllActivities</fullName>
+        <filterScope>Team</filterScope>
+        <label>All Activities</label>
+    </listViews>
     <listViews>
         <fullName>MyActivities</fullName>
         <filterScope>Mine</filterScope>
         <label>My Activities</label>
     </listViews>
     <listViews>
-        <fullName>MyDelegatedActivities</fullName>
-        <filterScope>Delegated</filterScope>
-        <label>My Delegated Activities</label>
-    </listViews>
-    <listViews>
-        <fullName>MyTeamsActivities</fullName>
-        <filterScope>Team</filterScope>
-        <label>My Team&apos;s Activities</label>
-    </listViews>
-    <listViews>
         <fullName>TodaysTasks</fullName>
         <filterScope>Mine</filterScope>
-        <filters>
-            <field>TASK.CLOSED</field>
-            <operation>equals</operation>
-            <value>0</value>
-        </filters>
         <filters>
             <field>ACTIVITY.TASK</field>
             <operation>equals</operation>
             <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
         </filters>
         <filters>
             <field>TASK.DUE_DATE</field>

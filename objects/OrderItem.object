@@ -119,6 +119,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Order_Product__c</fullName>
+        <description>The Power of One</description>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Order Product</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>OriginalOrderItemId</fullName>
         <type>Lookup</type>
     </fields>
@@ -134,6 +148,11 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>QuoteLineItemId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ServiceDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -143,5 +162,15 @@
     <fields>
         <fullName>UnitPrice</fullName>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Validation_Rule_Test__c</fullName>
+        <description>Validation Rule Formula Logic Test</description>
+        <externalId>false</externalId>
+        <formula>CreatedDate &gt; NOW()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Validation Rule Test</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
     </fields>
 </CustomObject>
