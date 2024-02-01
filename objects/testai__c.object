@@ -314,7 +314,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>testais</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>Must_Have_Some_Employees</fullName>
