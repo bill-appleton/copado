@@ -188,7 +188,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>approve_mes</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
